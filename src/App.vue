@@ -1,30 +1,32 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+<div>
+  <router-link to="/">Inicio</router-link>
+  <router-link to="/introduction">Introducción</router-link>
+  <router-link to="/goals">Objetivos</router-link>
+  <router-link to="/contents">Contenidos</router-link>
+  <router-link to="/bibliographies">Bibliografias</router-link>
+  <router-link to="/athleticism">Atletismo</router-link>
+  <router-link to="/combatsports">Deportes de combate</router-link>
+  <router-link to="/gymnnastics">Gimnasia</router-link>
+  <router-link to="/motorskills">Habilidades motoras</router-link>
+  <router-link to="/setsports">Deportes de conjunto</router-link>
+  <router-link to="/sport">El deporte</router-link>
+</div>
   <router-view />
 </template>
-
+<script>
+// Para usar el store en sus componentes, vistas primero importamos el vuex
+export default {
+  // components: { Menu },
+  setup() {
+    // Y luego le asignamos a una variable el store
+    // const store = useStore()
+  },
+};
+</script>
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+@import "@/styles/variables.scss";
+.text {
+  color: $primary-color;
 }
 </style>

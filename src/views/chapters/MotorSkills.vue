@@ -1,13 +1,12 @@
 <template>
-  <div class="home">
-    <span class="text">Inicio</span>
+  <div class="motoSkills">
+    <span class="text">Capítulo 1 - Motricidad</span>
   </div>
 </template>
-
 <script>
 export default {
-  name: "Home",
-  title: "Inicio - SENA",
+  name: "MotorSkills",
+  title: "La Motricidad - SENA",
   setup() {},
 };
 </script>

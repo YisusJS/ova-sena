@@ -2,20 +2,73 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 
 const routes = [
+  // Todas las rutas que lleva el home
   {
     path: "/",
     name: "Home",
     component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: "/introduction",
+    name: "Introduction",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+      import("../views/Introduction.vue"),
   },
+  {
+    path: "/goals",
+    name: "Goals",
+    component: () =>
+      import("../views/Goals.vue"),
+  },
+  {
+    path: "/contents",
+    name: "Contents",
+    component: () =>
+      import("../views/Contents.vue"),
+  },
+  {
+    path: "/bibliographies",
+    name: "Bibliographies",
+    component: () =>
+      import("../views/Bibliographies.vue"),
+  },
+  // Capítulos del OVA
+  {
+    path: "/athleticism",
+    name: "Athleticism",
+    component: () =>
+      import("../views/chapters/Athleticism.vue"),
+  },
+  {
+    path: "/combatsports",
+    name: "CombatSports",
+    component: () =>
+      import("../views/chapters/CombatSports.vue"),
+  },
+  {
+    path: "/gymnnastics",
+    name: "Gymnastics",
+    component: () =>
+      import("../views/chapters/Gymnastics.vue"),
+  }, 
+  {
+    path: "/motorskills",
+    name: "MotorSkills",
+    component: () =>
+      import("../views/chapters/MotorSkills.vue"),
+  }, 
+  {
+    path: "/setsports",
+    name: "SetSports",
+    component: () =>
+      import("../views/chapters/SetSports.vue"),
+  }, 
+  {
+    path: "/sport",
+    name: "Sport",
+    component: () =>
+      import("../views/chapters/Sport.vue"),
+  }, 
 ];
 
 const router = createRouter({

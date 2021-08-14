@@ -1,13 +1,12 @@
 <template>
-  <div class="home">
-    <span class="text">Inicio</span>
+  <div class="athleticism">
+    <span class="text">Capítulo 4 - El atletismo</span>
   </div>
 </template>
-
 <script>
 export default {
-  name: "Home",
-  title: "Inicio - SENA",
+  name: "athleticism",
+  title: "El Atletismo - SENA",
   setup() {},
 };
 </script>

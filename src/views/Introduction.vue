@@ -1,13 +1,13 @@
 <template>
-  <div class="home">
-    <span class="text">Inicio</span>
+  <div class="introduction">
+    <span class="text">Introducción</span>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  title: "Inicio - SENA",
+  name: "Introduction",
+  title: "Introducción - SENA",
   setup() {},
 };
 </script>
