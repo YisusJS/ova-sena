@@ -1,5 +1,36 @@
+$poppins-path: "/assets/fonts/";
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url($poppins-path + "poppins-v15-latin-regular.woff2") format("woff2"),
+    url($poppins-path + "poppins-v15-latin-regular.woff") format("woff");
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url($poppins-path + "poppins-v15-latin-600.woff2") format("woff2"),
+    url($poppins-path + "poppins-v15-latin-600.woff") format("woff");
+}
+/* poppins-900 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url($poppins-path + "poppins-v15-latin-900.woff2") format("woff2"),
+    url($poppins-path + "poppins-v15-latin-900.woff") format("woff");
+}
+
+/* Variables */
 $primary-color: #EFF4FD;
 $secondary-color: #FFFFFF;
 $tertyary-color: #F7FBFE;
 $quaternary-color: #A5ADBB;
 $quinary-color: #CADDFF;
+$primary-text: #051F31;
+$secondary-text: #7F8A99;
