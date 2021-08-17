@@ -26,7 +26,7 @@ export default {
 </script>
 <style lang="scss">
 @import "@/styles/variables.scss";
-.text {
-  color: $primary-color;
+html {
+  font-family: 'Poppins', sans-serif;
 }
 </style>
