@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <span class="text">Inicio</span>
   </div>
 </template>
 
@@ -13,7 +12,4 @@ export default {
 </script>
 <style lang="scss">
 @import "@/styles/variables.scss";
-.text {
-  color: $primary-color;
-}
 </style>
