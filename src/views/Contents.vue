@@ -39,11 +39,11 @@
         </figure>
       </div>
     </router-link>
-    <section class="home">
+    <router-link to="/" class="backhome">
       <figure class="home__bg">
-        <img :src="home" alt="Home" />
+        <img class="home__img" :src="home" alt="Home" />
       </figure>
-    </section>
+    </router-link>
   </div>
 </template>
 <script>
@@ -168,6 +168,13 @@ export default {
   max-width: 1366px;
   height: 100vh;
   background-color: $background-color;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto; 
+  column-gap: 40px;
+  row-gap: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
 .lessons {
@@ -190,14 +197,6 @@ export default {
   width: 90px;
   height: 100px;
   margin-left: 15px;
-  // background-image: radial-gradient(
-  //   circle at 50% -20.71%,
-  //   #cfa8ff 0,
-  //   #9d8bff 25%,
-  //   #6c6cd8 50%,
-  //   #3f4ea4 75%,
-  //   #153375 100%
-  // );
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -205,7 +204,7 @@ export default {
 }
 
 .second {
-  width: 52%;
+  width: 50%;
 }
 
 .second__title {
@@ -249,5 +248,33 @@ export default {
   align-items: center;
   margin-top: 20px;
   color: $secondary-text;
+}
+
+.backhome {
+  position: absolute;
+  top: 94%; right: 50%;
+  transform: translate(50%,-50%);
+  background-color: $bg-home;
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.home__bg {
+  background-color: $secondary-color;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.home__img {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
 }
 </style>
