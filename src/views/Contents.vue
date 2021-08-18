@@ -12,7 +12,9 @@
         </figure>
       </div>
       <div class="second">
-        <h2 class="second__title">Capítulo {{index + 1}}. {{ item.title }}</h2>
+        <h2 class="second__title">
+          Capítulo {{ index + 1 }}. {{ item.title }}
+        </h2>
         <span class="second__sena">SENA</span>
         <p class="second_paragraph">{{ item.description }}</p>
       </div>
@@ -170,7 +172,7 @@ export default {
   background-color: $background-color;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto; 
+  grid-template-rows: auto auto auto;
   column-gap: 40px;
   row-gap: 30px;
   justify-content: center;
@@ -252,8 +254,9 @@ export default {
 
 .backhome {
   position: absolute;
-  top: 94%; right: 50%;
-  transform: translate(50%,-50%);
+  top: 94%;
+  right: 50%;
+  transform: translate(50%, -50%);
   background-color: $bg-home;
   width: 50px;
   height: 50px;
