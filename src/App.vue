@@ -16,4 +16,8 @@ export default {
 html {
   font-family: "Poppins", sans-serif;
 }
+body {
+  margin: 0;
+  background-color: $tertyary-color;
+}
 </style>

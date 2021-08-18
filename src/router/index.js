@@ -9,53 +9,53 @@ const routes = [
     component: Home,
   },
   {
-    path: "/introduction",
+    path: "/introduccion",
     name: "Introduction",
     component: () => import("../views/Introduction.vue"),
   },
   {
-    path: "/goals",
+    path: "/metas",
     name: "Goals",
     component: () => import("../views/Goals.vue"),
   },
   {
-    path: "/contents",
+    path: "/contenidos",
     name: "Contents",
     component: () => import("../views/Contents.vue"),
   },
   {
-    path: "/bibliographies",
+    path: "/bibliografias",
     name: "Bibliographies",
     component: () => import("../views/Bibliographies.vue"),
   },
   // Capítulos del OVA
   {
-    path: "/athleticism",
+    path: "/contenidos/atletismo",
     name: "Athleticism",
     component: () => import("../views/chapters/Athleticism.vue"),
   },
   {
-    path: "/combatsports",
+    path: "/contenidos/deportes_de_combate",
     name: "CombatSports",
     component: () => import("../views/chapters/CombatSports.vue"),
   },
   {
-    path: "/gymnnastics",
+    path: "/contenidos/gimnasia",
     name: "Gymnastics",
     component: () => import("../views/chapters/Gymnastics.vue"),
   },
   {
-    path: "/motorskills",
+    path: "/contenidos/habilidades_motoras",
     name: "MotorSkills",
     component: () => import("../views/chapters/MotorSkills.vue"),
   },
   {
-    path: "/setsports",
+    path: "/contenidos/deportes_de_conjunto",
     name: "SetSports",
     component: () => import("../views/chapters/SetSports.vue"),
   },
   {
-    path: "/sport",
+    path: "/contenidos/deporte",
     name: "Sport",
     component: () => import("../views/chapters/Sport.vue"),
   },
