@@ -37,14 +37,14 @@
       </div>
       <div class="right">
         <div class="container2">
-          <div class="text">
+          <div class="card__text">
             <h5 class="container2_tittle">Comentario de un deportista</h5>
             <h4>By: X person</h4>
           </div>
           <img class="container2_image" :src="profile" alt="Logos" />
         </div>
         <div class="container2">
-          <div class="text">
+          <div class="card__text">
             <h5 class="container2_tittle">Comentario de un deportista</h5>
             <h4>By: X person</h4>
           </div>
@@ -204,7 +204,7 @@ export default {
   color: $quaternary-color;
 }
 
-.text {
+.card__text {
   display: flex;
   flex-direction: column;
 }

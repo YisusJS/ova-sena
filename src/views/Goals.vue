@@ -1,7 +1,5 @@
 <template>
-  <div class="goals">
-    <span class="text">Metas</span>
-  </div>
+  <div class="goals"></div>
 </template>
 <script>
 export default {
@@ -12,7 +10,4 @@ export default {
 </script>
 <style lang="scss">
 @import "@/styles/variables.scss";
-.text {
-  color: $primary-color;
-}
 </style>
