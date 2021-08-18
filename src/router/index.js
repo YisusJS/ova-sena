@@ -11,64 +11,54 @@ const routes = [
   {
     path: "/introduction",
     name: "Introduction",
-    component: () =>
-      import("../views/Introduction.vue"),
+    component: () => import("../views/Introduction.vue"),
   },
   {
     path: "/goals",
     name: "Goals",
-    component: () =>
-      import("../views/Goals.vue"),
+    component: () => import("../views/Goals.vue"),
   },
   {
     path: "/contents",
     name: "Contents",
-    component: () =>
-      import("../views/Contents.vue"),
+    component: () => import("../views/Contents.vue"),
   },
   {
     path: "/bibliographies",
     name: "Bibliographies",
-    component: () =>
-      import("../views/Bibliographies.vue"),
+    component: () => import("../views/Bibliographies.vue"),
   },
   // Capítulos del OVA
   {
     path: "/athleticism",
     name: "Athleticism",
-    component: () =>
-      import("../views/chapters/Athleticism.vue"),
+    component: () => import("../views/chapters/Athleticism.vue"),
   },
   {
     path: "/combatsports",
     name: "CombatSports",
-    component: () =>
-      import("../views/chapters/CombatSports.vue"),
+    component: () => import("../views/chapters/CombatSports.vue"),
   },
   {
     path: "/gymnnastics",
     name: "Gymnastics",
-    component: () =>
-      import("../views/chapters/Gymnastics.vue"),
-  }, 
+    component: () => import("../views/chapters/Gymnastics.vue"),
+  },
   {
     path: "/motorskills",
     name: "MotorSkills",
-    component: () =>
-      import("../views/chapters/MotorSkills.vue"),
-  }, 
+    component: () => import("../views/chapters/MotorSkills.vue"),
+  },
   {
     path: "/setsports",
     name: "SetSports",
-    component: () =>
-      import("../views/chapters/SetSports.vue"),
-  }, 
+    component: () => import("../views/chapters/SetSports.vue"),
+  },
   {
     path: "/sport",
     name: "Sport",
-    component: () =>
-      import("../views/chapters/Sport.vue"),
-  }, 
+    component: () => import("../views/chapters/Sport.vue"),
+  },
 ];
 
 const router = createRouter({

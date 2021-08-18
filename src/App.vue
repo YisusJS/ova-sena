@@ -14,6 +14,6 @@ export default {
 <style lang="scss">
 @import "@/styles/variables.scss";
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 </style>
