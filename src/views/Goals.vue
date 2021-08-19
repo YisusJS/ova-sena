@@ -1,64 +1,66 @@
 <template>
-  <div class="goals">
-    <div class="container">
-      <nav class="container-img">
-        <img id="img" src="../assets/goals/goal-one.svg" />
-      </nav>
-      <div class="texto">
-        <p class="texto__goals">
-          1.1 Realizar la verificación y control de la ejecución de las
-          actividades del plan de preparación técnico-táctico según protocolos
-          establecidos
-        </p>
+  <div class="container-goals">
+    <div class="goals">
+      <div class="container">
+        <nav class="container-img">
+          <img id="img" src="../assets/goals/goal-one.svg" />
+        </nav>
+        <div class="texto">
+          <p class="texto__goals">
+            1.1 Realizar la verificación y control de la ejecución de las
+            actividades del plan de preparación técnico-táctico según protocolos
+            establecidos
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="container">
-      <nav class="container-img">
-        <img id="img" src="../assets/goals/goal-two.svg" />
-      </nav>
-      <div class="texto">
-        <p class="texto__goals">
-          1.2 Ejecutar las actividades propuestas en el plan de preparación
-          técnico- táctica según modalidad y nivel de formación deportiva.
-        </p>
+      <div class="container">
+        <nav class="container-img">
+          <img id="img" src="../assets/goals/goal-two.svg" />
+        </nav>
+        <div class="texto">
+          <p class="texto__goals">
+            1.2 Ejecutar las actividades propuestas en el plan de preparación
+            técnico- táctica según modalidad y nivel de formación deportiva.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="container">
-      <nav class="container-img">
-        <img id="img" src="../assets/goals/goal-three.svg" />
-      </nav>
-      <div class="texto">
-        <p class="texto__goals">
-          1.3 Alistar la logística necesaria para desarrollar plan de
-          preparación técnico-táctica según protocolos establecidos.
-        </p>
+      <div class="container">
+        <nav class="container-img">
+          <img id="img" src="../assets/goals/goal-three.svg" />
+        </nav>
+        <div class="texto">
+          <p class="texto__goals">
+            1.3 Alistar la logística necesaria para desarrollar plan de
+            preparación técnico-táctica según protocolos establecidos.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="container">
-      <nav class="container-img">
-        <img id="img" src="../assets/goals/goal-four.svg" />
-      </nav>
-      <div class="texto">
-        <p class="texto__goals">
-          1.4 Identificar la estructura de un plan de preparación técnico-
-          táctica según normatividad establecida.
-        </p>
+      <div class="container">
+        <nav class="container-img">
+          <img id="img" src="../assets/goals/goal-four.svg" />
+        </nav>
+        <div class="texto">
+          <p class="texto__goals">
+            1.4 Identificar la estructura de un plan de preparación técnico-
+            táctica según normatividad establecida.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="container">
-      <nav class="container-img">
-        <img id="img" src="../assets/goals/goal-five.svg" />
-      </nav>
-      <div class="texto">
-        <p class="texto__goals">
-          1.5 Presentar informes y hacer recomendaciones sobre el desarrollo de
-          las actividades del plan de actividad física según lineamientos y
-          políticas de la empresa.
-        </p>
+      <div class="container">
+        <nav class="container-img">
+          <img id="img" src="../assets/goals/goal-five.svg" />
+        </nav>
+        <div class="texto">
+          <p class="texto__goals">
+            1.5 Presentar informes y hacer recomendaciones sobre el desarrollo
+            de las actividades del plan de actividad física según lineamientos y
+            políticas de la empresa.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -76,21 +78,26 @@ export default {
 .text {
   color: $primary-color;
 }
+.container-goals {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
 //container principal
 .goals {
   background-color: $background-color;
-  position: absolute;
-  left: 50px;
-  width: 1366px;
-  height: 100%;
-  border-radius: 20px;
+  padding: 1px 0;
+  margin: 40px auto;
+  max-width: 1265px;
+  width: 100%;
+  height: max-content;
+  border-radius: 40px;
 }
 // container secundarios-objetivos
 .container {
-  margin: 55px;
-  margin-left: 145px;
-  margin-right: 145px;
+  margin: 55px auto;
   height: 80px;
+  max-width: 1000px;
   background-color: $secondary-color;
   border-radius: 13px;
   display: flex;
