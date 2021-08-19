@@ -14,20 +14,31 @@
       <div class="second">
         <h2 class="second__title">Capítulo 1 - La Motricidad</h2>
         <span class="second__sena">SENA</span>
-        <p class="second_paragraph">Se refiere a los movimientos complejos y coordinados que realiza una persona y que implican al sistema locomotor.</p>
+        <p class="second_paragraph">
+          Se refiere a los movimientos complejos y coordinados que realiza una
+          persona y que implican al sistema locomotor.
+        </p>
       </div>
       <div class="third">
         <figure class="third__statistics">
-          <img class="third__img" :src="clock" alt="">
-          <caption><b class="third__bold">10</b> Horas</caption>
+          <img class="third__img" :src="clock" alt="" />
+          <caption>
+            <b class="third__bold">10</b>
+            Horas
+          </caption>
         </figure>
         <figure class="third__statistics">
-          <img class="third__img" :src="lesson" alt="">
-          <caption><b class="third__bold">6</b> Módulos</caption>
+          <img class="third__img" :src="lesson" alt="" />
+          <caption>
+            <b class="third__bold">6</b>
+            Módulos
+          </caption>
         </figure>
         <figure class="third__statistics">
-          <img class="third__img" :src="person" alt="">
-          <caption><b class="third__bold">Nivel Medio</b></caption>
+          <img class="third__img" :src="person" alt="" />
+          <caption>
+            <b class="third__bold">Nivel Medio</b>
+          </caption>
         </figure>
       </div>
     </section>
@@ -41,9 +52,9 @@ import gymnastics from "../assets/contents/gymnastics.svg";
 import athleticism from "../assets/contents/athleticism.svg";
 import combatSports from "../assets/contents/combats-sports.svg";
 import setsSports from "../assets/contents/sets-sports.svg";
-import clock from "../assets/contents/clock.svg"
-import lesson from "../assets/contents/lesson.svg"
-import person from "../assets/contents/person.svg"
+import clock from "../assets/contents/clock.svg";
+import lesson from "../assets/contents/lesson.svg";
+import person from "../assets/contents/person.svg";
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";
@@ -92,7 +103,7 @@ export default {
         img: athleticism,
         title: "El Atletismo",
         description:
-          "Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, saltos, lanzamientos, pruebas combinadas y marcha.",
+          "Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, saltos, lanzamientos, textos combinadas y marcha.",
         hours: "10",
         modules: "6",
         level: "Medio",
@@ -114,7 +125,7 @@ export default {
         img: setsSports,
         title: "Deportes de Conjunto",
         description:
-          "Son deportes en donde la prueba se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.",
+          "Son deportes en donde la texto se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.",
         hours: "10",
         modules: "6",
         level: "Medio",
@@ -124,7 +135,9 @@ export default {
     return {
       contents,
       motorSkills,
-      clock, lesson, person
+      clock,
+      lesson,
+      person,
     };
   },
 };
@@ -159,7 +172,14 @@ export default {
   width: 90px;
   height: 100px;
   margin-left: 15px;
-  background-image: radial-gradient(circle at 50% -20.71%, #cfa8ff 0, #9d8bff 25%, #6c6cd8 50%, #3f4ea4 75%, #153375 100%);
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #cfa8ff 0,
+    #9d8bff 25%,
+    #6c6cd8 50%,
+    #3f4ea4 75%,
+    #153375 100%
+  );
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -202,7 +222,6 @@ export default {
 .third__bold {
   color: $primary-text;
 }
-
 
 .third__statistics {
   font-size: 10px;
