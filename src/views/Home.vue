@@ -6,25 +6,25 @@
     </h1>
     <div class="position">
       <div class="left">
-        <div class="container">
+        <div class="container1">
           <router-link class="container_router" to="/introduccion">
             <img class="container_image" :src="introduction" alt="Logo" />
             <h2 class="container_tittle">INTRODUCCIÓN</h2>
           </router-link>
         </div>
-        <div class="container">
+        <div class="container1">
           <router-link class="container_router" to="/metas">
             <img class="container_image" :src="goals" alt="Logo" />
             <h2 class="container_tittle">OBJETIVOS</h2>
           </router-link>
         </div>
-        <div class="container">
+        <div class="container1">
           <router-link class="container_router" to="/contenidos">
             <img class="container_image" :src="content" alt="Logo" />
             <h2 class="container_tittle">CONTENIDOS</h2>
           </router-link>
         </div>
-        <div class="container">
+        <div class="container1">
           <router-link class="container_router" to="/bibliografias">
             <img class="container_image" :src="bibliographies" alt="Logo" />
             <h2 class="container_tittle">BIBLIOGRAFÍAS</h2>
