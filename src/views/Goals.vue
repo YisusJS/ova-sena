@@ -1,13 +1,8 @@
 <template>
-
   <div class="home-link">
     <div class="home-link__container">
       <router-link to="/" class="home-link__button">
-        <img
-          src="@/assets/utilities/home.svg"
-          alt=""
-          class="home-link__icon"
-        />
+        <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon" />
       </router-link>
     </div>
   </div>
