@@ -1,4 +1,12 @@
 <template>
+  <div class="home-link">
+    <div class="home-link__container">
+      <router-link to="/" class="home-link__button">
+        <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon" />
+      </router-link>
+    </div>
+  </div>
+
   <div class="container-goals">
     <div class="goals">
       <div class="container">
@@ -128,5 +136,47 @@ export default {
   margin: 10px;
   position: absolute;
   max-width: 840px;
+}
+
+//boton salir
+.home-link {
+  background-color: $quinary-color;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 40px;
+  height: 150px;
+  border-radius: 0 20px 20px 0;
+}
+
+.home-link__container {
+  background-color: $quinary-color;
+  width: 60px;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  right: -70%;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-link__button {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  box-shadow: 0 0 15px 0 rgba($color: #000000, $alpha: 0.25);
+}
+
+.home-link__icon {
+  margin: 7px 7.5px;
+  width: 25px;
+  height: 25px;
 }
 </style>
