@@ -10,7 +10,9 @@
   <div class="introduction">
     <div class="introduction_position">
       <h1>Introducción</h1>
-      <audio controls><source src="" type="audio/mp3" /></audio>
+      <audio controls>
+        <source src="@/voice/voice.mp3" type="audio/mp3" />
+      </audio>
       <div class="introduction__text">
         <p>
           El deporte colombiano ha logrado en la última década grandes
