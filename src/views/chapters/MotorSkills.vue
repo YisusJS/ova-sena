@@ -1,16 +1,21 @@
 <template>
-  <div class="motoSkills">
-    <span class="text">Capítulo 1 - Motricidad</span>
-  </div>
+  <aside class=""></aside>
+  <main class=""></main>
+  <menuComponent></menuComponent>
 </template>
 <script>
+import menuComponent from "@/components/menu.vue";
+
 export default {
   name: "MotorSkills",
   title: "La Motricidad - SENA",
+  components: {
+    menuComponent,
+  },
   setup() {},
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {
   color: $primary-color;

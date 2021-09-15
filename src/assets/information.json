@@ -1,0 +1,12 @@
+[
+  {
+    "submodules": [
+      {
+        "title": "1. Historia",
+        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
+        "image": "@/assets/modules/motorSkills/1.svg",
+        "contentId": "1"
+      }
+    ]
+  }
+]

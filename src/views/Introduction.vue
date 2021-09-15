@@ -11,7 +11,7 @@ export default {
   setup() {},
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {
   color: $primary-color;

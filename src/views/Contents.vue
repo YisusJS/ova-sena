@@ -50,10 +50,10 @@
 </template>
 <script>
 // Importación de imágenes
-import clock from "../assets/contents/clock.svg";
-import lesson from "../assets/contents/lesson.svg";
-import person from "../assets/contents/person.svg";
-import home from "../assets/contents/home.svg";
+import clock from "@/assets/contents/clock.svg";
+import lesson from "@/assets/contents/lesson.svg";
+import person from "@/assets/contents/person.svg";
+import home from "@/assets/utilities/home.svg";
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";
@@ -153,7 +153,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .contents {
   position: absolute;

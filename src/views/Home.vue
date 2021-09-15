@@ -60,7 +60,7 @@ import introduction from "../assets/home/books.png";
 import goals from "../assets/home/image.svg";
 import content from "../assets/home/contents.svg";
 import bibliographies from "../assets/home/bibliographies.svg";
-import sena from "../assets/home/sena.svg";
+import sena from "../assets/utilities/sena.svg";
 import x400 from "../assets/home/background.png";
 import profile from "../assets/home/atleta.jpg";
 
@@ -96,7 +96,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .home {
   position: absolute;
