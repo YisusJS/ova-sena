@@ -47,7 +47,7 @@ const routes = [
   {
     path: "/contenidos/habilidades_motoras",
     name: "MotorSkills",
-    component: () => import("../views/chapters/MotorSkills.vue"),
+    component: () => import("@/views/chapters/MotorSkills.vue"),
   },
   {
     path: "/contenidos/deportes_de_conjunto",

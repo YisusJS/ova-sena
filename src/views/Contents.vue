@@ -73,7 +73,7 @@ export default {
         hours: "1",
         modules: "1",
         level: "fácil",
-        path: "contenidos/habilidades_motoras",
+        path: "/contenidos/habilidades_motoras",
         bg: "background: linear-gradient(321.69deg, #3097AD 0%, #46D9F9 100%);",
       },
       // Capitulo 2 - El Deporte
@@ -86,7 +86,7 @@ export default {
         hours: "2",
         modules: "2",
         level: "medio",
-        path: "contenidos/deporte",
+        path: "/contenidos/deporte",
         bg: "background: linear-gradient(321.82deg, #FB6F6F 0%, #C7A42A 99.91%);",
       },
       // Capitulo 3 - La Gimnasia
@@ -99,7 +99,7 @@ export default {
         hours: "3",
         modules: "3",
         level: "dificil",
-        path: "contenidos/gimnasia",
+        path: "/contenidos/gimnasia",
         bg: "background: linear-gradient(321.69deg, #1F9463 0%, #39E65F 71.13%);",
       },
       // Capitulo 4 - El Atletismo
@@ -112,7 +112,7 @@ export default {
         hours: "4",
         modules: "4",
         level: "fácil",
-        path: "contenidos/atletismo",
+        path: "/contenidos/atletismo",
         bg: "background: linear-gradient(321.69deg, #FF5454 0%, #FF7D7D 100%);",
       },
       // Capitulo 5 - Deportes de Combate
@@ -125,7 +125,7 @@ export default {
         hours: "5",
         modules: "5",
         level: "medio",
-        path: "contenidos/deportes_de_combate",
+        path: "/contenidos/deportes_de_combate",
         bg: "background: linear-gradient(321.69deg, rgba(131, 2, 190, 0.98) 1.04%, rgba(227, 116, 255, 0.98) 100%);",
       },
       // Capitulo 6 - Deportes de Conjunto
@@ -138,7 +138,7 @@ export default {
         hours: "6",
         modules: "6",
         level: "dificil",
-        path: "contenidos/deportes_de_conjunto",
+        path: "/contenidos/deportes_de_conjunto",
         bg: "background: linear-gradient(321.69deg, #02318C 0%, #90AAC9 100%);",
       },
     ]);
