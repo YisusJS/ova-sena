@@ -59,6 +59,11 @@ const routes = [
     name: "Sport",
     component: () => import("../views/chapters/Sport.vue"),
   },
+  {
+    path: "/contenidos/habilidades_motoras/test",
+    name: "Sport",
+    component: () => import("../views/evaluation/evaluation1.vue"),
+  },
 ];
 
 const router = createRouter({
