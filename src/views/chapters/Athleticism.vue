@@ -1,5 +1,5 @@
 <template>
-  <menuComponent :index="1"></menuComponent>
+  <menuComponent :index="4"></menuComponent>
   <main class="container-motorSkills">
     <section class="module">
       <div class="module__title-container" id="1.1">
