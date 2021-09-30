@@ -15,6 +15,7 @@ export default {
 @import "@/styles/variables.scss";
 html {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
