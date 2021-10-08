@@ -150,6 +150,7 @@ export default {
   width: 40px;
   height: 150px;
   border-radius: 0 20px 20px 0;
+  z-index: 100;
 }
 
 .home-link__container {
