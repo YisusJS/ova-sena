@@ -1,5 +1,5 @@
 <template>
-  <menuComponent :index="6"></menuComponent>
+  <menuComponent :index="5"></menuComponent>
   <main class="container-motorSkills">
     <section class="module">
       <div class="module__title-container" id="1.1">
@@ -49,7 +49,6 @@ export default {
   setup() {},
 };
 </script>
-
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {

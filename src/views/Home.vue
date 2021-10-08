@@ -38,15 +38,15 @@
       <div class="right">
         <div class="container2">
           <div class="card__text">
-            <h5 class="container2_tittle">Comentario de un deportista</h5>
-            <h4>By: X person</h4>
+            <h5 class="container2_tittle">Si dices que no puedes, estás restringiendo lo que puedes hacer o harás.</h5>
+            <h4>Michael Phelps</h4>
           </div>
           <img class="container2_image" :src="profile" alt="Logos" />
         </div>
         <div class="container2">
           <div class="card__text">
-            <h5 class="container2_tittle">Comentario de un deportista</h5>
-            <h4>By: X person</h4>
+            <h5 class="container2_tittle">No te puedes poner ningún límite, no hay nada imposible.</h5>
+            <h4>Usain Bolt</h4>
           </div>
           <img class="container2_image" :src="profile" alt="Logos" />
         </div>
@@ -189,7 +189,9 @@ export default {
 }
 
 .container2_image {
-  padding-left: 15px;
+  margin-right: 30px;
+  margin-left: -10px;
+  padding-left: 10px;
   padding-top: 50px;
   width: 100px;
   height: 100px;

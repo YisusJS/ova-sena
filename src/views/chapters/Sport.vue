@@ -1,5 +1,5 @@
 <template>
-  <menuComponent :index="1"></menuComponent>
+  <menuComponent :index="0"></menuComponent>
   <main class="container-motorSkills">
     <section class="module">
       <div class="module__title-container" id="1.1">
@@ -36,10 +36,143 @@
         </div>
       </div>
     </section>
+    <section class="module">
+      <div class="module__title-container" id="1.2">
+        <h2 class="module__title">Concepto</h2>
+      </div>
+      <div class="module__content">
+        <p>
+          Motricidad es la capacidad del hombre de generar movimientos por sí
+          mismo, para esto debe existir una adecuada coordinación del sistema
+          nervioso, sistema musculo esquelético, órganos y sentidos. La
+          motricidad puede clasificarse en gruesa y fina. El desarrollo motor
+          grueso se determina como la habilidad que el niño va adquiriendo, para
+          mover armoniosamente los músculos de su cuerpo cabeza, tronco,
+          extremidades, gatear, ponerse de pie, caminar y mejorar las
+          capacidades físicas. Dicho factor es el primero en hacer su aparición
+          en el desarrollo del menor, desde el momento en el que empieza a
+          sostener su cabeza, sentarse sin apoyo, saltar, subir escaleras, etc.
+          El desarrollo motor fino se hace presente un poco más tarde, este se
+          refiere a los movimientos voluntarios mucho más precisos, que implican
+          pequeños grupos de músculos y que requieren una mayor coordinación. Se
+          observa cuando el pequeño se descubre las manos, las mueve, comienza a
+          intentar coger los objetos y manipular su entorno, dar palmadas, la
+          habilidad de pinza, realizar torres de piezas, tapar o destapar
+          objetos, cortar con tijeras, hasta alcanzar niveles muy altos de
+          complejidad. El desarrollo de la motricidad fina es decisivo para la
+          habilidad de experimentación y aprendizaje sobre su entorno, juega un
+          papel central en el aumento de la inteligencia.
+        </p>
+        <div>
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.1.png')"
+            alt=""
+          />
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.2.png')"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="module">
+      <div class="module__title-container" id="1.5">
+        <h2 class="module__title">Capacidades motoras</h2>
+      </div>
+      <div class="module__content">
+        <p>
+          Actividad activación mental La capacidad se define como lo que una
+          persona puede hacer en un entorno estandarizado y controlado. La
+          actividad física habitual, es uno de los comportamientos de
+          rendimiento que tiene muchos beneficios potenciales para la salud,
+          como la mejor salud ósea, cardiorrespiratoria y aptitud muscular. La
+          revisión sistemática sugirió que la primera infancia (0 a 6 años) es
+          un período crítico para la transferencia de un estilo de vida activo o
+          sedentario. Las capacidades físicas se clasifican en coordinativas y
+          condicionales, pero en el presente documento se abordará con mayor
+          profundidad las capacidades coordinativas por ser las más adecuadas
+          para el desarrollo durante la primera infancia. Rose, Larkin y Berger
+          (1998) afirman que una baja coordinación motora puede propiciar que la
+          motivación de los jóvenes hacia la práctica de actividad física
+          disminuya. A su vez, los adolescentes con carencias en las habilidades
+          motoras suelen tener niveles de auto concepto físico más bajos, lo que
+          les conduce al cese o a la poca adherencia a la práctica de actividad
+          física. Mata (2008), afirman que hay un porcentaje de alumnado con
+          problemas coordinativos que les priva del disfrute de la práctica de
+          actividad física y es por ello por lo que se necesitan llevar a cabo
+          programas que incidan en la mejora coordinativa de esos sujetos y que
+          mejoren el déficit acumulativo de actividad física que se detecta.
+          Además, el déficit de actividad afecta de forma más notable a los
+          escolares que vienen desde la Educación Infantil manifestando
+          dificultades para coordinar sus movimientos y que van eliminando la
+          práctica y aprendizaje de los deportes de entre sus actividades
+          preferidas, estando abocados al sedentarismo y un estilo de vida poco
+          favorable para su salud. Por todo ello, urge el desarrollo de las
+          capacidades motoras durante todo el periodo escolar con el fin de
+          incrementarlas y con ello provocar que el alumnado se perciba más
+          competente motrizmente y así mantenga su adherencia a la práctica de
+          actividad física una vez pasado a la etapa adolescente. En una
+          propuesta de trabajo de las capacidades motoras de forma lúdica y
+          competencial, relacionada el artículo de Pérez et al. (2009) se expone
+          la utilización del arte o disciplina urbana del Parkour como elemento
+          innovador para su integración en unidades didácticas de habilidades
+          motrices en el maro escolar. Según Ferrero (2011), el Parkour consiste
+          en llevar a cabo un recorrido de una manera eficiente, fluida y rápida
+          entre dos puntos haciendo uso de las capacidades físicas básicas y de
+          una serie de técnicas que permiten esa consecución. En otra definición
+          más amplia, el Parkour (o arte del desplazamiento) es una disciplina
+          que consiste en desplazarse por el medio urbano o natural, superando
+          los 58 obstáculos que se presenten en tu recorrido (vallas, muros,
+          vacío...) de la forma más fluida y eficiente posible, y con las únicas
+          posibilidades del cuerpo humano. Esta disciplina requiere una gran
+          preparación física para realizar los distintos movimientos (saltos,
+          pasa vallas, escalada, etc.) que implica, pero además es necesario una
+          mente decidida a superar los propios miedos, una gran concentración, y
+          un espíritu fuerte. El termino Parkour, procede de la palabra francesa
+          parkour cuyo significado en castellano es recorrido. El Parkour
+          procede del "Método Natural de Georges Herbert" que empleaba una
+          disciplina basada en superar obstáculos naturales con el movimiento
+          corporal. De ese modo David Belle, adaptó esta técnica a sus
+          recorridos por una ciudad francesa, creando una versión urbana. La
+          idea principal del Parkour es la autosuperación. El parkour en la
+          escuela busca recuperar la motricidad natural y espontánea de los
+          estudiantes, robada por la urbanización despiadada del entorno en el
+          que se mueven, que les condena a ser excesivamente sedentarios. En
+          cuanto la calificación del Parkour, hay cierta discrepancia entre los
+          practicantes (también llamados “traceurs”) más experimentados, algunos
+          coinciden que el Parkour es una filosofía, sin embargo, otros lo
+          califican como arte o disciplina. Pese a no haber una calificación
+          concreta, todos los practicantes tienen claro sus premisas: el respeto
+          al entorno, el afán de superación y el juego limpio o la no
+          competición. El objetivo del Parkour es el movimiento libre y fluido,
+          siguiendo como principal premisa el “no retroceder”. Aspecto para
+          tener en cuenta es que en numerosos sitios el Parkour está visto como
+          una clase de vandalismo que estropea el mobiliario urbano y no está
+          acorde con los patrones cívicos de la sociedad. Esta idea, de acuerdo
+          con los más experimentados practicantes, es errónea y dificulta la
+          expansión de la filosofía del Parkour. En cualquier caso, trasladando
+          el movimiento del Parkour a la escuela, nunca se llevarán a cabo
+          técnicas tan extremas como las que se realizan en el Parkour real y
+          siempre se realizará con un matiz lúdico y de seguridad como veremos a
+          continuación.
+        </p>
+        <div>
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.1.png')"
+            alt=""
+          />
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.2.png')"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 <script>
 import menuComponent from "@/components/menu.vue";
+
 export default {
   name: "Sport",
   title: "El Deporte - SENA",
@@ -67,12 +200,15 @@ export default {
   padding: 5px 30px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 100px;
   &__title-container {
+    z-index: 100;
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 0;
     right: 0;
     width: max-content;
+    height: auto;
     background: white;
     padding: 0 10px;
     margin: 0 auto;
@@ -80,6 +216,7 @@ export default {
   }
   &__title {
     margin: 0;
+    width: 100%;
     font-size: 3rem;
     font-weight: 500;
     color: #393939;
@@ -87,7 +224,7 @@ export default {
   }
   &__content {
     position: relative;
-    z-index: 10;
+    z-index: 110;
     display: flex;
     color: #6e798c;
   }
