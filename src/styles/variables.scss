@@ -1,5 +1,5 @@
 // Importamos las fuentes de google fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,400&display=swap");
 
 /* Variables */
 $primary-color: #eff4fd;
@@ -9,5 +9,14 @@ $quaternary-color: #a5adbb;
 $quinary-color: #caddff;
 $background-color: #eff4fc;
 $primary-text: #051f31;
-$secondary-text: #A4ADBA;
-$box-shadow: #b8b6b6;
+$secondary-text: #a4adba;
+$bg-home: #caddff;
+$box-shadow: 1px 1px 5px #b8b6b6;
+
+//new for home
+$other-color: #eec1f5;
+
+//New for evaluation
+$font-color: #6E798C;
+
+$font-a: linear-gradient(to right, #2B0054, #A243FC);
