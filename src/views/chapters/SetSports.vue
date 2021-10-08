@@ -36,6 +36,52 @@
         </div>
       </div>
     </section>
+    <section class="module">
+      <div class="module__title-container" id="1.2">
+        <h2 class="module__title">Concepto</h2>
+      </div>
+      <div class="module__content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quaerat
+          nostrum suscipit, odio aliquid nisi est ratione voluptate, fuga in
+          optio dolores sunt architecto consequatur quibusdam sit aut dolorum
+          voluptates!
+        </p>
+        <div>
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.1.png')"
+            alt=""
+          />
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.2.png')"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="module">
+      <div class="module__title-container" id="1.3">
+        <h2 class="module__title">Prueba</h2>
+      </div>
+      <div class="module__content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quaerat
+          nostrum suscipit, odio aliquid nisi est ratione voluptate, fuga in
+          optio dolores sunt architecto consequatur quibusdam sit aut dolorum
+          voluptates!
+        </p>
+        <div>
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.1.png')"
+            alt=""
+          />
+          <img
+            :src="require('@/assets/modules/motorSkills/submodule1.2.png')"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 <script>
@@ -49,6 +95,7 @@ export default {
   setup() {},
 };
 </script>
+
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {
@@ -67,12 +114,15 @@ export default {
   padding: 5px 30px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 100px;
   &__title-container {
+    z-index: 100;
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 0;
     right: 0;
     width: max-content;
+    height: auto;
     background: white;
     padding: 0 10px;
     margin: 0 auto;
@@ -80,6 +130,7 @@ export default {
   }
   &__title {
     margin: 0;
+    width: 100%;
     font-size: 3rem;
     font-weight: 500;
     color: #393939;
@@ -87,7 +138,7 @@ export default {
   }
   &__content {
     position: relative;
-    z-index: 10;
+    z-index: 110;
     display: flex;
     color: #6e798c;
   }

@@ -49,6 +49,7 @@ export default {
   setup() {},
 };
 </script>
+
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {
@@ -67,12 +68,15 @@ export default {
   padding: 5px 30px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 100px;
   &__title-container {
+    z-index: 100;
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 0;
     right: 0;
     width: max-content;
+    height: auto;
     background: white;
     padding: 0 10px;
     margin: 0 auto;
@@ -80,6 +84,7 @@ export default {
   }
   &__title {
     margin: 0;
+    width: 100%;
     font-size: 3rem;
     font-weight: 500;
     color: #393939;
@@ -87,7 +92,7 @@ export default {
   }
   &__content {
     position: relative;
-    z-index: 10;
+    z-index: 110;
     display: flex;
     color: #6e798c;
   }
