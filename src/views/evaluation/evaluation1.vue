@@ -25,7 +25,7 @@
           </div>
           <div class="evaluation1_answers_final" v-else>
             <center><h1 style="text-center"><Strong>Resultados</Strong></h1></center>
-            <h2>Respuestas correctas: {{correct  }}</h2> 
+            <h2>Respuestas correctas: {{correct}}</h2> 
             <h2>Respuestas Incorrectas: {{incorrect}}</h2>
           </div>
         </div>

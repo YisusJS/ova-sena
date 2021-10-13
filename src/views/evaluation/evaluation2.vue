@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="evaluation1">
-      <h1 class="evaluation1_h1">Capítulo 1. La motricidad</h1>
+      <h1 class="evaluation1_h1">Capítulo 2. El deporte</h1>
       <!-- Preguntas -->
       <div class="evaluation1_part">
         <div class="evaluation1_statement" v-if="part <= 11">
