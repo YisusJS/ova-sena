@@ -1,223 +1,269 @@
 <template>
-    <!-- Buttom -->
-    <div class="home-link">
-      <div class="home-link__container">
-        <router-link to="/" class="home-link__button">
-          <img
-            src="@/assets/utilities/home.svg"
-            alt=""
-            class="home-link__icon"
-          />
-        </router-link>
+  <!-- Buttom -->
+  <div class="home-link">
+    <div class="home-link__container">
+      <router-link to="/" class="home-link__button">
+        <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon" />
+      </router-link>
+    </div>
+  </div>
+
+  <div class="evaluation1">
+    <h1 class="evaluation1_h1">Capítulo 1. La motricidad</h1>
+
+    <!-- Pregunta 1 -->
+    <div class="evaluation1_part" v-if="part == 1">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿Qué factores determinan la variabilidad de masa ósea que ayudan al
+            niño alcanzar la fuerza óptima?</strong
+          >
+        </p>
+        <p><strong>A:</strong> La ingesta nutricional</p>
+        <p><strong>B:</strong> La actividad física</p>
+        <p><strong>C:</strong> Todas las anteriores</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="correcto" />
       </div>
     </div>
-
-    <div class="evaluation1">
-
-        <h1 class="evaluation1_h1">Capítulo 1. La motricidad</h1>
-
-      <!-- Pregunta 1 -->
-      <div class="evaluation1_part" v-if="part == 1">
-        <div class="evaluation1_statement">
-          <p><strong>¿Qué factores determinan la variabilidad de masa ósea que ayudan al niño alcanzar la fuerza óptima?</strong></p>
-          <p><strong>A:</strong> La ingesta nutricional </p>
-          <p><strong>B:</strong> La actividad física </p>
-          <p><strong>C:</strong> Todas las anteriores</p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="correcto">
-        </div>
+    <!-- Pregunta 2 -->
+    <div class="evaluation1_part" v-else-if="part == 2">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿El desarrollo del sistema óseo muscular se presenta después
+            de:?</strong
+          >
+        </p>
+        <p><strong>A:</strong> Adultez</p>
+        <p><strong>B:</strong> juventud</p>
+        <p><strong>C:</strong> Adolescencia</p>
+        <p><strong>D:</strong> Niñez</p>
       </div>
-      <!-- Pregunta 2 -->
-      <div class="evaluation1_part" v-else-if="part == 2">
-        <div class="evaluation1_statement">
-          <p><strong>¿El desarrollo del sistema óseo muscular se presenta después de:?</strong></p>
-          <p><strong>A:</strong> Adultez </p>
-          <p><strong>B:</strong> juventud </p>
-          <p><strong>C:</strong> Adolescencia </p>
-          <p><strong>D:</strong> Niñez </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="correcto">
-          <input class="answers__D" type="button" value="D" @click="incorrecto">          
-        </div>
-      </div>
-      <!-- Pregunta 3 -->
-      <div class="evaluation1_part" v-else-if="part == 3">
-        <div class="evaluation1_statement">
-          <p><strong>¿A qué edad desarrollan los niños la mayor parte de movimientos más grandes como habilidades motoras gruesas</strong></p>
-          <p><strong>A:</strong> 5-8 años </p>
-          <p><strong>B:</strong> 3-4 años </p>
-          <p><strong>C:</strong> 1-6 años </p>
-          <p><strong>D:</strong> 0-2 años </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="correcto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">
-          <input class="answers__D" type="button" value="D" @click="incorrecto">          
-        </div>
-      </div>
-      <!-- Pregunta 4 -->
-      <div class="evaluation1_part" v-else-if="part == 4">
-        <div class="evaluation1_statement">
-          <p><strong>¿En qué edad los niveles hormonales son inferiores a los de un adulto</strong></p>
-          <p><strong>A:</strong> Adolescencia  </p>
-          <p><strong>B:</strong> Niñez </p>
-          <p><strong>C:</strong> juventud </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="correcto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">         
-        </div>
-      </div>
-      <!-- Pregunta 5 -->
-      <div class="evaluation1_part" v-else-if="part == 5">
-        <div class="evaluation1_statement">
-          <p><strong>¿Qué fundamento es sano para el desarrollo óseo y muscular</strong></p>
-          <p><strong>A:</strong> Alimentación saludable </p>
-          <p><strong>B:</strong> Ingesta nutricional </p>
-          <p><strong>C:</strong> Ninguna de las anteriores </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="correcto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">    
-        </div>
-      </div>
-      <!-- Pregunta 6 -->
-      <div class="evaluation1_part" v-else-if="part == 6">
-        <div class="evaluation1_statement">
-          <p><strong>¿En qué edad se incrementa la fuerza en los niños</strong></p>
-          <p><strong>A:</strong> 2-3 años </p>
-          <p><strong>B:</strong> 4-5 años </p>
-          <p><strong>C:</strong> 0-1 años </p>
-          <p><strong>D:</strong> 6-12 años </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">
-          <input class="answers__D" type="button" value="D" @click="correcto">          
-        </div>
-      </div>
-      <!-- Pregunta 7 -->
-      <div class="evaluation1_part" v-else-if="part == 7">
-        <div class="evaluation1_statement">
-          <p><strong>El desarrollo psicológico en esta etapa de 6 a 12 años percibe el nombre de:</strong></p>
-          <p><strong>A:</strong> Inmadurez infantil </p>
-          <p><strong>B:</strong> Madurez infantil </p>
-          <p><strong>C:</strong> Ninguna de las anteriores </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="correcto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">    
-        </div>
-      </div>
-      <!-- Pregunta 8 -->
-      <div class="evaluation1_part" v-else-if="part == 8">
-        <div class="evaluation1_statement">
-          <p><strong>¿El sistema óseo – muscular está formado por:</strong></p>
-          <p><strong>A:</strong> Las articulaciones </p>
-          <p><strong>B:</strong> La unión de los huesos </p>
-          <p><strong>C:</strong> Los músculos </p>
-          <p><strong>D:</strong> Todas son correctas </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">
-          <input class="answers__D" type="button" value="D" @click="correcto">          
-        </div>
-      </div>
-      <!-- Pregunta 9 -->
-      <div class="evaluation1_part" v-else-if="part == 9">
-        <div class="evaluation1_statement">
-          <p><strong>¿Qué vitamina actúa en la regulación del equilibrio óseo en niños de 6 a 12 años?</strong></p>
-          <p><strong>A:</strong> Vitamina A </p>
-          <p><strong>B:</strong> Vitamina B </p>
-          <p><strong>C:</strong> Vitamina D </p>
-          <p><strong>D:</strong> Vitamina C </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="correcto">
-          <input class="answers__D" type="button" value="D" @click="incorrecto">          
-        </div>
-      </div>
-      <!-- Pregunta 10 -->
-      <div class="evaluation1_part" v-else-if="part == 10">
-        <div class="evaluation1_statement">
-          <p><strong>¿Qué función no corresponde al sistema óseo en niños?</strong></p>
-          <p><strong>A:</strong> Almacenar proteínas y glucógeno </p>
-          <p><strong>B:</strong> Servir de palanca para los músculos  </p>
-          <p><strong>C:</strong> Producir células sanguíneas  </p>
-          <p><strong>D:</strong> Proteger órganos vitales </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="correcto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="incorrecto">
-          <input class="answers__D" type="button" value="D" @click="incorrecto">          
-        </div>
-      </div>
-      <!-- Pregunta 11 -->
-      <div class="evaluation1_part" v-else-if="part == 11">
-        <div class="evaluation1_statement">
-          <p><strong>En cuántos tipos se dividen las capacidades físicas</strong></p>
-          <p><strong>A:</strong> Coordinativas </p>
-          <p><strong>B:</strong> Condicionales </p>
-          <p><strong>C:</strong> Todas las anteriores </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="correcto">    
-        </div>
-      </div>
-      <!-- Pregunta 12 -->
-      <div class="evaluation1_part" v-else-if="part == 12">
-        <div class="evaluation1_statement">
-          <p><strong>Quién afirma que una baja coordinación motora puede propiciar que la motivación de los jóvenes hacia la práctica de la actividad física disminuya</strong></p>
-          <p><strong>A:</strong> Hofferth y sandberg </p>
-          <p><strong>B:</strong> Rose Larkin y Berger </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="correcto">
-        </div>
-      </div>
-      <!-- Pregunta 13 -->
-      <div class="evaluation1_part" v-else-if="part == 13">
-        <div class="evaluation1_statement">
-          <p><strong>¿Qué beneficios potenciales tiene la actividad física habitual para la salud?</strong></p>
-          <p><strong>A:</strong> Mejora la salud ósea y cardiorrespiratoria </p>
-          <p><strong>B:</strong> Mejora la actitud y masa muscular  </p>
-          <p><strong>C:</strong> Todas las anteriores </p>
-        </div>
-        <div class="evaluation1_answers">
-          <input class="answers__A" type="button" value="A" @click="incorrecto">
-          <input class="answers__B" type="button" value="B" @click="incorrecto">
-          <input class="answers__C" type="button" value="C" @click="correcto">    
-        </div>
-      </div>
-      <div class="evaluation1_Final" v-else>
-        <h1>Respuestas correctas {{correctas}}</h1>
-        <h1>Respuestas incorrectas {{incorrectas}}</h1>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="correcto" />
+        <input class="answers__D" type="button" value="D" @click="incorrecto" />
       </div>
     </div>
+    <!-- Pregunta 3 -->
+    <div class="evaluation1_part" v-else-if="part == 3">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿A qué edad desarrollan los niños la mayor parte de movimientos más
+            grandes como habilidades motoras gruesas</strong
+          >
+        </p>
+        <p><strong>A:</strong> 5-8 años</p>
+        <p><strong>B:</strong> 3-4 años</p>
+        <p><strong>C:</strong> 1-6 años</p>
+        <p><strong>D:</strong> 0-2 años</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="correcto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+        <input class="answers__D" type="button" value="D" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 4 -->
+    <div class="evaluation1_part" v-else-if="part == 4">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿En qué edad los niveles hormonales son inferiores a los de un
+            adulto</strong
+          >
+        </p>
+        <p><strong>A:</strong> Adolescencia</p>
+        <p><strong>B:</strong> Niñez</p>
+        <p><strong>C:</strong> juventud</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="correcto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 5 -->
+    <div class="evaluation1_part" v-else-if="part == 5">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿Qué fundamento es sano para el desarrollo óseo y muscular</strong
+          >
+        </p>
+        <p><strong>A:</strong> Alimentación saludable</p>
+        <p><strong>B:</strong> Ingesta nutricional</p>
+        <p><strong>C:</strong> Ninguna de las anteriores</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="correcto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 6 -->
+    <div class="evaluation1_part" v-else-if="part == 6">
+      <div class="evaluation1_statement">
+        <p>
+          <strong>¿En qué edad se incrementa la fuerza en los niños</strong>
+        </p>
+        <p><strong>A:</strong> 2-3 años</p>
+        <p><strong>B:</strong> 4-5 años</p>
+        <p><strong>C:</strong> 0-1 años</p>
+        <p><strong>D:</strong> 6-12 años</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+        <input class="answers__D" type="button" value="D" @click="correcto" />
+      </div>
+    </div>
+    <!-- Pregunta 7 -->
+    <div class="evaluation1_part" v-else-if="part == 7">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >El desarrollo psicológico en esta etapa de 6 a 12 años percibe el
+            nombre de:</strong
+          >
+        </p>
+        <p><strong>A:</strong> Inmadurez infantil</p>
+        <p><strong>B:</strong> Madurez infantil</p>
+        <p><strong>C:</strong> Ninguna de las anteriores</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="correcto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 8 -->
+    <div class="evaluation1_part" v-else-if="part == 8">
+      <div class="evaluation1_statement">
+        <p><strong>¿El sistema óseo – muscular está formado por:</strong></p>
+        <p><strong>A:</strong> Las articulaciones</p>
+        <p><strong>B:</strong> La unión de los huesos</p>
+        <p><strong>C:</strong> Los músculos</p>
+        <p><strong>D:</strong> Todas son correctas</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+        <input class="answers__D" type="button" value="D" @click="correcto" />
+      </div>
+    </div>
+    <!-- Pregunta 9 -->
+    <div class="evaluation1_part" v-else-if="part == 9">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿Qué vitamina actúa en la regulación del equilibrio óseo en niños
+            de 6 a 12 años?</strong
+          >
+        </p>
+        <p><strong>A:</strong> Vitamina A</p>
+        <p><strong>B:</strong> Vitamina B</p>
+        <p><strong>C:</strong> Vitamina D</p>
+        <p><strong>D:</strong> Vitamina C</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="correcto" />
+        <input class="answers__D" type="button" value="D" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 10 -->
+    <div class="evaluation1_part" v-else-if="part == 10">
+      <div class="evaluation1_statement">
+        <p>
+          <strong>¿Qué función no corresponde al sistema óseo en niños?</strong>
+        </p>
+        <p><strong>A:</strong> Almacenar proteínas y glucógeno</p>
+        <p><strong>B:</strong> Servir de palanca para los músculos</p>
+        <p><strong>C:</strong> Producir células sanguíneas</p>
+        <p><strong>D:</strong> Proteger órganos vitales</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="correcto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="incorrecto" />
+        <input class="answers__D" type="button" value="D" @click="incorrecto" />
+      </div>
+    </div>
+    <!-- Pregunta 11 -->
+    <div class="evaluation1_part" v-else-if="part == 11">
+      <div class="evaluation1_statement">
+        <p>
+          <strong>En cuántos tipos se dividen las capacidades físicas</strong>
+        </p>
+        <p><strong>A:</strong> Coordinativas</p>
+        <p><strong>B:</strong> Condicionales</p>
+        <p><strong>C:</strong> Todas las anteriores</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="correcto" />
+      </div>
+    </div>
+    <!-- Pregunta 12 -->
+    <div class="evaluation1_part" v-else-if="part == 12">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >Quién afirma que una baja coordinación motora puede propiciar que
+            la motivación de los jóvenes hacia la práctica de la actividad
+            física disminuya</strong
+          >
+        </p>
+        <p><strong>A:</strong> Hofferth y sandberg</p>
+        <p><strong>B:</strong> Rose Larkin y Berger</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="correcto" />
+      </div>
+    </div>
+    <!-- Pregunta 13 -->
+    <div class="evaluation1_part" v-else-if="part == 13">
+      <div class="evaluation1_statement">
+        <p>
+          <strong
+            >¿Qué beneficios potenciales tiene la actividad física habitual para
+            la salud?</strong
+          >
+        </p>
+        <p><strong>A:</strong> Mejora la salud ósea y cardiorrespiratoria</p>
+        <p><strong>B:</strong> Mejora la actitud y masa muscular</p>
+        <p><strong>C:</strong> Todas las anteriores</p>
+      </div>
+      <div class="evaluation1_answers">
+        <input class="answers__A" type="button" value="A" @click="incorrecto" />
+        <input class="answers__B" type="button" value="B" @click="incorrecto" />
+        <input class="answers__C" type="button" value="C" @click="correcto" />
+      </div>
+    </div>
+    <div class="evaluation1_Final" v-else>
+      <h1>Respuestas correctas {{ correctas }}</h1>
+      <h1>Respuestas incorrectas {{ incorrectas }}</h1>
+    </div>
+  </div>
 </template>
 <script>
 //Importacion de herramientas
 import { ref } from "vue";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 export default {
   name: "Evaluation1",
   title: "Evaluacion modulo 1 - SENA",
@@ -225,34 +271,32 @@ export default {
     //variables
     let part = ref(1);
     let correctas = ref(0);
-    let incorrectas = ref(0)
+    let incorrectas = ref(0);
 
     //Funciones
     function correcto() {
-      Swal.fire(
-        'Respuesta correcta',
-        'preciona ok para continuar',
-        'success'
-      )
+      Swal.fire("Respuesta correcta", "preciona ok para continuar", "success");
       part.value = part.value + 1;
       correctas.value = correctas.value + 1;
     }
 
-    function incorrecto(){
+    function incorrecto() {
       Swal.fire(
-        'Respuesta incorrecta',
-        'preciona ok para continuar',
-        'warning'
-      )
+        "Respuesta incorrecta",
+        "preciona ok para continuar",
+        "warning"
+      );
       part.value = part.value + 1;
       incorrectas.value = incorrectas.value + 1;
     }
 
     //Retorno
     return {
-     part, correctas,
-     correcto, incorrectas,
-     incorrecto,
+      part,
+      correctas,
+      correcto,
+      incorrectas,
+      incorrecto,
     };
   },
 };
@@ -272,8 +316,9 @@ export default {
 
 .evaluation1_h1 {
   color: $font-color;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align:center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .evaluation1_part {
@@ -303,7 +348,7 @@ export default {
 
 //Botones
 .answers__A {
-  background: linear-gradient(to right, #A243FC, #3B096A);
+  background: linear-gradient(to right, #a243fc, #3b096a);
   width: 500px;
   color: #fff;
   font-size: 30px;
@@ -313,7 +358,7 @@ export default {
 
 .answers__B {
   margin-top: 20px;
-  background: linear-gradient(to right, #16E243, #368D49);
+  background: linear-gradient(to right, #16e243, #368d49);
   width: 500px;
   color: #fff;
   font-size: 30px;
@@ -323,7 +368,7 @@ export default {
 
 .answers__C {
   margin-top: 20px;
-  background: linear-gradient(to right, #FF0404, #BA0D0D);
+  background: linear-gradient(to right, #ff0404, #ba0d0d);
   width: 500px;
   color: #fff;
   font-size: 30px;
@@ -333,7 +378,7 @@ export default {
 
 .answers__D {
   margin-top: 20px;
-  background: linear-gradient(to right, #03D2FF, #0BB1D6);
+  background: linear-gradient(to right, #03d2ff, #0bb1d6);
   width: 500px;
   color: #fff;
   font-size: 30px;
@@ -341,7 +386,7 @@ export default {
   border-style: none;
 }
 
-/* Buttom */ 
+/* Buttom */
 .home-link {
   background-color: $quinary-color;
   position: fixed;

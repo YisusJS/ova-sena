@@ -1,36 +1,73 @@
 <template>
-  <menuComponent :index="5"></menuComponent>
+  <menuComponent :index="4"></menuComponent>
   <main class="container-motorSkills">
     <section class="module">
-      <div class="module__title-container" id="1.1">
+      <div class="module__title-container" id="5.1">
         <h2 class="module__title">Historia</h2>
       </div>
       <div class="module__content">
         <p>
-          El término Motricidad surge del estudio desde el punto de vista
-          científico de la Educación Física. En el siglo XVII fue a través de
-          una propuesta de John Locke, de la que surgió la denominada Educación
-          Física, con el propósito de dominar y adiestrar el cuerpo. Locke
-          expresaba el valor de la Educación Física en su trabajo titulado Some
-          Thoughts Concerning Education. Para Locke, la Educación Física era un
-          medio de preparar a las personas ante posibles emergencias de salud,
-          que involucraban dificultades y fatiga. Además, este filósofo-educador
-          vislumbraba a la Educación Física como forma de lograr el desarrollo
-          de un cuerpo vigoroso y listo para cualquier acción que lo necesite.
-          Al respecto, Manuel Sergio (2007) señala que "la Motricidad es el
-          cuerpo en movimiento intencional, procurando la trascendencia, la
-          superación, a nivel integralmente humano y no del físico tan sólo". Es
-          decir, es la propia manifestación de la vida en sus distintos modos de
-          expresarse e impresionarse en ese diálogo yo-otro-cosmos. (Couto y
-          Trigo 2014).
+          Lauterborn, D. (2001). El origen de las artes marciales se atribuye a
+          la cultura oriental caracterizado por ser un pueblo con tradiciones
+          ancestrales, el "arte marcial" fue la especialidad de los guerreros en
+          Asia y reflejaba también un poder o una característica del Hombre.
+          Cuando se habla de arte marcial se evoca cultura y conocimiento del
+          cuerpo. El Taoismo es un sistema filosófico y religión que tuvo su
+          origen en China en las ideas del filósofo Laozi (siglo VI a. C.); se
+          caracteriza por creer que existe una solidaridad absoluta entre el
+          hombre y la naturaleza, puesto que ambos concuerdan perfectamente y
+          tienen un sustrato común. El nacimiento del deporte de combate resulta
+          de la transformación del "arte marcial" y de su adaptación a la
+          cultura contemporánea. La " dualidad ", el " resultado ", la "
+          competición ", el " campeón”. Son palabras típicamente producto del
+          individuo y no de propio de su Origen.
         </p>
         <div>
           <img
-            :src="require('@/assets/modules/motorSkills/submodule1.1.png')"
+            :src="require('@/assets/modules/combatsports/submodule1.1.png')"
             alt=""
           />
           <img
-            :src="require('@/assets/modules/motorSkills/submodule1.2.png')"
+            :src="require('@/assets/modules/combatsports/submodule1.2.png')"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="module">
+      <div class="module__title-container" id="5.2">
+        <h2 class="module__title">Deportes de combate</h2>
+      </div>
+      <div class="module__content">
+        <p>
+          <b>Clasificacion de los deportes de combate</b>
+          <br />
+          <br />
+          Según la clasificación de Visotzky (cómo se citó en González, 2013)
+          los deportes de combate se pueden clasificar en: golpeadores,
+          agarradores y combinados. Los golpeadores son aquellos que utilizan
+          los golpes para lograr la victoria los cuales son realizados con
+          brazos, otros con piernas y brazos y el tiempo de duración de los
+          rounds son de 1 a 3 minutos con un minuto de descanso. Cómo el boxeo,
+          el taekwondo y el karate entre otros. Son características de los
+          deportes de combate el poseer habilidades abiertas con un alto grado
+          de incertidumbre, debido a que el luchador no sabe cómo actuará el
+          oponente; fisiológicamente se puede decir que los esfuerzos realizados
+          durante un combate se pueden enmarcar en anaeróbicos a lácticos,
+          lácticos y de resistencia por la duración del combate. Para Copello
+          (2013) los deportes de combate se pueden caracterizar por un volumen
+          elevado de elementos técnicos y esto implica un análisis de la
+          metodología a utilizar, para lo cual es necesario tener en cuenta las
+          condiciones en las cuales se realiza el entrenamiento y las
+          orientaciones requeridas.
+        </p>
+        <div>
+          <img
+            :src="require('@/assets/modules/combatsports/submodule1.1.png')"
+            alt=""
+          />
+          <img
+            :src="require('@/assets/modules/combatsports/submodule1.2.png')"
             alt=""
           />
         </div>
