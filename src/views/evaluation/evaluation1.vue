@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <!-- Buttom -->
   <div class="home-link">
     <div class="home-link__container">
@@ -253,6 +254,39 @@
         <input class="answers__B" type="button" value="B" @click="incorrecto" />
         <input class="answers__C" type="button" value="C" @click="correcto" />
       </div>
+=======
+    <!-- Buttom -->
+    <div class="home-link">
+      <div class="home-link__container">
+        <router-link to="/" class="home-link__button">
+          <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon"/>
+        </router-link>
+      </div>
+    </div>
+    <div class="evaluation1">
+      <h1 class="evaluation1_h1">Capítulo 1. La motricidad</h1>
+      <!-- Preguntas -->
+      <div class="evaluation1_part">
+        <div class="evaluation1_statement" v-if="part <= 12">
+          <p class="evaluation1_statement_text"><strong>Pregunta #{{part+1}}: {{statement[part]}}</strong></p>
+        </div>
+        <div class="evaluation1_answers">
+          <div class="evaluation1_answers_up" v-if="part <= 12">
+          <button class="answers__A" @click="position(answersA[part].value)">A: {{answersA[part].text}}</button>
+          <button class="answers__B" @click="position(answersB[part].value)">B: {{answersB[part].text}}</button>
+          </div>
+          <div class="evaluation1_answers_buttom" v-if="part <= 12">
+          <button class="answers__C" @click="position(answersC[part].value)">C: {{answersC[part].text}}</button>
+          <button class="answers__D" @click="position(answersD[part].value)">D: {{answersD[part].text}}</button>
+          </div>
+          <div class="evaluation1_answers_final" v-else>
+            <center><h1 style="text-center"><Strong>Resultados</Strong></h1></center>
+            <h2>Respuestas correctas: {{correct}}</h2> 
+            <h2>Respuestas Incorrectas: {{incorrect}}</h2>
+          </div>
+        </div>
+      </div>
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
     </div>
     <div class="evaluation1_Final" v-else>
       <h1>Respuestas correctas {{ correctas }}</h1>
@@ -263,12 +297,18 @@
 <script>
 //Importacion de herramientas
 import { ref } from "vue";
+<<<<<<< HEAD
 import Swal from "sweetalert2";
+=======
+import Swal from 'sweetalert2'
+
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
 export default {
   name: "Evaluation1",
   title: "Evaluacion modulo 1 - SENA",
   setup() {
     //variables
+<<<<<<< HEAD
     let part = ref(1);
     let correctas = ref(0);
     let incorrectas = ref(0);
@@ -288,15 +328,123 @@ export default {
       );
       part.value = part.value + 1;
       incorrectas.value = incorrectas.value + 1;
+=======
+    let part = ref(0);
+    let correct = ref(0);
+    let incorrect = ref(0);
+
+    //Enunciados
+    const statement = ref([
+    '¿Qué factores determinan la variabilidad de masa ósea que ayudan al niño alcanzar la fuerza óptima?',
+    '¿El desarrollo del sistema óseo muscular se presenta después de:?', 
+    '¿A qué edad desarrollan los niños la mayor parte de movimientos más grandes como habilidades motoras gruesas?',
+    '¿En qué edad los niveles hormonales son inferiores a los de un adulto?',
+    '¿Qué fundamento es sano para el desarrollo óseo y muscular?',
+    '¿En qué edad se incrementa la fuerza en los niños?',
+    'El desarrollo psicológico en esta etapa de 6 a 12 años percibe el nombre de:',
+    'El sistema óseo – muscular está formado por:',
+    '¿Qué vitamina actúa en la regulación del equilibrio óseo en niños de 6 a 12 años?',
+    '¿Qué función no corresponde al sistema óseo en niños?',
+    '¿En cuántos tipos se dividen las capacidades físicas?',
+    '¿Quién afirma que una baja coordinación motora puede propiciar que la motivación de los jóvenes hacia la práctica de la actividad física disminuya?',
+    '¿Qué beneficios potenciales tiene la actividad física habitual para la salud?'
+    ]);
+
+    //Respuesta A
+    const answersA = ref([
+      {text: 'La ingesta nutricional',value: false}, 
+      {text: 'Adultez',value: false}, 
+      {text: '5-8 años',value: false},
+      {text: 'Adolescencia',value: false},
+      {text: 'Alimentación saludable',value: true},
+      {text: '2-3 años',value: false},
+      {text: 'Inmadurez infantil',value: false},
+      {text: 'Las articulaciones',value: false},
+      {text: 'Vitamina A',value: false},
+      {text: 'Almacenar proteínas y glucógeno',value: true},
+      {text: 'Coordinativas',value: false},
+      {text: 'Hofferth y sandberg',value: false},
+      {text: 'Mejora la salud ósea y cardiorrespiratoria',value: false}
+      ]);
+
+    //Respuesta B
+    const answersB = ref([
+      {text: 'La actividad física', value: false},
+      {text: 'juventud', value: false},
+      {text: '3-4 años', value: true},
+      {text: 'Niñez', value: true},
+      {text: 'Ingesta nutricional', value: false},
+      {text: '4-5 años', value: false},
+      {text: 'Madurez infantil', value: true},
+      {text: 'La unión de los huesos', value: false},
+      {text: 'Vitamina B', value: false},
+      {text: 'Servir de palanca para los músculos', value: false},
+      {text: ' Condicionales', value: false},
+      {text: 'Rose Larkin y Berger', value: true},
+      {text: 'Mejora la actitud y masa muscular', value: false},
+    ]);
+
+    //Respuesta C
+    const answersC = ref([
+      {text: 'Todas las anteriores', value: true},
+      {text: 'Adolescencia', value: true},
+      {text: '1-6 años', value: false},
+      {text: 'juventud', value: false},
+      {text: 'Ninguna de las anteriores', value: false},
+      {text: '0-1 años', value: false},
+      {text: 'Ninguna de las anteriores', value: false},
+      {text: 'Los músculos', value: false},
+      {text: 'Vitamina D', value: true},
+      {text: 'Producir células sanguíneas', value: false},
+      {text: 'Todas las anteriores', value: true},
+      {text: 'Stiven Smith', value: false},
+      {text: 'Todas las anteriores', value: true},
+    ]);
+
+    //Respuesta D
+    const answersD = ref([
+      {text: 'Ninguna de las anteriores', value: false},
+      {text: 'Niñez', value: false},
+      {text: '0-2 años', value: false},
+      {text: 'juventud', value: false},
+      {text: 'Todas las anteriores', value: false},
+      {text: '6-12 años', value: true},
+      {text: 'Todas las anteriores', value: false},
+      {text: 'Todas son correctas', value: true},
+      {text: 'Vitamina C', value: false},
+      {text: 'Proteger órganos vitales', value: false},
+      {text: 'Ninguna de las anteriores', value: false},
+      {text: 'Jacob Miller', value: false},
+      {text: 'Ninguna de las anteriores', value: false},
+    ]);
+
+    //Funciones
+    function position(datos){
+      //Validar preguntas
+      if (datos) {
+        Swal.fire('Respuesta correcta','preciona ok para continuar','success');
+        part.value = part.value + 1;
+        correct.value = correct.value + 1;       
+      } else {
+        Swal.fire('Respuesta incorrecta','preciona ok para continuar','warning');
+        part.value = part.value + 1; 
+        incorrect.value = incorrect.value + 1;       
+      }
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
     }
 
     //Retorno
     return {
+<<<<<<< HEAD
       part,
       correctas,
       correcto,
       incorrectas,
       incorrecto,
+=======
+      statement, answersA, answersB, answersC, answersD,
+      part, position, correct, incorrect
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
     };
   },
 };
@@ -334,6 +482,11 @@ export default {
   box-shadow: $box-shadow;
 }
 
+.evaluation1_statement_text {
+  font-size: 20px;
+  text-align:center
+}
+
 .evaluation1_answers {
   padding-top: 20px;
   display: flex;
@@ -346,44 +499,94 @@ export default {
   padding: 10px;
 }
 
+//Posición
+.evaluation1_answers_up {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.evaluation1_answers_buttom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+//Final
+.evaluation1_answers_final{
+  margin-top: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: $box-shadow;
+}
+
 //Botones
 .answers__A {
+<<<<<<< HEAD
   background: linear-gradient(to right, #a243fc, #3b096a);
   width: 500px;
+=======
+  background: linear-gradient(to right, #A243FC, #3B096A);
+  width: 400px;
+  height: 250px;
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
   border-style: none;
+  margin-right: 5px;
 }
 
 .answers__B {
+<<<<<<< HEAD
   margin-top: 20px;
   background: linear-gradient(to right, #16e243, #368d49);
   width: 500px;
+=======
+  background: linear-gradient(to right, #16E243, #368D49);
+  width: 400px;
+  height: 250px;
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
   border-style: none;
+  margin-left: 5px;
 }
 
 .answers__C {
+<<<<<<< HEAD
   margin-top: 20px;
   background: linear-gradient(to right, #ff0404, #ba0d0d);
   width: 500px;
+=======
+  background: linear-gradient(to right, #FF0404, #BA0D0D);
+  width: 400px;
+  height: 250px;
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
   border-style: none;
+  margin-right: 5px;
 }
 
 .answers__D {
+<<<<<<< HEAD
   margin-top: 20px;
   background: linear-gradient(to right, #03d2ff, #0bb1d6);
   width: 500px;
+=======
+  background: linear-gradient(to right, #03D2FF, #0BB1D6);
+  width: 400px;
+  height: 250px;
+>>>>>>> da9f712ef2ca8ed627fa377234dd87dfd9a1d508
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
   border-style: none;
+  margin-left: 5px;
 }
 
 /* Buttom */
