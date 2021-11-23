@@ -32,6 +32,12 @@
         "contentId": "#1.5"
       },
       {
+        "title": "5. Material de apoyo",
+        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
+        "image": "assets/modules/motorSkills/5.svg",
+        "contentId": "#1.5"
+      },
+      {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
@@ -228,6 +234,18 @@
         "description": "contenido futuro",
         "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#6.1"
+      },
+      {
+        "title": "1. Futuro contenido 2",
+        "description": "contenido futuro",
+        "image": "assets/modules/motorSkills/1.svg",
+        "contentId": "#6.2"
+      },
+      {
+        "title": "1. Futuro contenido 3",
+        "description": "contenido futuro",
+        "image": "assets/modules/motorSkills/1.svg",
+        "contentId": "#6.3"
       }
     ]
   }
