@@ -27,22 +27,28 @@
       },
       {
         "title": "5. Capacidades motoras",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física",
+        "description": "La capacidad se define como lo que una persona puede hacer en un entorno estandarizado y controlado",
         "image": "assets/modules/motorSkills/5.svg",
         "contentId": "#1.5"
       },
       {
         "title": "6. Material de apoyo",
-        "description": "Descarga o visualiza el material de apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
         "image": "assets/modules/motorSkills/5.svg",
         "contentId": "#1.6"
+      },
+      {
+        "title": "Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/motorSkills/6.svg",
+        "contentId": "#1.7"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": "#1.7"
-      }
+        "contentId": "#1.8"
+      } 
     ]
   },
 

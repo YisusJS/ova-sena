@@ -23,7 +23,7 @@
       <ol class="list">
         <li v-for="(item, i) in information[index].submodules" :key="i">
           <a
-            v-if="i != information[index].submodules.length - 1"
+            v-if="i != information[index].submodules.length"
             class="nav-link"
             :href="item.contentId"
           >

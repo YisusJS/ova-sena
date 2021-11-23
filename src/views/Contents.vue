@@ -72,8 +72,8 @@ export default {
         title: "La Motricidad",
         description:
           "Se refiere a los movimientos complejos y coordinados que realiza una persona y que implican al sistema locomotor.",
-        hours: "1",
-        modules: "1",
+        hours: "2",
+        modules: "8",
         level: "fácil",
         path: "/contenidos/habilidades_motoras",
         bg: "background: linear-gradient(321.69deg, #3097AD 0%, #46D9F9 100%);",
@@ -85,8 +85,8 @@ export default {
         title: "El Deporte",
         description:
           "Es toda aquella actividad física que involucra una serie de reglas o normas a desempeñar dentro de un espacio o área determinada.",
-        hours: "2",
-        modules: "2",
+        hours: "3",
+        modules: "9",
         level: "medio",
         path: "/contenidos/deporte",
         bg: "background: linear-gradient(321.82deg, #FB6F6F 0%, #C7A42A 99.91%);",
@@ -99,7 +99,7 @@ export default {
         description:
           "Es la disciplina que busca desarrollar, fortalecer y dar flexibilidad al cuerpo mediante rutinas de ejercicios físicos. ",
         hours: "3",
-        modules: "3",
+        modules: "6",
         level: "dificil",
         path: "/contenidos/gimnasia",
         bg: "background: linear-gradient(321.69deg, #1F9463 0%, #39E65F 71.13%);",
@@ -111,8 +111,8 @@ export default {
         title: "El Atletismo",
         description:
           "Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, saltos, lanzamientos, pruebas combinadas y marcha.",
-        hours: "4",
-        modules: "4",
+        hours: "2",
+        modules: "6",
         level: "fácil",
         path: "/contenidos/atletismo",
         bg: "background: linear-gradient(321.69deg, #FF5454 0%, #FF7D7D 100%);",
