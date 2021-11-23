@@ -298,9 +298,13 @@
           de la clase sobre Habilidades Motoras.
         </p>
         <div class="botones__recursos">
-          <a href="/home/zawng/Repositories/ova-deportes/src/assets/utilities/1.pdf" download="how-to.pdf"
+          <a
+            href="https://doc-0g-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/89k5iqtu6g0rd5rntnttk7l042b3o5ea/1637711850000/03085692109854241977/03834057452930708884/1-5kp_E4ayLHMyTCmDLApgU9Qce_YXDid?e=download&authuser=1&nonce=99nmc8bg6pp36&user=03834057452930708884&hash=3n5fslto2l2vfkmmj4nk62msk2aiv4ur"
+            download="Relación del estado nutricional con el desarrollo cognitivo.pdf"
             ><button class="offset">Relación del estado</button></a
-          ><a href="@/assets/utilities/2.pdf" download="Relación del estado"
+          ><a
+            href="https://doc-00-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/m3gdp9pmj0cgmtb5pmsaj2amnf22dkur/1637710500000/03085692109854241977/03834057452930708884/1pu6-WAKLJq7a3czKIOhOrB20W5C_vAFu?e=download&authuser=1"
+            download="Relación del estado"
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
@@ -328,9 +332,20 @@
     </section>
     <section class="module">
       <div class="module__title-container" id="1.8">
-        <h2 class="module__title">!Pónte a Prueba!</h2>
+        <h2 class="module__title">¡Pónte a Prueba!</h2>
       </div>
-      <div class="module__content" id="bg_test"></div>
+      <div class="module__content">
+        <div class="module__content material">
+          <p>
+            Ésta es la última sección de Habilidades Motoras, donde demostrarás lo aprendido en cada uno de los módulos
+          </p>
+          <div class="botones__recursos">
+            <router-link to="/contenidos/habilidades_motoras/test">
+              <button class="offset test-button">Habilidades Motoras</button>
+            </router-link>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>
@@ -361,7 +376,7 @@ export default {
   justify-content: center;
 }
 
-  // <<<<<<<< FINAL BOTONES >>>>>
+// <<<<<<<< FINAL BOTONES >>>>>
 .offset {
   box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
 }
@@ -374,6 +389,11 @@ export default {
 .offset {
   --color: #1973bc;
   --hover: #19bc8b;
+}
+
+.test-button {
+  --color: #9f11ac;
+  --hover: #54cde2;
 }
 
 button {
