@@ -159,7 +159,7 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .bibliographies {
-  background-color: $primary_color;
+  background-color: $background_color;
   margin: 40px auto 20px;
   border-radius: 60px;
   max-width: 1300px;
