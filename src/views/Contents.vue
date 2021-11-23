@@ -169,8 +169,8 @@ export default {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  column-gap: 40px;
-  row-gap: 30px;
+  column-gap: 2vw;
+  row-gap: 2vh;
   justify-content: center;
   align-content: center;
 }

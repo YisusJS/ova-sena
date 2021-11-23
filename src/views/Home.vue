@@ -1,9 +1,5 @@
 <template>
   <div class="home">
-    <h1 class="home_tittle">
-      Técnica deportiva básica del programa Técnico en Ejecución de Programas
-      Deportivos
-    </h1>
     <div class="position">
       <div class="left">
         <div class="container1">
@@ -32,7 +28,7 @@
         </div>
       </div>
       <div class="center">
-        <img class="center_image" :src="sena" alt="Logos" />
+        <h1>Ejecución de programas deportivos - SENA</h1>
         <img :src="x400" alt="Logos" />
       </div>
       <div class="right">
@@ -104,14 +100,12 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .home {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 1366px;
-  max-width: 1366px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $tertyary_color;
+  width: 100vw;
   height: 100vh;
-  background-color: $tertyary-color;
 }
 
 .home_tittle {
