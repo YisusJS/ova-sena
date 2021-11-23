@@ -1,6 +1,6 @@
 <template>
   <menuComponent :index="1"></menuComponent>
-  <main class="container-motorSkills">
+  <main class="container-sport">
     <section class="module">
       <div class="module__title-container" id="2.1">
         <h2 class="module__title">Definición</h2>
@@ -19,16 +19,6 @@
           de que la actividad física y el fitness las personas lo realizan por
           satisfacción y recreo personal. .
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -62,16 +52,6 @@
           nacieron las ligas y nuevas disciplinas como ciclismo, esgrima, tiro y
           halterofilia, entre otros.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -121,16 +101,6 @@
           De deslizamiento: Son los deportes que se practican deslizando el
           cuerpo sobre una superficie, tal caso como: el esquí.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -172,16 +142,6 @@
           funciones y las estructuras de funcionamiento del COI se recomienda
           consultar su página web: www.olympic.org.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -215,16 +175,6 @@
           sueños colectivos que dejan huella en el crecimiento personal de cada
           persona.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -259,16 +209,6 @@
           físicas para el desarrollo humano, la convivencia y la paz, a partir
           de la ley 181 de 1995.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/sport/submodule2.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/sport/submodule2.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
   </main>
@@ -290,20 +230,22 @@ export default {
 .text {
   color: $primary-color;
 }
-.container-motorSkills {
+.container-sport {
   background-color: $primary-color;
   border-radius: 25px;
-  margin: 0 100px 0 400px;
-  min-height: 100vh;
+  margin: 0 100px 0 22vw;
+  width: 74vw;
+  min-height: auto;
   padding: 100px 0;
 }
 .module {
   background-color: #fff;
-  max-width: 800px;
+  max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
   position: relative;
   margin-bottom: 100px;
+  border-radius: 10px;
   &__title-container {
     z-index: 100;
     position: absolute;
@@ -326,10 +268,13 @@ export default {
     text-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
   }
   &__content {
-    position: relative;
+    text-align: justify;
+    width: 100%;
     z-index: 110;
     display: flex;
     color: #6e798c;
+    border-radius: 1000px;
   }
 }
 </style>
+

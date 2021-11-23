@@ -1,6 +1,6 @@
 <template>
   <menuComponent :index="2"></menuComponent>
-  <main class="container-motorSkills">
+  <main class="container-gymnastics">
     <section class="module">
       <div class="module__title-container" id="3.1">
         <h2 class="module__title">Historia de la gimnasia</h2>
@@ -477,25 +477,28 @@ export default {
 };
 </script>
 
+
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .text {
   color: $primary-color;
 }
-.container-motorSkills {
+.container-gymnastics {
   background-color: $primary-color;
   border-radius: 25px;
-  margin: 0 100px 0 400px;
+  margin: 0 100px 0 22vw;
+  width: 74vw;
   min-height: 100vh;
   padding: 100px 0;
 }
 .module {
   background-color: #fff;
-  max-width: 800px;
+  max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
   position: relative;
   margin-bottom: 100px;
+  border-radius: 10px;
   &__title-container {
     z-index: 100;
     position: absolute;
@@ -518,10 +521,13 @@ export default {
     text-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
   }
   &__content {
-    position: relative;
+    text-align: justify;
+    width: 100%;
     z-index: 110;
     display: flex;
     color: #6e798c;
+    border-radius: 1000px;
   }
 }
 </style>
+

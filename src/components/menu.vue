@@ -80,7 +80,7 @@ figure {
 }
 
 .menu {
-  max-width: 300px;
+  max-width: 20vw;
   background-color: $primary-color;
   border-radius: 1rem;
   position: fixed;
