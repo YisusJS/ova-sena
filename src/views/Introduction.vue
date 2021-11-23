@@ -97,12 +97,9 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .introduction {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 1366px;
-  max-width: 1366px;
+  margin: 0 auto;
+  margin-left: 3vw;
+  width: 95vw;
   height: 100vh;
   background-color: $tertyary-color;
 }
