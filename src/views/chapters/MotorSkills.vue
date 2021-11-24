@@ -293,10 +293,12 @@
         <h2 class="module__title">Material de apoyo</h2>
       </div>
       <div class="module__content material">
-        <p>
-          En los siguientes botones podrás descargar el material complementario
-          de la clase sobre Habilidades Motoras.
-        </p>
+        <center>
+          <p>
+            En los siguientes botones podrás descargar el material complementario
+            de la clase sobre Habilidades Motoras.
+          </p>
+        </center>
         <div class="botones__recursos">
           <a
             href="https://doc-0g-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/89k5iqtu6g0rd5rntnttk7l042b3o5ea/1637711850000/03085692109854241977/03834057452930708884/1-5kp_E4ayLHMyTCmDLApgU9Qce_YXDid?e=download&authuser=1&nonce=99nmc8bg6pp36&user=03834057452930708884&hash=3n5fslto2l2vfkmmj4nk62msk2aiv4ur"
