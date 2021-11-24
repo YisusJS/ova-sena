@@ -308,6 +308,31 @@
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
+        <center>
+          <div>
+            <p><strong>Video 1. Motricidad</strong></p>
+            <video width="400" controls>
+              <source
+                src="https://doc-0o-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/7fa7r5q9fkj5if4kfm633ar8c6mg42gv/1637712375000/03085692109854241977/03834057452930708884/14GFoibeFZMWOL6CBFmFftFYzQBDswnyu?e=download&authuser=1&nonce=bvmajifalg614&user=03834057452930708884&hash=seis0ceu07rukaoug8l4mjon5ci5sahj"
+                type="video/mp4"
+              />
+              Your browser does not support HTML video.
+            </video>
+            <p><strong>Video 2. Desarrollo óseo</strong></p>
+            <video width="400" controls>
+              <source src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/6o0ao1eivgh99ok1613q8vnqajf5laog/1637712450000/03085692109854241977/03834057452930708884/1gLWx-oepEkJI152OAGJyPK5ssPKNEUyM?e=download&authuser=1" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <p><strong>Video 3. Desarrollo óseo y muscular</strong></p>
+            <video width="400" controls>
+              <source
+                src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/9slujlpgc97n11pct6u0g5mdddl2mb5j/1637712450000/03085692109854241977/03834057452930708884/1v6kZcqxA73f6WMx7o07J0X2pWkg0rvDE?e=download&authuser=1"
+                type="video/mp4"
+              />
+              Your browser does not support HTML video.
+            </video>
+          </div>
+        </center>
       </div>
     </section>
     <section class="module">
@@ -337,7 +362,8 @@
       <div class="module__content">
         <div class="module__content material">
           <p>
-            Ésta es la última sección de Habilidades Motoras, donde demostrarás lo aprendido en cada uno de los módulos
+            Ésta es la última sección de Habilidades Motoras, donde demostrarás
+            lo aprendido en cada uno de los módulos
           </p>
           <div class="botones__recursos">
             <router-link to="/contenidos/habilidades_motoras/test">
