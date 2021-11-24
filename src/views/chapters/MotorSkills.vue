@@ -333,6 +333,8 @@
             </video>
           </div>
         </center>
+          <p>Modelo pedagógico recomendado: <strong>Constructivista</strong></p>
+          <p>Técnicas de enseñanza utilizadas: <strong>Técnicas activas participativas por parte de los aprendices.</strong></p>
       </div>
     </section>
     <section class="module">
