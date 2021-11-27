@@ -1,0 +1,51 @@
+{
+  "habilidades_motoras":
+  {
+    "title": "Capítulo 1. La motricidad",
+    "questions":
+    [
+      {
+        "question": "¿Qué factores determinan la variabilidad de masa ósea que ayudan al niño alcanzar la fuerza óptima?",
+        "answers": [
+          {
+            "text": "La ingesta nutricional",
+            "correct": false
+          },
+          {
+            "text": "La actividad física",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": true
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿El desarrollo del sistema óseo muscular se presenta después de:?",
+        "answers": [
+          {
+            "text": "Adultez",
+            "correct": false
+          },
+          {
+            "text": "juventud",
+            "correct": false
+          },
+          {
+            "text": "Adolescencia",
+            "correct": true
+          },
+          {
+            "text": "Niñez",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

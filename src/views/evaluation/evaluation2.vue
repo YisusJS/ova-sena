@@ -1,40 +1,50 @@
 <template>
-    <!-- Buttom -->
-    <div class="home-link">
-      <div class="home-link__container">
-        <router-link to="/" class="home-link__button">
-          <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon"/>
-        </router-link>
+  <!-- Buttom -->
+  <div class="home-link">
+    <div class="home-link__container">
+      <router-link to="/" class="home-link__button">
+        <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon" />
+      </router-link>
+    </div>
+  </div>
+  <div class="evaluation1">
+    <h1 class="evaluation1_h1">Capítulo 2. El deporte</h1>
+    <!-- Preguntas -->
+    <div class="evaluation1_part">
+      <div class="evaluation1_statement" v-if="part <= 11">
+        <p class="evaluation1_statement_text">
+          <strong>Pregunta #{{ part + 1 }}: {{ statement[part] }}</strong>
+        </p>
+      </div>
+      <div class="evaluation1_answers">
+        <div class="evaluation1_answers_up" v-if="part <= 11">
+          <button class="answers__A" @click="position(answersA[part].value)">
+            A: {{ answersA[part].text }}
+          </button>
+          <button class="answers__B" @click="position(answersB[part].value)">
+            B: {{ answersB[part].text }}
+          </button>
+        </div>
+        <div class="evaluation1_answers_buttom" v-if="part <= 11">
+          <button class="answers__C" @click="position(answersC[part].value)">
+            C: {{ answersC[part].text }}
+          </button>
+        </div>
+        <div class="evaluation1_answers_final" v-else>
+          <center>
+            <h1 style="text-center"><Strong>Resultados</Strong></h1>
+          </center>
+          <h2>Respuestas correctas: {{ correct }}</h2>
+          <h2>Respuestas Incorrectas: {{ incorrect }}</h2>
+        </div>
       </div>
     </div>
-    <div class="evaluation1">
-      <h1 class="evaluation1_h1">Capítulo 2. El deporte</h1>
-      <!-- Preguntas -->
-      <div class="evaluation1_part">
-        <div class="evaluation1_statement" v-if="part <= 11">
-          <p class="evaluation1_statement_text"><strong>Pregunta #{{part+1}}: {{statement[part]}}</strong></p>
-        </div>
-        <div class="evaluation1_answers">
-          <div class="evaluation1_answers_up" v-if="part <= 11">
-          <button class="answers__A" @click="position(answersA[part].value)">A: {{answersA[part].text}}</button>
-          <button class="answers__B" @click="position(answersB[part].value)">B: {{answersB[part].text}}</button>
-          </div>
-          <div class="evaluation1_answers_buttom" v-if="part <= 11">
-          <button class="answers__C" @click="position(answersC[part].value)">C: {{answersC[part].text}}</button>
-          </div>
-          <div class="evaluation1_answers_final" v-else>
-            <center><h1 style="text-center"><Strong>Resultados</Strong></h1></center>
-            <h2>Respuestas correctas: {{correct}}</h2> 
-            <h2>Respuestas Incorrectas: {{incorrect}}</h2>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
 </template>
 <script>
 //Importacion de herramientas
 import { ref } from "vue";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 export default {
   name: "Evaluation1",
@@ -47,86 +57,109 @@ export default {
 
     //Enunciados
     const statement = ref([
-      '¿El deporte es considerado como?',
-      '¿En qué siglo se extendió el deporte al público sin importar la clase social?',
-      '¿Cuáles son los deportes individuales?',
-      '¿Cuáles son los deportes grupales?',
-      '¿Cuáles son los deportes de temporada?',
-      '¿El atletismo se clasifica en pruebas de?',
-      '¿Qué deportes utilizan el elemento peloto?',
-      '¿En qué año los juegos olímpicos incluyeron 26 deportes con 36 disciplinas?',
-      '¿En qué año fue creado el sistema nacional del deporte?',
-      '¿Cuáles son los colores de los anillos olímpicos?',
-      '¿Qué deportes resurgieron en la edad media y fueron los más populares?',
-      '¿En qué edad la actividad deportiva decayó notablemente y solo era desarrollada por la nobleza?',
+      "¿El deporte es considerado como?",
+      "¿En qué siglo se extendió el deporte al público sin importar la clase social?",
+      "¿Cuáles son los deportes individuales?",
+      "¿Cuáles son los deportes grupales?",
+      "¿Cuáles son los deportes de temporada?",
+      "¿El atletismo se clasifica en pruebas de?",
+      "¿Qué deportes utilizan el elemento peloto?",
+      "¿En qué año los juegos olímpicos incluyeron 26 deportes con 36 disciplinas?",
+      "¿En qué año fue creado el sistema nacional del deporte?",
+      "¿Cuáles son los colores de los anillos olímpicos?",
+      "¿Qué deportes resurgieron en la edad media y fueron los más populares?",
+      "¿En qué edad la actividad deportiva decayó notablemente y solo era desarrollada por la nobleza?",
     ]);
 
     //Respuesta A
     const answersA = ref([
-      {text: 'Hábitos saludables',value: false}, 
-      {text: 'Siglo XIX',value: true},
-      {text: 'Pesca, competencias en bote y rafting',value: false}, 
-      {text: 'Fútbol, baloncesto, béisbol, voleibol, hockey',value: true},
-      {text: 'Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas',value: false}, 
-      {text: 'Pista',value: false},
-      {text: 'Natación, atletismo, levantamiento de pesas',value: false}, 
-      {text: '2008',value: true},
-      {text: '1994',value: false}, 
-      {text: 'Rosado, morado, gris, blanco, negro',value: false},
-      {text: 'Patinaje, béisbol, vóleibol',value: false},
-      {text: 'Edad media',value: true}
+      { text: "Hábitos saludables", value: false },
+      { text: "Siglo XIX", value: true },
+      { text: "Pesca, competencias en bote y rafting", value: false },
+      { text: "Fútbol, baloncesto, béisbol, voleibol, hockey", value: true },
+      {
+        text: "Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas",
+        value: false,
+      },
+      { text: "Pista", value: false },
+      { text: "Natación, atletismo, levantamiento de pesas", value: false },
+      { text: "2008", value: true },
+      { text: "1994", value: false },
+      { text: "Rosado, morado, gris, blanco, negro", value: false },
+      { text: "Patinaje, béisbol, vóleibol", value: false },
+      { text: "Edad media", value: true },
     ]);
 
     //Respuesta B
     const answersB = ref([
-      {text: 'Actividad física ',value: true}, 
-      {text: 'Siglo XVII',value: false},
-      {text: 'Futbol, voleibol, baloncesto, hockey y béisbol',value: false}, 
-      {text: 'Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas',value: false},
-      {text: 'Pesca, competencias en bote y rafting',value: true}, 
-      {text: 'Campo',value: false},
-      {text: 'Baloncesto, billar, bolos',value: true}, 
-      {text: '2006',value: false},
-      {text: '1895',value: false}, 
-      {text: 'Naranja, violeta, celeste, gris, rosado',value: false},
-      {text: 'Danza, atletismo, natación',value: true},
-      {text: 'Edad antigua',value: false}
+      { text: "Actividad física ", value: true },
+      { text: "Siglo XVII", value: false },
+      { text: "Futbol, voleibol, baloncesto, hockey y béisbol", value: false },
+      {
+        text: "Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas",
+        value: false,
+      },
+      { text: "Pesca, competencias en bote y rafting", value: true },
+      { text: "Campo", value: false },
+      { text: "Baloncesto, billar, bolos", value: true },
+      { text: "2006", value: false },
+      { text: "1895", value: false },
+      { text: "Naranja, violeta, celeste, gris, rosado", value: false },
+      { text: "Danza, atletismo, natación", value: true },
+      { text: "Edad antigua", value: false },
     ]);
 
     //Respuesta C
     const answersC = ref([
-      {text: 'Ninguna de las anteriores',value: false}, 
-      {text: 'Siglo XVI',value: false},
-      {text: 'Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas',value: true}, 
-      {text: 'Pesca, rafting y competencias en bote',value: false},
-      {text: 'Futbol, hockey, baloncesto, béisbol, voleibol',value: false}, 
-      {text: 'Todas las anteriores',value: true},
-      {text: 'Patinaje, ciclismo boxeo',value: false}, 
-      {text: '2000',value: false},
-      {text: '1995',value: true}, 
-      {text: 'Azul, amarillo, negro, verde, rojo',value: true},
-      {text: 'Ciclismo, futbol, rafting',value: false},
-      {text: 'Edad moderna',value: false}
+      { text: "Ninguna de las anteriores", value: false },
+      { text: "Siglo XVI", value: false },
+      {
+        text: "Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas",
+        value: true,
+      },
+      { text: "Pesca, rafting y competencias en bote", value: false },
+      { text: "Futbol, hockey, baloncesto, béisbol, voleibol", value: false },
+      { text: "Todas las anteriores", value: true },
+      { text: "Patinaje, ciclismo boxeo", value: false },
+      { text: "2000", value: false },
+      { text: "1995", value: true },
+      { text: "Azul, amarillo, negro, verde, rojo", value: true },
+      { text: "Ciclismo, futbol, rafting", value: false },
+      { text: "Edad moderna", value: false },
     ]);
 
     //Funciones
-    function position(datos){
+    function position(datos) {
       //Validar preguntas
       if (datos) {
-        Swal.fire('Respuesta correcta','preciona ok para continuar','success');
+        Swal.fire(
+          "Respuesta correcta",
+          "preciona ok para continuar",
+          "success"
+        );
         part.value = part.value + 1;
-        correct.value = correct.value + 1;       
+        correct.value = correct.value + 1;
       } else {
-        Swal.fire('Respuesta incorrecta','preciona ok para continuar','warning');
-        part.value = part.value + 1; 
-        incorrect.value = incorrect.value + 1;       
+        Swal.fire(
+          "Respuesta incorrecta",
+          "preciona ok para continuar",
+          "warning"
+        );
+        part.value = part.value + 1;
+        incorrect.value = incorrect.value + 1;
       }
     }
 
     //Retorno
     return {
-      statement, answersA, answersB, answersC,
-      part, position, correct, incorrect
+      statement,
+      answersA,
+      answersB,
+      answersC,
+      part,
+      position,
+      correct,
+      incorrect,
     };
   },
 };
@@ -146,8 +179,9 @@ export default {
 
 .evaluation1_h1 {
   color: $font-color;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align:center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .evaluation1_part {
@@ -165,7 +199,7 @@ export default {
 
 .evaluation1_statement_text {
   font-size: 20px;
-  text-align:center
+  text-align: center;
 }
 
 .evaluation1_answers {
@@ -194,7 +228,7 @@ export default {
 }
 
 //Final
-.evaluation1_answers_final{
+.evaluation1_answers_final {
   margin-top: 200px;
   background-color: #fff;
   padding: 20px;
@@ -204,7 +238,7 @@ export default {
 
 //Botones
 .answers__A {
-  background: linear-gradient(to right, #A243FC, #3B096A);
+  background: linear-gradient(to right, #a243fc, #3b096a);
   width: 400px;
   height: 250px;
   color: #fff;
@@ -215,7 +249,7 @@ export default {
 }
 
 .answers__B {
-  background: linear-gradient(to right, #16E243, #368D49);
+  background: linear-gradient(to right, #16e243, #368d49);
   width: 400px;
   height: 250px;
   color: #fff;
@@ -226,7 +260,7 @@ export default {
 }
 
 .answers__C {
-  background: linear-gradient(to right, #FF0404, #BA0D0D);
+  background: linear-gradient(to right, #ff0404, #ba0d0d);
   width: 400px;
   height: 250px;
   color: #fff;
@@ -236,7 +270,7 @@ export default {
   margin-right: 5px;
 }
 
-/* Buttom */ 
+/* Buttom */
 .home-link {
   background-color: $quinary-color;
   position: fixed;

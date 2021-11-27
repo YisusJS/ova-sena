@@ -68,8 +68,7 @@ export default {
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
         title: "EcuRed (21 de octubre de 2011).",
-        paragraph:
-          "La prueba atlética 1500 m.",
+        paragraph: "La prueba atlética 1500 m.",
       },
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
@@ -116,20 +115,17 @@ export default {
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
         title: "Makarov A.N. (s.f.).",
-        paragraph:
-          "Atletismo, Moscú, Ed. Proveshenie",
+        paragraph: "Atletismo, Moscú, Ed. Proveshenie",
       },
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
         title: "Mindeporte.gov.co. (2021).",
-        paragraph:
-          "Sistema nacional del deporte.",
+        paragraph: "Sistema nacional del deporte.",
       },
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
         title: "Olympic.com. (2021).",
-        paragraph:
-          "Comité Olímpico Internacional.",
+        paragraph: "Comité Olímpico Internacional.",
       },
       {
         img: require("@/assets/bibliographies/bibliographies.svg"),
