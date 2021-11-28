@@ -5,7 +5,7 @@
     "questions":
     [
       {
-        "question": "¿Qué factores determinan la variabilidad de masa ósea que ayudan al niño alcanzar la fuerza óptima?",
+        "question": "¿Qué factores determinan la variabilidad de masa ósea que ayudan al niño alcanzar la fuerza optima?",
         "answers": [
           {
             "text": "La ingesta nutricional",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "question": "¿El desarrollo del sistema óseo muscular se presenta después de:?",
+        "question": "¿El desarrollo del sistema óseo muscular se presenta durante la etapa?",
         "answers": [
           {
             "text": "Adultez",
@@ -47,7 +47,7 @@
         ]
       },
       {
-        "question": "¿A qué edad desarrollan los niños la mayor parte de movimientos más grandes como habilidades motoras gruesas?",
+        "question": "¿A qué edad los niños desarrollan mayormente la coordinación gruesa?",
         "answers": [
           {
             "text": "5-8 años",
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "question": "¿Qué fundamento es sano para el desarrollo óseo y muscular?",
+        "question": "¿Qué fundamento es adecuado para el desarrollo óseo y muscular?",
         "answers": [
           {
             "text": "Alimentación saludable",
@@ -110,7 +110,7 @@
         ]
       },
       {
-        "question": "¿En qué edad se incrementa la fuerza en los niños?",
+        "question": "¿En qué edad se incrementa mayormente la fuerza en los niños?",
         "answers": [
           {
             "text": "2-3 años",
@@ -131,7 +131,7 @@
         ]
       },
       {
-        "question": "El desarrollo psicológico en esta etapa de 6 a 12 años percibe el nombre de:",
+        "question": "¿Qué nombre recibe el desarrollo psicológico en la etapa de 6 a 12 años?",
         "answers": [
           {
             "text": "Inmadurez infantil",
@@ -152,7 +152,7 @@
         ]
       },
       {
-        "question": "El sistema óseo – muscular está formado por:",
+        "question": "El sistema óseo - muscular lo conforman:",
         "answers": [
           {
             "text": "Las articulaciones",
@@ -194,7 +194,7 @@
         ]
       },
       {
-        "question": "¿Qué función no corresponde al sistema óseo en niños?",
+        "question": "¿De las siguientes funciones cual no corresponde al sistema óseo?",
         "answers": [
           {
             "text": "Almacenar proteínas y glucógeno",
@@ -215,7 +215,7 @@
         ]
       },
       {
-        "question": "¿En cuántos tipos se dividen las capacidades físicas?",
+        "question": "¿De los siguientes enunciados cuales corresponden a las capacidades físicas?",
         "answers": [
           {
             "text": "Coordinativas",
@@ -236,28 +236,7 @@
         ]
       },
       {
-        "question": "¿Quién afirma que una baja coordinación motora puede propiciar que la motivación de los jóvenes hacia la práctica de la actividad física disminuya?",
-        "answers": [
-          {
-            "text": "Hofferth y sandberg",
-            "correct": false
-          },
-          {
-            "text": "Rose Larkin y Berger",
-            "correct": true
-          },
-          {
-            "text": "Stiven Smith",
-            "correct": false
-          },
-          {
-            "text": "Jacob Miller",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "¿Qué beneficios potenciales tiene la actividad física habitual para la salud?",
+        "question": "¿Qué beneficios potenciales tienen la actividad física habitual para la salud?",
         "answers": [
           {
             "text": "Mejora la salud ósea y cardiorrespiratoria",
@@ -270,6 +249,524 @@
           {
             "text": "Todas las anteriores",
             "correct": true
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "deporte":
+  {
+    "title": "Capítulo 2. El deporte",
+    "questions":
+    [
+      {
+        "question": "¿De las siguientes actividades cual se puede considerar actividad física?",
+        "answers": [
+          {
+            "text": "Caminar regularmente",
+            "correct": false
+          },
+          {
+            "text": "Practicar un deporte dos veces por semana",
+            "correct": false
+          },
+          {
+            "text": "Realizar semanalmente rutinas para el entrenamiento de la fuerza y la resistencia aeróbica en un gimnasio.",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores son correctas",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "¿En qué siglo se extendió el deporte al público sin importar la clase social? ",
+        "answers": [
+          {
+            "text": "siglo XIX",
+            "correct": true
+          },
+          {
+            "text": "siglo XVII",
+            "correct": false
+          },
+          {
+            "text": "siglo XVI",
+            "correct": false
+          },
+          {
+            "text": "siglo XVIII",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De los siguientes deportes cuales utilizan como capacidad determinante la resistencia aeróbica?",
+        "answers": [
+          {
+            "text": "Triatlón",
+            "correct": true
+          },
+          {
+            "text": "Beisbol",
+            "correct": false
+          },
+          {
+            "text": "Judo",
+            "correct": false
+          },
+          {
+            "text": "Ciclismo de pista",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué deportes se pueden clasificar como grupales?",
+        "answers": [
+          {
+            "text": "Gimnasia artística y esgrima",
+            "correct": false
+          },
+          {
+            "text": "Polo acuático y balonmano",
+            "correct": true
+          },
+          {
+            "text": "Pesca deportiva y boxeo",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De los siguientes deportes cuales se pueden clasificar como aquellos practicados por temporada?",
+        "answers": [
+          {
+            "text": "Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas.",
+            "correct": false
+          },
+          {
+            "text": "pesca, competencias en bote y rafting",
+            "correct": true
+          },
+          {
+            "text": "futbol, hockey, baloncesto, béisbol, voleibol",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Las pruebas del atletismo se clasifican en?",
+        "answers": [
+          {
+            "text": "Ruta",
+            "correct": false
+          },
+          {
+            "text": "Campos abiertos",
+            "correct": false
+          },
+          {
+            "text": "Pista y campo",
+            "correct": true
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "De las siguientes agrupaciones deportivas seleccionar aquellos que se pueden clasificar dentro de los deportes que utilizan la pelota",
+        "answers": [
+          {
+            "text": "Natación, atletismo, levantamiento de pesas",
+            "correct": false
+          },
+          {
+            "text": "baloncesto, billar, bolos",
+            "correct": true
+          },
+          {
+            "text": "patinaje, ciclismo boxeo ",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué año los juegos olímpicos incluyeron 26 deportes con 36 disciplinas?",
+        "answers": [
+          {
+            "text": "2008",
+            "correct": true
+          },
+          {
+            "text": "2006",
+            "correct": false
+          },
+          {
+            "text": "2000",
+            "correct": false
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De las siguientes fechas cual corresponde a la creación del sistema nacional del deporte en Colombia?",
+        "answers": [
+          {
+            "text": "1994",
+            "correct": false
+          },
+          {
+            "text": "1895",
+            "correct": false
+          },
+          {
+            "text": "1995",
+            "correct": true
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los colores de los anillos olímpicos?",
+        "answers": [
+          {
+            "text": "Rosado, morado, gris, blanco, negro",
+            "correct": false
+          },
+          {
+            "text": "Naranja, violeta, celeste, gris, rosado",
+            "correct": false
+          },
+          {
+            "text": "Azul, amarillo, negro, verde, rojo",
+            "correct": true
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué deportes resurgieron en la edad media y fueron los más populares?",
+        "answers": [
+          {
+            "text": "Patinaje, béisbol, vóleibol",
+            "correct": false
+          },
+          {
+            "text": "Danza, atletismo, natación",
+            "correct": true
+          },
+          {
+            "text": "Ciclismo, futbol, rafting",
+            "correct": false
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué edad la actividad deportiva decae notablemente y solo fue desarrollada por la nobleza?",
+        "answers": [
+          {
+            "text": "Edad media",
+            "correct": true
+          },
+          {
+            "text": "Edad antigua",
+            "correct": false
+          },
+          {
+            "text": "Edad moderna",
+            "correct": false
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "gimnasia":
+  {
+    "title": "Capítulo 3. La gimnasia",
+    "questions":
+    [
+      {
+        "question": "¿Qué actividades fueron desarrolladas de forma instintiva por la comunidad primitiva?",
+        "answers": [
+          {
+            "text": "La carrera y el salto",
+            "correct": true
+          },
+          {
+            "text": "La natación y la lucha",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores ",
+            "correct": false
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué siglo se extendió el deporte al público sin importar la clase social? ",
+        "answers": [
+          {
+            "text": "siglo XIX",
+            "correct": true
+          },
+          {
+            "text": "siglo XVII",
+            "correct": false
+          },
+          {
+            "text": "siglo XVI",
+            "correct": false
+          },
+          {
+            "text": "siglo XVIII",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De los siguientes deportes cuales utilizan como capacidad determinante la resistencia aeróbica?",
+        "answers": [
+          {
+            "text": "Triatlón",
+            "correct": true
+          },
+          {
+            "text": "Beisbol",
+            "correct": false
+          },
+          {
+            "text": "Judo",
+            "correct": false
+          },
+          {
+            "text": "Ciclismo de pista",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué deportes se pueden clasificar como grupales?",
+        "answers": [
+          {
+            "text": "Gimnasia artística y esgrima",
+            "correct": false
+          },
+          {
+            "text": "Polo acuático y balonmano",
+            "correct": true
+          },
+          {
+            "text": "Pesca deportiva y boxeo",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De los siguientes deportes cuales se pueden clasificar como aquellos practicados por temporada?",
+        "answers": [
+          {
+            "text": "Gimnasia artística, gimnasia rítmica, patinaje de carrera, patinaje artístico y pruebas atléticas.",
+            "correct": false
+          },
+          {
+            "text": "pesca, competencias en bote y rafting",
+            "correct": true
+          },
+          {
+            "text": "futbol, hockey, baloncesto, béisbol, voleibol",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Las pruebas del atletismo se clasifican en?",
+        "answers": [
+          {
+            "text": "Ruta",
+            "correct": false
+          },
+          {
+            "text": "Campos abiertos",
+            "correct": false
+          },
+          {
+            "text": "Pista y campo",
+            "correct": true
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "De las siguientes agrupaciones deportivas seleccionar aquellos que se pueden clasificar dentro de los deportes que utilizan la pelota",
+        "answers": [
+          {
+            "text": "Natación, atletismo, levantamiento de pesas",
+            "correct": false
+          },
+          {
+            "text": "baloncesto, billar, bolos",
+            "correct": true
+          },
+          {
+            "text": "patinaje, ciclismo boxeo ",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué año los juegos olímpicos incluyeron 26 deportes con 36 disciplinas?",
+        "answers": [
+          {
+            "text": "2008",
+            "correct": true
+          },
+          {
+            "text": "2006",
+            "correct": false
+          },
+          {
+            "text": "2000",
+            "correct": false
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿De las siguientes fechas cual corresponde a la creación del sistema nacional del deporte en Colombia?",
+        "answers": [
+          {
+            "text": "1994",
+            "correct": false
+          },
+          {
+            "text": "1895",
+            "correct": false
+          },
+          {
+            "text": "1995",
+            "correct": true
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los colores de los anillos olímpicos?",
+        "answers": [
+          {
+            "text": "Rosado, morado, gris, blanco, negro",
+            "correct": false
+          },
+          {
+            "text": "Naranja, violeta, celeste, gris, rosado",
+            "correct": false
+          },
+          {
+            "text": "Azul, amarillo, negro, verde, rojo",
+            "correct": true
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué deportes resurgieron en la edad media y fueron los más populares?",
+        "answers": [
+          {
+            "text": "Patinaje, béisbol, vóleibol",
+            "correct": false
+          },
+          {
+            "text": "Danza, atletismo, natación",
+            "correct": true
+          },
+          {
+            "text": "Ciclismo, futbol, rafting",
+            "correct": false
+          },
+          {
+            "text": "Ninguna es correcta",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué edad la actividad deportiva decae notablemente y solo fue desarrollada por la nobleza?",
+        "answers": [
+          {
+            "text": "Edad media",
+            "correct": true
+          },
+          {
+            "text": "Edad antigua",
+            "correct": false
+          },
+          {
+            "text": "Edad moderna",
+            "correct": false
           },
           {
             "text": "Ninguna de las anteriores",
