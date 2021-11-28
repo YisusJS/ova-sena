@@ -1292,7 +1292,7 @@
             lo aprendido en cada uno de los módulos
           </p>
           <div class="botones__recursos">
-            <router-link to="/contenidos/habilidades_motoras/test">
+            <router-link to="/contenidos/atletismo/test">
               <button class="offset test-button">Habilidades Motoras</button>
             </router-link>
           </div>
