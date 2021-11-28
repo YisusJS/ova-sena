@@ -300,13 +300,12 @@
           </p>
         </center>
         <div class="botones__recursos">
-          <a
-            href="https://raw.githubusercontent.com/Zawng/ova-deportes/development/src/assets/pdf/estado-nutricional.pdf"
-            download="Relación del estado nutricional con el desarrollo cognitivo.pdf"
+          <a href="../../assets/pdf/estado-nutricional.pdf" download
             ><button class="offset">Relación del estado</button></a
-          ><a
-            href="https://raw.githubusercontent.com/Zawng/ova-deportes/development/src/assets/pdf/desarrollo-capacidades-coordinativas.pdf"
-            download="Capacidades Coordinativas.pdf"
+          >
+          <a
+            href="../../assets/pdf/desarrollo-capacidades-coordinativas.pdf"
+            download
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
