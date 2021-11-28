@@ -10,37 +10,37 @@
       {
         "title": "2. Concepto",
         "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
-        "image": "assets/modules/motorSkills/2.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.2"
       },
       {
         "title": "3. Desarrollo OMP 2-3 años",
         "description": "Desarrollo óseo, muscular y psicológico de los niños de primera infancia",
-        "image": "assets/modules/motorSkills/3.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.3"
       },
       {
         "title": "4. Desarrollo OMP 6-12 años",
         "description": "Desarrollo óseo, muscular y psicológico de los niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.4"
       },
       {
         "title": "5. Capacidades motoras",
         "description": "La capacidad se define como lo que una persona puede hacer en un entorno estandarizado y controlado",
-        "image": "assets/modules/motorSkills/5.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.5"
       },
       {
         "title": "6. Material de apoyo",
         "description": "Descarga y visualiza el material de apoyo",
-        "image": "assets/modules/sport/2.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.6"
       },
       {
         "title": "Conclusiones",
         "description": "Gracias por llegar hasta aquí!",
-        "image": "assets/modules/sport/4.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.7"
       },
       {
@@ -56,7 +56,7 @@
       {
         "title": "1. Definición",
         "description": "El deporte es considerado como actividad física que puede ser realizado de forma individual o grupal",
-        "image": "assets/modules/sport/1.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.1"
       },
       {
@@ -68,37 +68,37 @@
       {
         "title": "3. Clasificación del deporte",
         "description": "Los deportes se pueden clasificar de acuerdo con la cantidad de personas que intervienen, según la temporada en la que se celebran",
-        "image": "assets/modules/sport/3.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.3"
       },
       {
         "title": "4. El deporte olímpico",
         "description": "Los deportes olímpicos son todos aquellos disputados en verano e invierno, desde 2008",
-        "image": "assets/modules/sport/4.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.4"
       },
       {
         "title": "5. El deporte federado",
         "description": "Se considera deporte federado aquel que se practica bajo las normas y reglamentos avalados por la federación deportiva internacional",
-        "image": "assets/modules/sport/5.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.5"
       },
       {
         "title": "6. Sistema nacional del deporte",
         "description": "El Sistema Nacional de Deporte fue creado mediante la Ley 181 de 1995",
-        "image": "assets/modules/sport/6.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.6"
       },
       {
         "title": "7. Material de Apoyo",
         "description": "Descarga y visualiza el material de apoyo",
-        "image": "assets/modules/athleticism/1.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.7"
       },
       {
         "title": "8. Conclusiones",
         "description": "Gracias por llegar hasta aquí!",
-        "image": "assets/modules/athleticism/4.svg",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.8"
       },
       {
@@ -216,22 +216,34 @@
   {
     "submodules": [
       {
-        "title": "1. Historia",
-        "description": "Historia del deporte de combate",
-        "image": "assets/modules/combatsports/1.svg",
+        "title": "1. Historia de los deportes de combate",
+        "description": "El origen de las artes marciales se atribuye a la cultura oriental",
+        "image": "assets/modules/combatsports/2.svg",
         "contentId": "#5.1"
       },
       {
         "title": "2. Clasificación de los deportes de combate",
-        "description": "clasificacion de los deportes de combate efectuados en el deporte olimpico",
+        "description": "Los deportes de combate se pueden clasificar en: golpeadores, agarradores y combinados",
         "image": "assets/modules/combatsports/2.svg",
         "contentId": "#5.2"
       },
       {
+        "title": "3. Material de apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.3"
+      },
+      {
+        "title": "Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.4"
+      },
+      {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/sport/7.svg",
-        "contentId": "#2.7"
+        "image": "assets/modules/motorSkills/6.svg",
+        "contentId": "#5.5"
       }
     ]
   },
