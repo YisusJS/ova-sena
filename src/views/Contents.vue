@@ -1,4 +1,11 @@
 <template>
+  <div class="home-link">
+    <div class="home-link__container">
+      <router-link to="/" class="home-link__button">
+        <img src="@/assets/utilities/home.svg" alt="" class="home-link__icon" />
+      </router-link>
+    </div>
+  </div>
   <div class="contents">
     <router-link
       v-for="(item, index) in contents"
@@ -41,11 +48,6 @@
         </figure>
       </div>
     </router-link>
-    <router-link to="/" class="backhome">
-      <figure class="home__bg">
-        <img class="home__img" :src="home" alt="Home" />
-      </figure>
-    </router-link>
   </div>
 </template>
 <script>
@@ -70,8 +72,8 @@ export default {
         title: "La Motricidad",
         description:
           "Se refiere a los movimientos complejos y coordinados que realiza una persona y que implican al sistema locomotor.",
-        hours: "1",
-        modules: "1",
+        hours: "2",
+        modules: "8",
         level: "fácil",
         path: "/contenidos/habilidades_motoras",
         bg: "background: linear-gradient(321.69deg, #3097AD 0%, #46D9F9 100%);",
@@ -83,8 +85,8 @@ export default {
         title: "El Deporte",
         description:
           "Es toda aquella actividad física que involucra una serie de reglas o normas a desempeñar dentro de un espacio o área determinada.",
-        hours: "2",
-        modules: "2",
+        hours: "3",
+        modules: "9",
         level: "medio",
         path: "/contenidos/deporte",
         bg: "background: linear-gradient(321.82deg, #FB6F6F 0%, #C7A42A 99.91%);",
@@ -97,7 +99,7 @@ export default {
         description:
           "Es la disciplina que busca desarrollar, fortalecer y dar flexibilidad al cuerpo mediante rutinas de ejercicios físicos. ",
         hours: "3",
-        modules: "3",
+        modules: "6",
         level: "dificil",
         path: "/contenidos/gimnasia",
         bg: "background: linear-gradient(321.69deg, #1F9463 0%, #39E65F 71.13%);",
@@ -109,8 +111,8 @@ export default {
         title: "El Atletismo",
         description:
           "Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, saltos, lanzamientos, pruebas combinadas y marcha.",
-        hours: "4",
-        modules: "4",
+        hours: "2",
+        modules: "6",
         level: "fácil",
         path: "/contenidos/atletismo",
         bg: "background: linear-gradient(321.69deg, #FF5454 0%, #FF7D7D 100%);",
@@ -167,8 +169,8 @@ export default {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  column-gap: 40px;
-  row-gap: 30px;
+  column-gap: 2vw;
+  row-gap: 2vh;
   justify-content: center;
   align-content: center;
 }
@@ -246,32 +248,46 @@ export default {
   color: $secondary-text;
 }
 
-.backhome {
+//boton salir
+.home-link {
+  background-color: $quinary-color;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 40px;
+  height: 150px;
+  border-radius: 0 20px 20px 0;
+  z-index: 100;
+}
+
+.home-link__container {
+  background-color: $quinary-color;
+  width: 60px;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  right: -70%;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
   position: absolute;
-  top: 94%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  background-color: $bg-home;
-  width: 50px;
-  height: 50px;
-  border-radius: 40%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-decoration: none;
-}
-
-.home__bg {
-  background-color: $secondary-color;
-  width: 100%;
-  display: flex;
   justify-content: center;
-  border-radius: 50%;
 }
 
-.home__img {
-  width: 30px;
-  height: 30px;
-  padding: 3px;
+.home-link__button {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  box-shadow: 0 0 15px 0 rgba($color: #000000, $alpha: 0.25);
+}
+
+.home-link__icon {
+  margin: 7px 7.5px;
+  width: 25px;
+  height: 25px;
 }
 </style>

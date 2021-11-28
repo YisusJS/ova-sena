@@ -60,9 +60,9 @@ const routes = [
     component: () => import("@/views/chapters/Sport.vue"),
   },
   {
-    path: "/contenidos/habilidades_motoras/test",
+    path: "/contenidos/:submodule/test",
     name: "Test",
-    component: () => import("@/views/evaluation/evaluation1.vue"),
+    component: () => import("@/views/evaluation.vue"),
   },
 ];
 

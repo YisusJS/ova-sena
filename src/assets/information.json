@@ -10,32 +10,44 @@
       {
         "title": "2. Concepto",
         "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
-        "image": "assets/modules/motorSkills/2.svg",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.2"
       },
       {
         "title": "3. Desarrollo OMP 2-3 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
-        "image": "assets/modules/motorSkills/3.svg",
+        "description": "Desarrollo óseo, muscular y psicológico de los niños de primera infancia",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.3"
       },
       {
         "title": "4. Desarrollo OMP 6-12 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
+        "description": "Desarrollo óseo, muscular y psicológico de los niños de 6 a 12 años",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.4"
       },
       {
         "title": "5. Capacidades motoras",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
+        "description": "La capacidad se define como lo que una persona puede hacer en un entorno estandarizado y controlado",
+        "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#1.5"
+      },
+      {
+        "title": "6. Material de apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
+        "image": "assets/modules/motorSkills/1.svg",
+        "contentId": "#1.6"
+      },
+      {
+        "title": "Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/motorSkills/1.svg",
+        "contentId": "#1.7"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": "#1.6"
+        "contentId": "#1.8"
       }
     ]
   },
@@ -43,45 +55,57 @@
     "submodules": [
       {
         "title": "1. Definición",
-        "description": "El deporte es considerado como actividad física que puede ser realizado de forma individual o grupal.",
-        "image": "assets/modules/motorSkills/1.svg",
+        "description": "El deporte es considerado como actividad física que puede ser realizado de forma individual o grupal",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.1"
       },
       {
-        "title": "2. Historia",
-        "description": "En el periodo paleolítico medio, unos 33000 años antes de Cristo, se organizaban cazas en las distintas colonias y grupos sociales.",
-        "image": "assets/modules/motorSkills/2.svg",
+        "title": "2. Historia del deporte",
+        "description": "En el periodo paleolítico medio, unos 33000 años antes de Cristo, se organizaban cazas en las distintas colonias y grupos sociales",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.2"
       },
       {
         "title": "3. Clasificación del deporte",
-        "description": "Los deportes se pueden clasificar de acuerdo con la cantidad de personas que intervienen, según la temporada en la que se celebran.",
-        "image": "assets/modules/motorSkills/3.svg",
+        "description": "Los deportes se pueden clasificar de acuerdo con la cantidad de personas que intervienen, según la temporada en la que se celebran",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.3"
       },
       {
         "title": "4. El deporte olímpico",
-        "description": "Los deportes olímpicos son todos aquellos disputados en verano e invierno, desde 2008.",
-        "image": "assets/modules/motorSkills/4.svg",
+        "description": "Los deportes olímpicos son todos aquellos disputados en verano e invierno, desde 2008",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.4"
       },
       {
         "title": "5. El deporte federado",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
+        "description": "Se considera deporte federado aquel que se practica bajo las normas y reglamentos avalados por la federación deportiva internacional",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.5"
       },
       {
-        "title": "5. Sistema nacional del deporte",
-        "description": "Se considera deporte federado aquel que se practica bajo las normas y reglamentos avalados por la federación deportiva internacional.",
-        "image": "assets/modules/motorSkills/5.svg",
+        "title": "6. Sistema nacional del deporte",
+        "description": "El Sistema Nacional de Deporte fue creado mediante la Ley 181 de 1995",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.6"
+      },
+      {
+        "title": "7. Material de Apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
+        "image": "assets/modules/sport/2.svg",
+        "contentId": "#2.7"
+      },
+      {
+        "title": "8. Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/sport/2.svg",
+        "contentId": "#2.8"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": "#2.7"
+        "contentId": "#2.9"
       }
     ]
   },
@@ -89,159 +113,153 @@
     "submodules": [
       {
         "title": "1. Historia",
-        "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética como estímulo óptimo para la realización de actividades dirigidas a subsistir en su lucha contra la naturaleza.",
-        "image": "assets/modules/motorSkills/1.svg",
+        "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.1"
       },
       {
-        "title": "2. Educativa y de desarrollo",
-        "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
-        "image": "assets/modules/motorSkills/2.svg",
+        "title": "2. Tipos de gimnasia",
+        "description": "En este capítulo podrás ver los distintos tipos de gimnasia",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.2"
       },
       {
-        "title": "3. Higiénica",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
-        "image": "assets/modules/motorSkills/3.svg",
-        "contentId": "#3.3"
-      },
-      {
-        "title": "4. Gimnasia Deportiva",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
+        "title": "4. Material de apoyo",
+        "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.4"
       },
       {
-        "title": "5. Rollo adelante",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
+        "title": "5. Conclusiones",
+        "description": "Felicitaciones por llegar hasta aquí!",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.5"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": ""
+        "contentId": "#3.4"
       }
     ]
   },
   {
     "submodules": [
       {
-        "title": "1. Historia",
-        "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas.",
-        "image": "assets/modules/motorSkills/1.svg",
+        "title": "1. Definición",
+        "description": "El atletismo es una actividad física que se puede realizar al aire libre o en pistas",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.1"
       },
       {
-        "title": "2. Historia de la carrera 1500 metros planos. ",
-        "description": "Los antecedentes históricos de esta especialidad atlética, datan de mediados del siglo XIX.",
-        "image": "assets/modules/motorSkills/2.svg",
-        "contentId": "#1.2"
+        "title": "2. Historia",
+        "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.2"
       },
       {
-        "title": "3. Historia de la carrera 10.000 metros planos",
-        "description": "Esta prueba se compite desde finales del siglo XIX, siendo Walter George.",
-        "image": "assets/modules/motorSkills/3.svg",
-        "contentId": "#1.3"
+        "title": "3. Técnica de la carrera en fondo",
+        "description": "Las técnicas utilizadas en la carrera son la circular y la pendular",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.3"
       },
       {
-        "title": "4. Desarrollo OMP 6-12 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
-        "contentId": "#1.4"
+        "title": "4. Metodología para la enseñanza",
+        "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.4"
       },
       {
-        "title": "5. Técnica de la carrera en fondo",
-        "description": "Las técnicas utilizadas en la carrera son la circular y la pendular, denominación que reciben según la figura que describen las rodillas y tobillos en el momento de correr.",
-        "image": "assets/modules/motorSkills/5.svg",
-        "contentId": "#1.5"
+        "title": "5. Consideraciones generales",
+        "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.5"
+      },
+      {
+        "title": "6. Ejercicios zancada",
+        "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.6"
+      },
+      {
+        "title": "7. Pruebas de fondo",
+        "description": "En las pruebas de medio- fondo, fondo, gran fondo, 3000 obstáculos y marcha atlética se usan las salidas altas",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.7"
+      },
+      {
+        "title": "8. La marcha atlética",
+        "description": "A pesar de considerarse una actividad natural no lo es, marchar no es igual a caminar rápido",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.8"
+      },
+      {
+        "title": "9. El salto largo",
+        "description": "El Salto largo es un ejercicio físico natural y simple, que goza de gran significado práctico",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.9"
+      },
+      {
+        "title": "10. Material de apoyo",
+        "description": "En este capítulo encontrarás todo el contenido sobre el atletismo",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.10"
+      },
+      {
+        "title": "11. Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.11"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": ""
+        "contentId": "#4.12"
       }
     ]
   },
   {
     "submodules": [
       {
-        "title": "1. Historia",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/1.svg",
-        "contentId": "#1.1"
+        "title": "1. Historia de los deportes de combate",
+        "description": "El origen de las artes marciales se atribuye a la cultura oriental",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.1"
       },
       {
-        "title": "2. Concepto",
-        "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
-        "image": "assets/modules/motorSkills/2.svg",
-        "contentId": "#1.2"
+        "title": "2. Clasificación de los deportes de combate",
+        "description": "Los deportes de combate se pueden clasificar en: golpeadores, agarradores y combinados",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.2"
       },
       {
-        "title": "3. Desarrollo OMP 2-3 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
-        "image": "assets/modules/motorSkills/3.svg",
-        "contentId": "#1.3"
+        "title": "3. Material de apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.3"
       },
       {
-        "title": "4. Desarrollo OMP 6-12 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
-        "contentId": "#1.4"
-      },
-      {
-        "title": "5. Capacidades motoras",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
-        "contentId": "#1.5"
+        "title": "Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/combatsports/2.svg",
+        "contentId": "#5.4"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": "#1.6"
+        "contentId": "#5.5"
       }
     ]
   },
   {
     "submodules": [
       {
-        "title": "1. Historia",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/1.svg",
-        "contentId": "#1.1"
-      },
-      {
-        "title": "2. Concepto",
-        "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
-        "image": "assets/modules/motorSkills/2.svg",
-        "contentId": "#1.2"
-      },
-      {
-        "title": "3. Desarrollo OMP 2-3 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
-        "image": "assets/modules/motorSkills/3.svg",
-        "contentId": "#1.3"
-      },
-      {
-        "title": "4. Desarrollo OMP 6-12 años",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/motorSkills/4.svg",
-        "contentId": "#1.4"
-      },
-      {
-        "title": "5. Capacidades motoras",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
-        "contentId": "#1.5"
-      },
-      {
-        "title": "¡Ponte a prueba!",
-        "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
+        "title": "1. Lorem ipsum dolor",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima cupiditate",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": ""
+        "contentId": "#6.1"
       }
     ]
   }

@@ -21,4 +21,9 @@ body {
   margin: 0;
   background-color: $tertyary-color;
 }
+
+.cite {
+  color: $cite;
+  text-decoration: none;
+}
 </style>
