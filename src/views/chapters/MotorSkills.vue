@@ -300,11 +300,11 @@
           </p>
         </center>
         <div class="botones__recursos">
-          <a href="../../assets/pdf/estado-nutricional.pdf" download
+          <a href="@/assets/pdf/estado-nutricional.pdf" download
             ><button class="offset">Relación del estado</button></a
           >
           <a
-            href="../../assets/pdf/desarrollo-capacidades-coordinativas.pdf"
+            href="@/assets/pdf/desarrollo-capacidades-coordinativas.pdf"
             download
             ><button class="offset">Capacidades coordinativas</button></a
           >
