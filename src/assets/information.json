@@ -112,7 +112,7 @@
   {
     "submodules": [
       {
-        "title": "1. Historia de la gimnasia",
+        "title": "1. Historia",
         "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética",
         "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.1"
@@ -122,12 +122,6 @@
         "description": "En este capítulo podrás ver los distintos tipos de gimnasia",
         "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.2"
-      },
-      {
-        "title": "3. Ejercicios básicos de gimnasia artística modalidad de piso",
-        "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
-        "image": "assets/modules/gymnastics/2.svg",
-        "contentId": "#3.3"
       },
       {
         "title": "4. Material de apoyo",
