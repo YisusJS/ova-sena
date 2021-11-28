@@ -301,12 +301,10 @@
         </center>
         <div class="botones__recursos">
           <a
-            href="https://doc-00-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/oijq2ceavqa8b6e70cocpbthsccnfkc8/1637713050000/03085692109854241977/03834057452930708884/1pu6-WAKLJq7a3czKIOhOrB20W5C_vAFu?e=download&authuser=1"
+            href=""
             download="Relación del estado nutricional con el desarrollo cognitivo.pdf"
             ><button class="offset">Relación del estado</button></a
-          ><a
-            href="https://doc-0g-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/aok019ek95raqthufvv2gsu27gikpds5/1637713050000/03085692109854241977/03834057452930708884/1-5kp_E4ayLHMyTCmDLApgU9Qce_YXDid?e=download&authuser=1&nonce=448fv0e9ko4ui&user=03834057452930708884&hash=uem4agucr4tef07vl6mb1ojj6rkh7r6h"
-            download="Relación del estado"
+          ><a href="" download="Relación del estado"
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
@@ -314,26 +312,17 @@
           <div>
             <p><strong>Video 1. Motricidad</strong></p>
             <video width="400" controls>
-              <source
-                src="https://doc-0o-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/f8eo255k8ci7i1trb31ls6maach06j2u/1637713125000/03085692109854241977/03834057452930708884/14GFoibeFZMWOL6CBFmFftFYzQBDswnyu?e=download&authuser=1"
-                type="video/mp4"
-              />
+              <source src="" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 2. Desarrollo óseo</strong></p>
             <video width="400" controls>
-              <source
-                src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/1trtm2ch3jpupcrsf9cpqciau0ca661o/1637713125000/03085692109854241977/03834057452930708884/1gLWx-oepEkJI152OAGJyPK5ssPKNEUyM?e=download&authuser=1"
-                type="video/mp4"
-              />
+              <source src="" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 3. Desarrollo óseo y muscular</strong></p>
             <video width="400" controls>
-              <source
-                src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/hjngpsrtf0en48nm1cjfcr8hs3tjbk7u/1637713125000/03085692109854241977/03834057452930708884/1v6kZcqxA73f6WMx7o07J0X2pWkg0rvDE?e=download&authuser=1"
-                type="video/mp4"
-              />
+              <source src="" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
           </div>

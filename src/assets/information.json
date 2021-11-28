@@ -48,59 +48,67 @@
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
         "contentId": "#1.8"
-      } 
+      }
     ]
   },
-
-
   {
     "submodules": [
       {
         "title": "1. Definición",
-        "description": "El deporte es considerado como actividad física que puede ser realizado de forma individual o grupal.",
+        "description": "El deporte es considerado como actividad física que puede ser realizado de forma individual o grupal",
         "image": "assets/modules/sport/1.svg",
         "contentId": "#2.1"
       },
       {
         "title": "2. Historia del deporte",
-        "description": "En el periodo paleolítico medio, unos 33000 años antes de Cristo, se organizaban cazas en las distintas colonias y grupos sociales.",
-        "image": "assets/modules/sport/2.svg", 
+        "description": "En el periodo paleolítico medio, unos 33000 años antes de Cristo, se organizaban cazas en las distintas colonias y grupos sociales",
+        "image": "assets/modules/sport/2.svg",
         "contentId": "#2.2"
       },
       {
         "title": "3. Clasificación del deporte",
-        "description": "Los deportes se pueden clasificar de acuerdo con la cantidad de personas que intervienen, según la temporada en la que se celebran.",
+        "description": "Los deportes se pueden clasificar de acuerdo con la cantidad de personas que intervienen, según la temporada en la que se celebran",
         "image": "assets/modules/sport/3.svg",
         "contentId": "#2.3"
       },
       {
         "title": "4. El deporte olímpico",
-        "description": "Los deportes olímpicos son todos aquellos disputados en verano e invierno, desde 2008.",
+        "description": "Los deportes olímpicos son todos aquellos disputados en verano e invierno, desde 2008",
         "image": "assets/modules/sport/4.svg",
         "contentId": "#2.4"
       },
       {
         "title": "5. El deporte federado",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
+        "description": "Se considera deporte federado aquel que se practica bajo las normas y reglamentos avalados por la federación deportiva internacional",
         "image": "assets/modules/sport/5.svg",
         "contentId": "#2.5"
       },
       {
-        "title": "5. Sistema nacional del deporte",
-        "description": "Se considera deporte federado aquel que se practica bajo las normas y reglamentos avalados por la federación deportiva internacional.",
+        "title": "6. Sistema nacional del deporte",
+        "description": "El Sistema Nacional de Deporte fue creado mediante la Ley 181 de 1995",
         "image": "assets/modules/sport/6.svg",
         "contentId": "#2.6"
+      },
+      {
+        "title": "7. Material de Apoyo",
+        "description": "Descarga y visualiza el material de apoyo",
+        "image": "assets/modules/athleticism/1.svg",
+        "contentId": "#2.7"
+      },
+      {
+        "title": "8. Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#2.8"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/sport/7.svg",
-        "contentId": "#2.7"
+        "contentId": "#2.9"
       }
     ]
   },
-
-
   {
     "submodules": [
       {
@@ -116,7 +124,7 @@
         "contentId": "#3.2"
       },
       {
-        "title": "3. Higiénica", 
+        "title": "3. Higiénica",
         "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
         "image": "assets/modules/gymnastics/3.svg",
         "contentId": "#3.3"
@@ -141,8 +149,6 @@
       }
     ]
   },
-
-
   {
     "submodules": [
       {
@@ -151,7 +157,7 @@
         "image": "assets/modules/athleticism/2.svg",
         "contentId": "#4.1"
       },
-        {
+      {
         "title": "2. Historia",
         "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas.",
         "image": "assets/modules/athleticism/1.svg",
@@ -181,19 +187,19 @@
         "image": "assets/modules/athleticism/5.svg",
         "contentId": "#4.6"
       },
-       {
+      {
         "title": "7. Metodología para la enseñanza de las salidas en las pruebas de fondo",
         "description": "Aprenderaz las metodologias de las salidas de las pruebas de fondo",
         "image": "assets/modules/athleticism/7.svg",
         "contentId": "#4.7"
       },
-        {
+      {
         "title": "8. Marcha Atletica",
         "description": "Aprenderaz todo sobre la marcha atletica",
         "image": "assets/modules/athleticism/8.svg",
         "contentId": "#4.8"
       },
-         {
+      {
         "title": "9. El salto largo",
         "description": "Aprenderaz todo sobre el salto largo",
         "image": "assets/modules/athleticism/9.svg",
@@ -207,8 +213,6 @@
       }
     ]
   },
-
-
   {
     "submodules": [
       {
@@ -217,7 +221,7 @@
         "image": "assets/modules/combatsports/1.svg",
         "contentId": "#5.1"
       },
-       {
+      {
         "title": "2. Clasificación de los deportes de combate",
         "description": "clasificacion de los deportes de combate efectuados en el deporte olimpico",
         "image": "assets/modules/combatsports/2.svg",
@@ -231,8 +235,6 @@
       }
     ]
   },
-
-  
   {
     "submodules": [
       {
