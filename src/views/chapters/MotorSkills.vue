@@ -312,17 +312,17 @@
           <div>
             <p><strong>Video 1. Motricidad</strong></p>
             <video width="400" controls>
-              <source src="" type="video/mp4" />
+              <source src="@/assets/videos/video1-motricidad.mp4" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 2. Desarrollo óseo</strong></p>
             <video width="400" controls>
-              <source src="" type="video/mp4" />
+              <source src="@/assets/videos/video2-desarrollo-oseo.mp4" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 3. Desarrollo óseo y muscular</strong></p>
             <video width="400" controls>
-              <source src="" type="video/mp4" />
+              <source src="@/assets/videos/video3-desarrollo-oseo-muscular.mp4" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
           </div>
