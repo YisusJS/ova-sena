@@ -45,6 +45,237 @@
             "correct": false
           }
         ]
+      },
+      {
+        "question": "¿A qué edad desarrollan los niños la mayor parte de movimientos más grandes como habilidades motoras gruesas?",
+        "answers": [
+          {
+            "text": "5-8 años",
+            "correct": false
+          },
+          {
+            "text": "3-4 años",
+            "correct": true
+          },
+          {
+            "text": "1-6 años",
+            "correct": false
+          },
+          {
+            "text": "0-2 años",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué edad los niveles hormonales son inferiores a los de un adulto?",
+        "answers": [
+          {
+            "text": "Adolescencia",
+            "correct": false
+          },
+          {
+            "text": "Niñez",
+            "correct": true
+          },
+          {
+            "text": "juventud",
+            "correct": false
+          },
+          {
+            "text": "juventud",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué fundamento es sano para el desarrollo óseo y muscular?",
+        "answers": [
+          {
+            "text": "Alimentación saludable",
+            "correct": true
+          },
+          {
+            "text": "Ingesta nutricional",
+            "correct": false
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En qué edad se incrementa la fuerza en los niños?",
+        "answers": [
+          {
+            "text": "2-3 años",
+            "correct": false
+          },
+          {
+            "text": "4-5 años",
+            "correct": false
+          },
+          {
+            "text": "0-1 años",
+            "correct": false
+          },
+          {
+            "text": "6-12 años",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "El desarrollo psicológico en esta etapa de 6 a 12 años percibe el nombre de:",
+        "answers": [
+          {
+            "text": "Inmadurez infantil",
+            "correct": false
+          },
+          {
+            "text": "Madurez infantil",
+            "correct": true
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "El sistema óseo – muscular está formado por:",
+        "answers": [
+          {
+            "text": "Las articulaciones",
+            "correct": false
+          },
+          {
+            "text": "La unión de los huesos",
+            "correct": false
+          },
+          {
+            "text": "Los músculos",
+            "correct": false
+          },
+          {
+            "text": "Todas son correctas",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "¿Qué vitamina actúa en la regulación del equilibrio óseo en niños de 6 a 12 años?",
+        "answers": [
+          {
+            "text": "Vitamina A",
+            "correct": false
+          },
+          {
+            "text": "Vitamina B",
+            "correct": false
+          },
+          {
+            "text": "Vitamina D",
+            "correct": true
+          },
+          {
+            "text": "Vitamina C",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué función no corresponde al sistema óseo en niños?",
+        "answers": [
+          {
+            "text": "Almacenar proteínas y glucógeno",
+            "correct": true
+          },
+          {
+            "text": "Servir de palanca para los músculos",
+            "correct": false
+          },
+          {
+            "text": "Producir células sanguíneas",
+            "correct": false
+          },
+          {
+            "text": "Proteger órganos vitales",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿En cuántos tipos se dividen las capacidades físicas?",
+        "answers": [
+          {
+            "text": "Coordinativas",
+            "correct": false
+          },
+          {
+            "text": "Condicionales",
+            "correct": false
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": true
+          },
+          {
+            "text": "Proteger órganos vitales",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Quién afirma que una baja coordinación motora puede propiciar que la motivación de los jóvenes hacia la práctica de la actividad física disminuya?",
+        "answers": [
+          {
+            "text": "Hofferth y sandberg",
+            "correct": false
+          },
+          {
+            "text": "Rose Larkin y Berger",
+            "correct": true
+          },
+          {
+            "text": "Stiven Smith",
+            "correct": false
+          },
+          {
+            "text": "Jacob Miller",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "¿Qué beneficios potenciales tiene la actividad física habitual para la salud?",
+        "answers": [
+          {
+            "text": "Mejora la salud ósea y cardiorrespiratoria",
+            "correct": false
+          },
+          {
+            "text": "Mejora la actitud y masa muscular",
+            "correct": true
+          },
+          {
+            "text": "Todas las anteriores",
+            "correct": true
+          },
+          {
+            "text": "Ninguna de las anteriores",
+            "correct": false
+          }
+        ]
       }
     ]
   }
