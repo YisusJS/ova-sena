@@ -304,7 +304,7 @@
             ><button class="offset">Relación del estado</button></a
           >
           <a
-            href="../../assets/pdf/desarrollo-capacidades-coordinativas.pdf"
+            href="@/assets/pdf/desarrollo-capacidades-coordinativas.pdf"
             download
             ><button class="offset">Capacidades coordinativas</button></a
           >
