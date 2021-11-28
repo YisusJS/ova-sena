@@ -113,39 +113,39 @@
     "submodules": [
       {
         "title": "1. Historia de la gimnasia",
-        "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética como estímulo óptimo para la realización de actividades dirigidas a subsistir en su lucha contra la naturaleza.",
-        "image": "assets/modules/motorSkills/1.svg",
+        "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.1"
       },
       {
-        "title": "2. Educativa y de desarrollo",
-        "description": "Motricidad es la capacidad del hombre de generar movimientos por sí mismo.",
+        "title": "2. Tipos de gimnasia",
+        "description": "En este capítulo podrás ver los distintos tipos de gimnasia",
         "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.2"
       },
       {
-        "title": "3. Higiénica",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 2 a 3 años",
-        "image": "assets/modules/gymnastics/3.svg",
+        "title": "3. Ejercicios básicos de gimnasia artística modalidad de piso",
+        "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.3"
       },
       {
-        "title": "4. Gimnasia Deportiva",
-        "description": "Desarrollo óseo, muscular y psicológico en niños de 6 a 12 años",
-        "image": "assets/modules/gymnastics/4.svg",
+        "title": "4. Material de apoyo",
+        "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.4"
       },
       {
-        "title": "5. Rollo adelante",
-        "description": "El término Motricidad surge del estudio desde el punto de vista científico de la Educación Física.",
-        "image": "assets/modules/motorSkills/5.svg",
+        "title": "5. Conclusiones",
+        "description": "Felicitaciones por llegar hasta aquí!",
+        "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.5"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/motorSkills/6.svg",
-        "contentId": ""
+        "contentId": "#3.4"
       }
     ]
   },
@@ -154,62 +154,74 @@
       {
         "title": "1. Definición",
         "description": "El atletismo es una actividad física que se puede realizar al aire libre o en pistas",
-        "image": "assets/modules/athleticism/2.svg",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.1"
       },
       {
-        "title": "2. Historia",
-        "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas.",
-        "image": "assets/modules/athleticism/1.svg",
+        "title": "2. Historia de la maratón",
+        "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.2"
       },
       {
-        "title": "3. Técnica de la carrera en fondo ",
-        "description": "Las técnicas utilizadas en la carrera son la circular y la pendular, denominación que reciben según la figura que describen las rodillas y tobillos en el momento de correr",
-        "image": "assets/modules/athleticism/3.svg",
+        "title": "3. Técnica de la carrera en fondo",
+        "description": "Las técnicas utilizadas en la carrera son la circular y la pendular",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.3"
       },
       {
-        "title": "4. Metodología para la enseñanza de la carrera de fondo",
+        "title": "4. Metodología para la enseñanza",
         "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
-        "image": "assets/modules/athleticism/3.svg",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.4"
       },
       {
         "title": "5. Consideraciones generales",
-        "description": "Generalmente el perfil del estudiante de cultura física lo conforman jóvenes con facilidad de aprendizaje kinestésico y visual es decir aprenden más por el movimiento...",
+        "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
         "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.5"
       },
       {
-        "title": "6. Ejercicios",
-        "description": "Aprenderaz ejercicios que te ayudaran a mejorar y aprender mas sobre el atletismo",
-        "image": "assets/modules/athleticism/5.svg",
+        "title": "6. Ejercicios zancada",
+        "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.6"
       },
       {
-        "title": "7. Metodología para la enseñanza de las salidas en las pruebas de fondo",
-        "description": "Aprenderaz las metodologias de las salidas de las pruebas de fondo",
-        "image": "assets/modules/athleticism/7.svg",
+        "title": "7. Ejercicios para la enseñanza",
+        "description": "En las pruebas de medio- fondo, fondo, gran fondo, 3000 obstáculos y marcha atlética se usan las salidas altas",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.7"
       },
       {
-        "title": "8. Marcha Atletica",
-        "description": "Aprenderaz todo sobre la marcha atletica",
-        "image": "assets/modules/athleticism/8.svg",
+        "title": "8. La marcha atlética",
+        "description": "A pesar de considerarse una actividad natural no lo es, marchar no es igual a caminar rápido",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.8"
       },
       {
         "title": "9. El salto largo",
-        "description": "Aprenderaz todo sobre el salto largo",
-        "image": "assets/modules/athleticism/9.svg",
+        "description": "El Salto largo es un ejercicio físico natural y simple, que goza de gran significado práctico",
+        "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.9"
+      },
+      {
+        "title": "10. Material de apoyo",
+        "description": "En este capítulo encontrarás todo el contenido sobre el atletismo",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.10"
+      },
+      {
+        "title": "11. Conclusiones",
+        "description": "Gracias por llegar hasta aquí!",
+        "image": "assets/modules/athleticism/4.svg",
+        "contentId": "#4.11"
       },
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
         "image": "assets/modules/athleticism/6.svg",
-        "contentId": ""
+        "contentId": "#4.12"
       }
     ]
   },
