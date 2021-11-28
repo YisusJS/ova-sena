@@ -295,8 +295,8 @@
       <div class="module__content material">
         <center>
           <p>
-            En los siguientes botones podrás descargar el material complementario
-            de la clase sobre Habilidades Motoras.
+            En los siguientes botones podrás descargar el material
+            complementario de la clase sobre Habilidades Motoras.
           </p>
         </center>
         <div class="botones__recursos">
@@ -322,7 +322,10 @@
             </video>
             <p><strong>Video 2. Desarrollo óseo</strong></p>
             <video width="400" controls>
-              <source src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/1trtm2ch3jpupcrsf9cpqciau0ca661o/1637713125000/03085692109854241977/03834057452930708884/1gLWx-oepEkJI152OAGJyPK5ssPKNEUyM?e=download&authuser=1" type="video/mp4" />
+              <source
+                src="https://doc-0s-ac-docs.googleusercontent.com/docs/securesc/ugersv8of3rtqrk0hin5c9uhdmq6ui1o/1trtm2ch3jpupcrsf9cpqciau0ca661o/1637713125000/03085692109854241977/03834057452930708884/1gLWx-oepEkJI152OAGJyPK5ssPKNEUyM?e=download&authuser=1"
+                type="video/mp4"
+              />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 3. Desarrollo óseo y muscular</strong></p>
@@ -335,7 +338,13 @@
             </video>
           </div>
           <p>Modelo pedagógico recomendado: <strong>Constructivista</strong></p>
-          <p>Técnicas de enseñanza utilizadas: <strong>Técnicas activas participativas por parte de los aprendices.</strong></p>
+          <p>
+            Técnicas de enseñanza utilizadas:
+            <strong
+              >Técnicas activas participativas por parte de los
+              aprendices.</strong
+            >
+          </p>
         </center>
       </div>
     </section>

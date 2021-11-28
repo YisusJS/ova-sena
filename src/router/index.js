@@ -60,25 +60,25 @@ const routes = [
     component: () => import("@/views/chapters/Sport.vue"),
   },
   {
-    path: "/contenidos/habilidades_motoras/test",
-    name: "Test1",
-    component: () => import("@/views/evaluation/evaluation1.vue"),
+    path: "/contenidos/:submodule/test",
+    name: "Test",
+    component: () => import("@/views/evaluation.vue"),
   },
-  {
-    path: "/contenidos/deporte/test",
-    name: "Test2",
-    component: () => import("@/views/evaluation/evaluation2.vue"),
-  },
-  {
-    path: "/contenidos/gimnasia/test",
-    name: "Test3",
-    component: () => import("@/views/evaluation/evaluation3.vue"),
-  },
-  {
-    path: "/contenidos/atletismo/test",
-    name: "Test4",
-    component: () => import("@/views/evaluation/evaluation4.vue"),
-  },
+  // {
+  //   path: "/contenidos/deporte/test",
+  //   name: "Test2",
+  //   component: () => import("@/views/evaluation/evaluation2.vue"),
+  // },
+  // {
+  //   path: "/contenidos/gimnasia/test",
+  //   name: "Test3",
+  //   component: () => import("@/views/evaluation/evaluation3.vue"),
+  // },
+  // {
+  //   path: "/contenidos/atletismo/test",
+  //   name: "Test4",
+  //   component: () => import("@/views/evaluation/evaluation4.vue"),
+  // },
 ];
 
 const router = createRouter({
