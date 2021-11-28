@@ -301,10 +301,12 @@
         </center>
         <div class="botones__recursos">
           <a
-            href="@/assets/pdf/estado-nutricional.pdf"
+            href="https://raw.githubusercontent.com/Zawng/ova-deportes/development/src/assets/pdf/estado-nutricional.pdf"
             download="Relación del estado nutricional con el desarrollo cognitivo.pdf"
             ><button class="offset">Relación del estado</button></a
-          ><a href="@/assets/pdf/desarrollo-capacidades-coordinativas.pdf" download="Capacidades Coordinativas.pdf"
+          ><a
+            href="https://raw.githubusercontent.com/Zawng/ova-deportes/development/src/assets/pdf/desarrollo-capacidades-coordinativas.pdf"
+            download="Capacidades Coordinativas.pdf"
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
@@ -312,17 +314,26 @@
           <div>
             <p><strong>Video 1. Motricidad</strong></p>
             <video width="400" controls>
-              <source src="@/assets/videos/video1-motricidad.mp4" type="video/mp4" />
+              <source
+                src="@/assets/videos/video1-motricidad.mp4"
+                type="video/mp4"
+              />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 2. Desarrollo óseo</strong></p>
             <video width="400" controls>
-              <source src="@/assets/videos/video2-desarrollo-oseo.mp4" type="video/mp4" />
+              <source
+                src="@/assets/videos/video2-desarrollo-oseo.mp4"
+                type="video/mp4"
+              />
               Your browser does not support HTML video.
             </video>
             <p><strong>Video 3. Desarrollo óseo y muscular</strong></p>
             <video width="400" controls>
-              <source src="@/assets/videos/video3-desarrollo-oseo-muscular.mp4" type="video/mp4" />
+              <source
+                src="@/assets/videos/video3-desarrollo-oseo-muscular.mp4"
+                type="video/mp4"
+              />
               Your browser does not support HTML video.
             </video>
           </div>
