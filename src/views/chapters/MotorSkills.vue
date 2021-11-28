@@ -301,10 +301,10 @@
         </center>
         <div class="botones__recursos">
           <a
-            href=""
+            href="@/assets/pdf/estado-nutricional.pdf"
             download="Relación del estado nutricional con el desarrollo cognitivo.pdf"
             ><button class="offset">Relación del estado</button></a
-          ><a href="" download="Relación del estado"
+          ><a href="@/assets/pdf/desarrollo-capacidades-coordinativas.pdf" download="Capacidades Coordinativas.pdf"
             ><button class="offset">Capacidades coordinativas</button></a
           >
         </div>
