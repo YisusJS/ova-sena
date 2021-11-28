@@ -2,6 +2,9 @@
   <menuComponent :index="3"></menuComponent>
   <main class="container-athleticism">
     <section class="module">
+      <h1 class="module__title" id="principal-title">EL ATLETISMO</h1>
+    </section>
+    <section class="module">
       <div class="module__title-container" id="4.1">
         <h2 class="module__title">Definición</h2>
       </div>
@@ -52,16 +55,6 @@
           componente aeróbico como fuente energética hecho que las hace menos
           veloces teniendo repercusión en la técnica de la carrera.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -137,16 +130,6 @@
           británica Elizabeth (Liz) McColgan-Lynch con 31.08.44 y de la también
           soviética Elena Zhupieva con 31.19.82 minutos. Ecu Red (2011).
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -317,16 +300,6 @@
           carrera, para ello la mirada ira al frente, la cara relajada sin
           apretar los dientes ni tensar los puños. (p. 22).
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -401,16 +374,6 @@
           Adquirir conceptos desde su comprensión y descubrimiento facilita que
           sean almacenados en la memoria a largo plazo
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -607,16 +570,6 @@
           carece de atractivo. Por ello se sugiere crear formas agradables en la
           etapa inicial por medio del juego.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -693,16 +646,6 @@
           el deportista consume bebidas fuera de los puntos establecidos será
           descalificado.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -994,16 +937,6 @@
           los puestos de avituallamiento, o con más frecuencia, si las
           condiciones climatológicas aconsejan dicha provisión.
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
     <section class="module">
@@ -1226,16 +1159,6 @@
           <br />
           <img :src="require('@/assets/modules/athleticism/e41.png')" alt="" />
         </p>
-        <div>
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.1.png')"
-            alt=""
-          />
-          <img
-            :src="require('@/assets/modules/athleticism/submodule1.2.png')"
-            alt=""
-          />
-        </div>
       </div>
     </section>
   </main>
@@ -1253,6 +1176,65 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
+
+#principal-title {
+  text-align: center;
+}
+
+// CAJA DE MATERIAL DE APOYO
+.material {
+  display: flex;
+  flex-direction: column;
+}
+
+.botones__recursos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+// <<<<<<<< FINAL BOTONES >>>>>
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.offset:hover,
+.offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.offset {
+  --color: #1973bc;
+  --hover: #19bc8b;
+}
+
+.test-button {
+  --color: #9f11ac;
+  --hover: #54cde2;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+// <<<<<<<< FINAL BOTONES >>>>>
+
 .text {
   color: $primary-color;
 }
@@ -1262,7 +1244,7 @@ export default {
   margin: 0 100px 0 22vw;
   width: 74vw;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .module {
   background-color: #fff;

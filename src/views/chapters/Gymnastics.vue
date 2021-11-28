@@ -2,8 +2,11 @@
   <menuComponent :index="2"></menuComponent>
   <main class="container-gymnastics">
     <section class="module">
+      <h1 class="module__title" id="principal-title">LA GIMNASIA</h1>
+    </section>
+    <section class="module">
       <div class="module__title-container" id="3.1">
-        <h2 class="module__title">Historia de la gimnasia</h2>
+        <h2 class="module__title">Historia</h2>
       </div>
       <div class="module__content">
         <p>
@@ -996,6 +999,65 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
+
+#principal-title {
+  text-align: center;
+}
+
+// CAJA DE MATERIAL DE APOYO
+.material {
+  display: flex;
+  flex-direction: column;
+}
+
+.botones__recursos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+// <<<<<<<< FINAL BOTONES >>>>>
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.offset:hover,
+.offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.offset {
+  --color: #1973bc;
+  --hover: #19bc8b;
+}
+
+.test-button {
+  --color: #9f11ac;
+  --hover: #54cde2;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+// <<<<<<<< FINAL BOTONES >>>>>
+
 .text {
   color: $primary-color;
 }
@@ -1005,7 +1067,7 @@ export default {
   margin: 0 100px 0 22vw;
   width: 74vw;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .module {
   background-color: #fff;

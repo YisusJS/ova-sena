@@ -266,18 +266,6 @@
         "description": "contenido futuro",
         "image": "assets/modules/motorSkills/1.svg",
         "contentId": "#6.1"
-      },
-      {
-        "title": "1. Futuro contenido 2",
-        "description": "contenido futuro",
-        "image": "assets/modules/motorSkills/1.svg",
-        "contentId": "#6.2"
-      },
-      {
-        "title": "1. Futuro contenido 3",
-        "description": "contenido futuro",
-        "image": "assets/modules/motorSkills/1.svg",
-        "contentId": "#6.3"
       }
     ]
   }

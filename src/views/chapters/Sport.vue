@@ -1,6 +1,9 @@
 <template>
   <menuComponent :index="1"></menuComponent>
-  <main class="container-motorSkills">
+  <main class="container-sport">
+    <section class="module">
+      <h1 class="module__title" id="principal-title">EL DEPORTE</h1>
+    </section>
     <section class="module">
       <div class="module__title-container" id="2.1">
         <h2 class="module__title">Definición</h2>
@@ -23,7 +26,7 @@
     </section>
     <section class="module">
       <div class="module__title-container" id="2.2">
-        <h2 class="module__title">Historia del deporte</h2>
+        <h2 class="module__title">Historia</h2>
       </div>
       <div class="module__content">
         <p>
@@ -56,7 +59,7 @@
     </section>
     <section class="module">
       <div class="module__title-container" id="2.3">
-        <h2 class="module__title">Clasificación del deporte</h2>
+        <h2 class="module__title">Clasificación</h2>
       </div>
       <div class="module__content">
         <p>
@@ -243,7 +246,7 @@
 
         <center>
           <div>
-            <p><strong>Video 1. Motricidad</strong></p>
+            <p><strong>Video 1. El deporte</strong></p>
             <video width="400" controls>
               <source
                 src="@/assets/videos/video1-motricidad.mp4"
@@ -305,7 +308,7 @@ import menuComponent from "@/components/menu.vue";
 
 export default {
   name: "MotorSkills",
-  title: "La Motricidad - SENA",
+  title: "El Deporte - SENA",
   components: {
     menuComponent,
   },
@@ -314,6 +317,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
+
+#principal-title {
+  text-align: center;
+}
 
 // CAJA DE MATERIAL DE APOYO
 .material {
@@ -372,13 +379,13 @@ button {
 .text {
   color: $primary-color;
 }
-.container-motorSkills {
+.container-sport {
   background-color: $primary-color;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .module {
   background-color: #fff;

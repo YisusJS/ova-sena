@@ -1,9 +1,12 @@
 <template>
   <menuComponent :index="4"></menuComponent>
-  <main class="container-motorSkills">
+  <main class="container-combat">
+    <section class="module">
+      <h1 class="module__title" id="principal-title">DEPORTES DE COMBATE</h1>
+    </section>
     <section class="module">
       <div class="module__title-container" id="5.1">
-        <h2 class="module__title">Historia de los deportes de combate</h2>
+        <h2 class="module__title">Historia</h2>
       </div>
       <div class="module__content">
         <p>
@@ -32,7 +35,7 @@
     </section>
     <section class="module">
       <div class="module__title-container" id="5.2">
-        <h2 class="module__title">Clasificación de los deportes de combate</h2>
+        <h2 class="module__title">Clasificación</h2>
       </div>
       <div class="module__content">
         <p>
@@ -124,7 +127,7 @@ import menuComponent from "@/components/menu.vue";
 
 export default {
   name: "MotorSkills",
-  title: "La Motricidad - SENA",
+  title: "Deportes de Combate- SENA",
   components: {
     menuComponent,
   },
@@ -133,6 +136,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
+
+#principal-title {
+  text-align: center;
+}
 
 // CAJA DE MATERIAL DE APOYO
 .material {
@@ -191,13 +198,13 @@ button {
 .text {
   color: $primary-color;
 }
-.container-motorSkills {
+.container-combat {
   background-color: $primary-color;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .module {
   background-color: #fff;

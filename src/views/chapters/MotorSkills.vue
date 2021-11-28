@@ -2,6 +2,9 @@
   <menuComponent :index="0"></menuComponent>
   <main class="container-motorSkills">
     <section class="module">
+      <h1 class="module__title" id="principal-title">LA MOTRICIDAD</h1>
+    </section>
+    <section class="module">
       <div class="module__title-container" id="1.1">
         <h2 class="module__title">Historia</h2>
       </div>
@@ -402,6 +405,10 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 
+#principal-title {
+  text-align: center;
+}
+
 // CAJA DE MATERIAL DE APOYO
 .material {
   display: flex;
@@ -465,7 +472,7 @@ button {
   margin: 0 100px 0 22vw;
   width: 74vw;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .module {
   background-color: #fff;
