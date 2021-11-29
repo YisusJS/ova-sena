@@ -238,23 +238,6 @@
       </div>
       <div class="module__content material">
         <center>
-          <p>
-            En los siguientes botones podrás visualizar el material
-            complementario de la clase sobre el deporte.
-          </p>
-        </center>
-
-        <center>
-          <div>
-            <p><strong>Video 1. El deporte</strong></p>
-            <video width="400" controls>
-              <source
-                src="@/assets/videos/video1-motricidad.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support HTML video.
-            </video>
-          </div>
           <p>Modelo pedagógico recomendado: <strong>Constructivista</strong></p>
           <p>
             Técnicas de enseñanza utilizadas:
@@ -322,7 +305,7 @@ export default {
   text-align: center;
 }
 
-// CAJA DE MATERIAL DE APOYO
+// CAJA DE MATERIAL´ DE APOYO
 .material {
   display: flex;
   flex-direction: column;

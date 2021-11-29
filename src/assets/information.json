@@ -104,7 +104,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/sport/7.svg",
+        "image": "assets/modules/motorSkills/6.svg",
         "contentId": "#2.9"
       }
     ]
@@ -112,7 +112,7 @@
   {
     "submodules": [
       {
-        "title": "1. Historia de la gimnasia",
+        "title": "1. Historia",
         "description": "Los movimientos fueron necesarios al hombre desde que utilizó su energía cinética",
         "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.1"
@@ -122,12 +122,6 @@
         "description": "En este capítulo podrás ver los distintos tipos de gimnasia",
         "image": "assets/modules/gymnastics/2.svg",
         "contentId": "#3.2"
-      },
-      {
-        "title": "3. Ejercicios básicos de gimnasia artística modalidad de piso",
-        "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
-        "image": "assets/modules/gymnastics/2.svg",
-        "contentId": "#3.3"
       },
       {
         "title": "4. Material de apoyo",
@@ -158,7 +152,7 @@
         "contentId": "#4.1"
       },
       {
-        "title": "2. Historia de la maratón",
+        "title": "2. Historia",
         "description": "El nombre de maratón proviene de una ciudad griega situada a 50 kilómetros de Atenas",
         "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.2"
@@ -188,7 +182,7 @@
         "contentId": "#4.6"
       },
       {
-        "title": "7. Ejercicios para la enseñanza",
+        "title": "7. Pruebas de fondo",
         "description": "En las pruebas de medio- fondo, fondo, gran fondo, 3000 obstáculos y marcha atlética se usan las salidas altas",
         "image": "assets/modules/athleticism/4.svg",
         "contentId": "#4.7"
@@ -220,7 +214,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/athleticism/6.svg",
+        "image": "assets/modules/motorSkills/6.svg",
         "contentId": "#4.12"
       }
     ]
@@ -262,9 +256,9 @@
   {
     "submodules": [
       {
-        "title": "1. Futuro contenido",
-        "description": "contenido futuro",
-        "image": "assets/modules/motorSkills/1.svg",
+        "title": "1. Lorem ipsum dolor",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima cupiditate",
+        "image": "assets/modules/motorSkills/6.svg",
         "contentId": "#6.1"
       }
     ]
