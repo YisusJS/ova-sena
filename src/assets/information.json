@@ -178,25 +178,25 @@
       {
         "title": "6. Ejercicios zancada",
         "description": "El correr se puede considerar una habilidad un gesto propio de los seres humanos",
-        "image": "assets/modules/athleticism/4.svg",
+        "image": "assets/icons/lunges.png",
         "contentId": "#4.6"
       },
       {
         "title": "7. Pruebas de fondo",
         "description": "En las pruebas de medio- fondo, fondo, gran fondo, 3000 obstáculos y marcha atlética se usan las salidas altas",
-        "image": "assets/modules/athleticism/4.svg",
+        "image": "assets/icons/run.png",
         "contentId": "#4.7"
       },
       {
         "title": "8. La marcha atlética",
         "description": "A pesar de considerarse una actividad natural no lo es, marchar no es igual a caminar rápido",
-        "image": "assets/modules/athleticism/4.svg",
+        "image": "assets/icons/running.png",
         "contentId": "#4.8"
       },
       {
         "title": "9. El salto largo",
         "description": "El Salto largo es un ejercicio físico natural y simple, que goza de gran significado práctico",
-        "image": "assets/modules/athleticism/4.svg",
+        "image": "assets/icons/long-jump.png",
         "contentId": "#4.9"
       },
       {
@@ -224,13 +224,13 @@
       {
         "title": "1. Historia de los deportes de combate",
         "description": "El origen de las artes marciales se atribuye a la cultura oriental",
-        "image": "assets/modules/combatsports/2.svg",
+        "image": "assets/icons/boxing-gloves.png",
         "contentId": "#5.1"
       },
       {
         "title": "2. Clasificación de los deportes de combate",
         "description": "Los deportes de combate se pueden clasificar en: golpeadores, agarradores y combinados",
-        "image": "assets/modules/combatsports/2.svg",
+        "image": "assets/icons/boxing-glove.png",
         "contentId": "#5.2"
       },
       {
