@@ -38,7 +38,7 @@
         "contentId": "#1.6"
       },
       {
-        "title": "Conclusiones",
+        "title": "7. Conclusiones",
         "description": "Gracias por llegar hasta aquí!",
         "image": "assets/icons/literature.png",
         "contentId": "#1.7"
@@ -46,7 +46,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/motorSkills/6.svg",
+        "image": "assets/icons/test.png",
         "contentId": "#1.8"
       }
     ]
@@ -104,7 +104,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/motorSkills/6.svg",
+        "image": "assets/icons/test.png",
         "contentId": "#2.9"
       }
     ]
@@ -138,7 +138,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/motorSkills/6.svg",
+        "image": "assets/icons/test.png",
         "contentId": "#3.4"
       }
     ]
@@ -214,7 +214,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/motorSkills/6.svg",
+        "image": "assets/icons/test.png",
         "contentId": "#4.12"
       }
     ]
@@ -240,7 +240,7 @@
         "contentId": "#5.3"
       },
       {
-        "title": "Conclusiones",
+        "title": "4. Conclusiones",
         "description": "Gracias por llegar hasta aquí!",
         "image": "assets/icons/literature.png",
         "contentId": "#5.4"
@@ -248,7 +248,7 @@
       {
         "title": "¡Ponte a prueba!",
         "description": "Demuestra tus conocimientos en una prueba, ganarás reconocimiento!",
-        "image": "assets/modules/motorSkills/6.svg",
+        "image": "assets/icons/test.png",
         "contentId": "#5.5"
       }
     ]
