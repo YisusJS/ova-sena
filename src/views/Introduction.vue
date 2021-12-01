@@ -98,9 +98,7 @@ export default {
 @import "@/styles/variables.scss";
 .introduction {
   margin: 0 auto;
-  margin-left: 3vw;
   width: 80vw;
-  height: 100vh;
   background-color: $tertyary-color;
 }
 .introduction__text {
