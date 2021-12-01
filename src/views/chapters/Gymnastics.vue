@@ -737,7 +737,7 @@
       </div>
     </section>
     <section class="module">
-      <div class="module__title-container" id="3.4">
+      <div class="module__title-container" id="3.3">
         <h2 class="module__title">Material de apoyo</h2>
       </div>
       <div class="module__content material">
@@ -770,7 +770,7 @@
       </div>
     </section>
     <section class="module">
-      <div class="module__title-container" id="3.5">
+      <div class="module__title-container" id="3.4">
         <h2 class="module__title">Conclusiones</h2>
       </div>
       <div class="module__content">
@@ -785,7 +785,7 @@
       </div>
     </section>
     <section class="module">
-      <div class="module__title-container" id="3.6">
+      <div class="module__title-container" id="3.5">
         <h2 class="module__title">¡Pónte a Prueba!</h2>
       </div>
       <div class="module__content">

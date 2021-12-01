@@ -89,6 +89,9 @@ export default {
 .container-goals {
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 80vw;
   min-height: 100vh;
 }
 //container principal
@@ -136,6 +139,7 @@ export default {
   margin: 10px;
   position: absolute;
   max-width: 840px;
+  color: #393939;
 }
 
 //boton salir

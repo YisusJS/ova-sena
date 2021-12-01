@@ -159,6 +159,7 @@ export default {
   margin: 40px auto 20px;
   border-radius: 60px;
   max-width: 1300px;
+  width: 80%;
   padding: 60px 0 10px;
   display: flex;
   flex-direction: column;

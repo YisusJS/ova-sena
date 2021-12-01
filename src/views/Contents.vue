@@ -162,22 +162,23 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 1366px;
-  max-width: 1366px;
-  height: 100vh;
+  width: 85vw;
+  height: 80vh;
   background-color: $background-color;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  column-gap: 2vw;
-  row-gap: 2vh;
+  column-gap: 1vw;
+  row-gap: 3vh;
   justify-content: center;
   align-content: center;
+  border-radius: 10px;
 }
 
 .lessons {
-  width: 600px;
-  height: 140px;
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
   background-color: $secondary-color;
   border-radius: 10px;
   display: flex;

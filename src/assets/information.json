@@ -124,16 +124,16 @@
         "contentId": "#3.2"
       },
       {
-        "title": "4. Material de apoyo",
+        "title": "3. Material de apoyo",
         "description": "Aquí podrás ver los ejercicios básicos de la gimnasia",
         "image": "assets/icons/video-player.png",
-        "contentId": "#3.4"
+        "contentId": "#3.3"
       },
       {
-        "title": "5. Conclusiones",
+        "title": "4. Conclusiones",
         "description": "Felicitaciones por llegar hasta aquí!",
         "image": "assets/icons/literature.png",
-        "contentId": "#3.5"
+        "contentId": "#3.4"
       },
       {
         "title": "¡Ponte a prueba!",

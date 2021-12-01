@@ -99,6 +99,7 @@ export default {
 .introduction {
   margin: 0 auto;
   width: 80vw;
+  max-width: 1300px;
   background-color: $tertyary-color;
 }
 .introduction__text {
@@ -106,6 +107,9 @@ export default {
   text-align: justify;
   padding: 1rem;
   font-size: 1.5rem;
+  color: #4e535d;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .introduction_position {
@@ -133,6 +137,7 @@ export default {
 // Audio
 .introduction_position audio {
   width: 70%;
+  margin-bottom: 1em;
 }
 
 //boton salir
