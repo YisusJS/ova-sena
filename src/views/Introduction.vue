@@ -104,6 +104,8 @@ export default {
   background-color: $tertyary-color;
 }
 .introduction__text {
+  width: 80%;
+  text-align: justify;
   padding: 1rem;
   font-size: 1.5rem;
 }
@@ -115,13 +117,13 @@ export default {
   margin-right: 40px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-radius: 20px;
 }
 
 .introduction_position h1 {
   text-align: center;
   width: 70%;
-  margin-left: 250px;
   font-size: 30px;
 }
 
@@ -132,9 +134,7 @@ export default {
 
 // Audio
 .introduction_position audio {
-  text-align: center;
   width: 70%;
-  margin-left: 250px;
 }
 
 //boton salir
