@@ -76,7 +76,7 @@
 <script>
 export default {
   name: "Goals",
-  title: "Objetivos - SENA",
+  title: "Resultados de Aprendizaje - SENA",
   setup() {},
 };
 </script>

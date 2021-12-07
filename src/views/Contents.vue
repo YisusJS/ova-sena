@@ -129,20 +129,20 @@ export default {
         level: "medio",
         path: "/contenidos/deportes_de_combate",
         bg: "background: linear-gradient(321.69deg, rgba(131, 2, 190, 0.98) 1.04%, rgba(227, 116, 255, 0.98) 100%);",
-      },
-      // Capitulo 6 - Deportes de Conjunto
-      {
-        color: "#7E9DC0",
-        img: require("@/assets/contents/sets-sports.svg"),
-        title: "Deportes de Conjunto",
-        description:
-          "Son deportes en donde la prueba se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.",
-        hours: "6",
-        modules: "6",
-        level: "dificil",
-        path: "/contenidos/deportes_de_conjunto",
-        bg: "background: linear-gradient(321.69deg, #02318C 0%, #90AAC9 100%);",
-      },
+      }
+      /* // Capitulo 6 - Deportes de Conjunto */
+      /* { */
+      /*   color: "#7E9DC0", */
+      /*   img: require("@/assets/contents/sets-sports.svg"), */
+      /*   title: "Deportes de Conjunto", */
+      /*   description: */
+      /*     "Son deportes en donde la prueba se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.", */
+      /*   hours: "6", */
+      /*   modules: "6", */
+      /*   level: "dificil", */
+      /*   path: "/contenidos/deportes_de_conjunto", */
+      /*   bg: "background: linear-gradient(321.69deg, #02318C 0%, #90AAC9 100%);", */
+      /* }, */
     ]);
 
     return {

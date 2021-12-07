@@ -47,12 +47,11 @@
           continuación, se presenta una tabla explicativa teniendo en cuenta el
           porcentaje de utilización de los componentes aeróbicos y anaeróbicos.
           <br /><br />
-
+          Tabla 2 - 
           <i
             >Porcentaje de participación del componente aeróbico, anaeróbico
             según la distancia.</i
           >
-          <a target="_blank" class="cite" href="t.ly/foII">https://t.ly/foII</a>
           <br /><br />
           <img
             :src="require('@/assets/modules/athleticism/cuadro1.1.png')"
