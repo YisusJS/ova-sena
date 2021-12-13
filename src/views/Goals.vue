@@ -9,10 +9,12 @@
   <div class="container-goals">
     <div class="goals">
       
-      <section class="tittle_Goals">
+      <section class="title_Goals">
         <h1><strong>Competencia</strong></h1>
+        <p>
+        Fundamentar la preparación Técnico - Táctica del deportista según la disciplina y/o modalidad en el nivel de formación deportiva.
+        </p>
 
-        <h4>Fundamentar la preparación Técnico - Táctica del deportista según la disciplina y/o modalidad en el nivel de formación deportiva.</h4>
       </section>
 
       <div class="container">
@@ -111,17 +113,18 @@ export default {
   border-radius: 40px;
 }
 
-.tittle_Goals{
+.title_Goals{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
   text-align: center;
+  color: #393939;
+  background-color: #eff4fd;
 }
 
-.tittle_Goals h1{
-  background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  border-radius: 10px;
+.title_Goals > p {
+  padding-bottom: 20px;
 }
-
 // container secundarios-objetivos
 .container {
   margin: 55px auto;
