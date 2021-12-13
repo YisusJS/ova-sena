@@ -28,6 +28,16 @@ const routes = [
     name: "Bibliographies",
     component: () => import("@/views/Bibliographies.vue"),
   },
+  {
+    path: "/identification",
+    name: "Identification",
+    component: () => import("@/views/identification.vue"),
+  },
+  {
+    path: "/problematic",
+    name: "Problematic",
+    component: () => import("@/views/problematic.vue"),
+  },
   // Capítulos del OVA
   {
     path: "/contenidos/atletismo",

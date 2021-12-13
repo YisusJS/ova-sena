@@ -3,6 +3,18 @@
     <div class="position">
       <div class="left">
         <div class="container1">
+          <router-link class="container_router" to="/identification">
+            <img class="container_image" :src="bibliographies" alt="Logo" />
+            <h2 class="container_tittle">IDENTIFICACIÓN</h2>
+          </router-link>
+        </div>
+        <div class="container1">
+          <router-link class="container_router" to="/problematic">
+            <img class="container_image" :src="bibliographies" alt="Logo" />
+            <h2 class="container_tittle">PROBLEMÁTICA</h2>
+          </router-link>
+        </div>
+        <div class="container1">
           <router-link class="container_router" to="/introduccion">
             <img class="container_image" :src="introduction" alt="Logo" />
             <h2 class="container_tittle">INTRODUCCIÓN</h2>
@@ -65,7 +77,6 @@ import sena from "../assets/utilities/sena.svg";
 import x400 from "../assets/home/background.png";
 import profile1 from "../assets/icons/perfil1.svg";
 import profile2 from "../assets/icons/perfil2.svg";
-
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";

@@ -163,15 +163,11 @@ export default {
   width: 80%;
   height: auto;
   background-color: #fff;
-  margin-top: 100px;
+  margin-top: 20px;
   padding: 5px 30px;
   border-radius: 10px;
   &__title-container {
     z-index: 100;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
     width: max-content;
     height: auto;
     background: white;
