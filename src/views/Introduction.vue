@@ -153,7 +153,7 @@ export default {
   width: 80vw;
   margin: 0 auto;
   height: auto;
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   display: flex;
   justify-content: center;
   border-radius: 25px;
@@ -162,7 +162,7 @@ export default {
 .module {
   width: 80%;
   height: auto;
-  background-color: #fff;
+  background-color: #eff4fd;
   margin-top: 20px;
   padding: 5px 30px;
   border-radius: 10px;
@@ -170,7 +170,7 @@ export default {
     z-index: 100;
     width: max-content;
     height: auto;
-    background: white;
+    background: #eff4fd;
     padding: 0 10px;
     margin: 0 auto;
     border-radius: 10px;

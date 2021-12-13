@@ -98,7 +98,7 @@ export default {
   width: 80vw;
   margin: 0 auto;
   height: 100vh;
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,14 +108,14 @@ export default {
 .module {
   width: 80%;
   height: auto;
-  background-color: #fff;
+  background-color: #eff4fd;
   padding: 5px 30px;
   border-radius: 10px;
   &__title-container {
     z-index: 100;
     width: max-content;
     height: auto;
-    background: white;
+    background: #eff4fd;
     margin: 0 auto;
     border-radius: 10px;
   }
