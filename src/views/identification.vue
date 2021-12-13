@@ -122,10 +122,11 @@ export default {
 .container-identification {
   width: 80vw;
   margin: 0 auto;
-  height: auto;
+  height: 100vh;
   background-color: $primary-color;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 25px;
 }
 
@@ -161,6 +162,16 @@ export default {
     color: #6e798c;
     border-radius: 1000px;
     margin-top: -40px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container-identification {
+    height: auto;
+  }
+
+  .module__content {
+    height: auto;
   }
 }
 </style>
