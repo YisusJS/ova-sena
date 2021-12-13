@@ -101,9 +101,8 @@
           Stadium. Partieron 56 corredores, pero finalizaron solamente 27. La
           causa principal para tan grande número de abandonos fue la alta
           temperatura reinante.
-          <a target="_blank" href="https://t.ly/L8qJ" class="cite"
-            >(Hegedus, 2001, pp. 1-2)</a
-          >
+          (Hegedus, 2001, pp. 1-2)
+          
           <br />
           <br />
           <strong>Historia de la carrera 1500 metros planos</strong>
@@ -125,7 +124,7 @@
           Braguita con tiempo de 4:01.38, seguida de la alemana Gunhild
           Hofrmaeintner con 4:02.83 y de la italiana Paola Pigni-Cachi con
           4:02.85 minutos.
-          <a class="cite" href="">Enciclopedia cubana (EcuRed,2011).</a>
+          Enciclopedia cubana (EcuRed,2011).
           <br /><br />
           <b>Historia de la carrera 10.000 metros planos.</b>
           <br />
@@ -200,9 +199,7 @@
           referente a la forma de ejecución de cada una de las fases de la
           carrera, pero sin lugar a duda las distintas carreras desde el Sprint
           hasta el maratón tienen en común ciertos principios mecánicos. Rius
-          <a class="cite" target="_blank"
-            >(cómo se citó en Tobar y Zurata, 2013)</a
-          >
+          (cómo se citó en Tobar y Zurata, 2013)
           define las fases. <br /><br />
           <strong>Impulsión</strong>
           <br />
@@ -258,7 +255,7 @@
           llegar a este contacto ligeramente flexionada y con la parte exterior
           del metatarso. <br /><br />
           Diez García
-          <a class="cite">(cómo se citó en Tobar y Zurata, 2013)</a>, plantea
+          (cómo se citó en Tobar y Zurata, 2013), plantea
           que el pie toma contacto con el suelo nuevamente con el metatarso,
           generalmente por su parte externa (realizando una ligera rotación).
           Aunque esta ligera rotación del pie es una constante en muchos
@@ -276,7 +273,7 @@
           contribuir con la disminución del tiempo de esta fase. (p. 20) <br />
           <br />
           Según
-          <a class="cite">Rius (cómo se citó en Tobar y Zurata, 2013)</a> El
+          Rius (cómo se citó en Tobar y Zurata, 2013) El
           contacto con el suelo siempre se debe hacer por delante del centro de
           gravedad, la mayor distancia del centro de gravedad dependerá de la
           longitud de la zancada, la fase de amortiguamiento inicia cuando el
@@ -312,9 +309,9 @@
           carrera. La posición de la mano es semicerrada (relajada) y, junto con
           los brazos, su función es la de equilibrar y compensar la acción de
           piernas y tronco en carrera. <br /><br />
-          <a class="cite">
+          
             Campos y Gallach (cómo se citó en Tobar y Zurata, 2013)
-          </a>
+          
           plantean que los brazos deben mantenerse flexionados por los codos con
           un ángulo de 90 grados, que varía según la distancia, más cerrados en
           velocidad que carreras largas. Las manos van semicerradas y se
@@ -566,9 +563,7 @@
             e incorrectos.
           </a>
           <br /><br />
-          <a class="cite"
-            >Campos y Gallach (cómo se citó en Tobar y Zurata, 2013)</a
-          >
+          Campos y Gallach (cómo se citó en Tobar y Zurata, 2013)
           afirman que para la iniciación de la técnica de la carrera se
           comprende, dentro de la naturaleza del gesto, la corrección del mismo
           en sus detalles esenciales. Para ello el autor aconseja emplear
@@ -580,8 +575,8 @@
           También hace énfasis en los ejercicios de braceo, de los movimientos
           de las piernas con skipping y carreras con amplitud y frecuencia de la
           zancada. <br /><br />
-          <a class="cite">García (cómo se citó en Tobar y Zurata, 2013) </a
-          >menciona una parte importante a trabajar en atletas de fondo que se
+          García (cómo se citó en Tobar y Zurata, 2013)
+          menciona una parte importante a trabajar en atletas de fondo que se
           llama el ritmo que debe educarse desde el principio el cual debe
           manejarse la mayoría del tiempo en la técnica de la carrera en fondo,
           ya que se recorre largas distancias y se requiere de mantenerse a lo
@@ -710,7 +705,7 @@
           <br /><br />
           <b>Técnica de la marcha atlética</b>
           <br />
-          <a class="cite">Barreto, Villarroya y Calero (2017)</a>. Se podría
+          Barreto, Villarroya y Calero (2017). Se podría
           afirmar que la marcha atlética tiene su origen en la marcha normal,
           pero se buscaron algunos ajustes a este movimiento natural con el fin
           de hacerla más efectiva y veloz, lo cual representó arreglos en la
@@ -898,9 +893,8 @@
           <img :src="require('@/assets/modules/athleticism/e24.jpeg')" alt="" />
           <br />
           <a class="pie">Desplazamientos con cambios de ritmo </a> <br /><br />
-          <a target="_blank" class="cite" href="https://t.ly/Eqfd"
-            >(Berlanga de la Pascua, 2011, p.p. 3, 4,5)</a
-          >
+          (Berlanga de la Pascua, 2011, p.p. 3, 4,5)
+          
           <br />
           A continuación, se describen otros ejercicios que pueden ser muy
           adecuados para la adquisición de la técnica en marchistas
@@ -990,7 +984,7 @@
       </div>
       <div class="module__content">
         <p>
-          <a class="cite">Makarov A. (s.f.)</a>. El
+          Makarov A. (s.f.). El
           <strong>Salto largo</strong> es un ejercicio físico natural y simple,
           que goza de gran significado práctico. El papel principal en salto
           largo lo desempeñan la carrera de impulso estable y rápida, la
@@ -1086,7 +1080,7 @@
           se despega del piso. Los atletas emplean ángulos mayores cuando poseen
           más fuerza, los últimos pasos aumentan en ritmo y amplitud.
           <br /><br />• Fase de vuelo, según
-          <a class="cite">Makarov, A. (s.f.)</a>. El vuelo comienza con ángulo
+          Makarov, A. (s.f.). El vuelo comienza con ángulo
           de 18 a 24 grados. El saltador efectúa durante el vuelo diferentes
           movimientos, dependiendo del estilo, con el fin de mantener el
           equilibrio y aterrizar de manera más conveniente. La primera parte del

@@ -188,9 +188,7 @@
           Los infantes en edades escolares cada vez son más fuertes, rápidos y
           coordinados disponiendo de un cuerpo apto para el aprendizaje de
           habilidades
-          <a target="_blank" class="cite" href="https://t.ly/K2ae"
-            >(Hofferth y Sandberg, 1998)</a
-          >. Se presentan diferencias en las condiciones motrices entre los
+          (Hofferth y Sandberg, 1998). Se presentan diferencias en las condiciones motrices entre los
           niños y las niñas las cuales evidencian superioridad en la motricidad
           fina mientras que los niños mejoran la motricidad gruesa la cual
           incide en el desarrollo de la fuerza. También se incrementa el ritmo y
@@ -216,15 +214,14 @@
           condicionales, pero en el presente documento se abordará con mayor
           profundidad las capacidades coordinativas por ser las más adecuadas
           para el desarrollo durante la primera infancia. <br /><br />
-          <a target="_blank" class="cite" href="https://t.ly/0dM6"
-            >Rose, Larkin y Berger (1998)</a
-          >
+          Rose, Larkin y Berger (1998)
+          
           afirman que una baja coordinación motora puede propiciar que la
           motivación de los jóvenes hacia la práctica de actividad física
           disminuya. A su vez, los adolescentes con carencias en las habilidades
           motoras suelen tener niveles de auto concepto físico más bajos, lo que
           les conduce al cese o a la poca adherencia a la práctica de actividad
-          física.<br /><br /><a class="cite" href="#1.5">Mata (2008)</a>, afirma
+          física.<br /><br />Mata (2008), afirma
           que hay un porcentaje de alumnado con problemas coordinativos que les
           priva del disfrute de la práctica de actividad física y es por ello
           por lo que se necesitan llevar a cabo programas que incidan en la
@@ -244,7 +241,7 @@
           utilización del arte o disciplina urbana del Parkour como elemento
           innovador para su integración en unidades didácticas de habilidades
           motrices en el maro escolar.
-          <a class="cite" href="#1.5">Según Ferrero (2011)</a>, el Parkour
+          Según Ferrero (2011), el Parkour
           consiste en llevar a cabo un recorrido de una manera eficiente, fluida
           y rápida entre dos puntos haciendo uso de las capacidades físicas
           básicas y de una serie de técnicas que permiten esa consecución. En

@@ -6,9 +6,13 @@
       </router-link>
     </div>
   </div>
-
   <div class="container-goals">
     <div class="goals">
+      
+      <section class="tittle_Goals">
+        <h1><strong>Resultados de Aprendizaje</strong></h1>
+      </section>
+
       <div class="container">
         <nav class="container-img">
           <img id="img" src="../assets/goals/goal-one.svg" />
@@ -104,6 +108,18 @@ export default {
   height: max-content;
   border-radius: 40px;
 }
+
+.tittle_Goals{
+  text-align: center;
+}
+
+.tittle_Goals h1{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
 // container secundarios-objetivos
 .container {
   margin: 55px auto;

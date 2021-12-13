@@ -36,10 +36,10 @@
           Renacimiento hasta la revolución francesa, la necesidad o importancia
           de la gimnasia como medio para la educación física de los jóvenes,
           entre ellas las escritas por
-          <a class="cite"
-            >Jan Comenius (cómo se citó en Instituto Superior de Cultura Física
-            “ Manuel Fajardo” 2003)</a
-          >
+          
+            Jan Comenius (cómo se citó en Instituto Superior de Cultura Física
+            “Manuel Fajardo” 2003)
+          
           De él señala Julio Fernández Corujedo: "Su sistema de educación fue
           elaborado sobre la base de sus experiencias populares, luchando contra
           la educación escolástica y los ideales ascéticos de la Edad Media, los
@@ -47,10 +47,8 @@
           <br /><br />Durante los siglos XVIII y XIX la revolución intelectual
           que provocó el renacimiento permitió un gran movimiento en favor del
           fortalecimiento de la salud a través de los ejercicios físicos.
-          <a class="cite"
-            >Juan Jacobo Rousseau (cómo se citó en Instituto Superior de Cultura
-            Física “Manuel Fajardo” 2003)</a
-          >
+          Juan Jacobo Rousseau (cómo se citó en Instituto Superior de Cultura
+            Física “Manuel Fajardo” 2003)
           influyó grandemente en la gimnasia pedagógica de este período. Ubicado
           en un contexto social donde la burguesía se apoyaba en el
           individualismo para defender sus intereses, esto no oscurece su
@@ -59,10 +57,8 @@
           de ejercitar el organismo para fortalecer la salud, desarrollar la
           fuerza en lugares donde existan medios de la naturaleza.
           <br /><br />Su obra influyó de cierta forma en
-          <a class="cite"
-            >Juan Enrique Pestalozzi (cómo se citó en Instituto Superior de
-            Cultura Física “Manuel Fajardo” 2003)</a
-          >. célebre educador suizo cuyas teorías pedagógicas se resumen en la
+          Juan Enrique Pestalozzi (cómo se citó en Instituto Superior de
+            Cultura Física “Manuel Fajardo” 2003). célebre educador suizo cuyas teorías pedagógicas se resumen en la
           obra Leonardo y Gertrudis. El señalaba la necesidad de desarrollar y
           ejercitar las aptitudes de los niños, entre ellas la fuerza; se le
           considera coma uno de los fundadores de la teoría y metodología de la
@@ -77,11 +73,9 @@
           pedagógicas de Rousseau y Pestalozzi, pera los acontecimientos
           políticos en Europa impidieron su realización." <br /><br />Tuvo
           también influencia en el desarrollo de la gimnasia
-          <a class="cite"
-            >Juan Federico Guts Muths (1759-18391, discípulo de Pestalozzi,
+          Juan Federico Guts Muths (1759-18391, discípulo de Pestalozzi,
             (cómo se citó en Instituto Superior de Cultura Física “Manuel
-            Fajardo” 2003)</a
-          >
+            Fajardo” 2003)
           quien más tarde desarrolla su trabajo en escuelas de Alemania, donde
           nace la gimnasia de ese país. Publicó en 1793 su libro Gimnasia para
           la juventud y más tarde, en 1796, Juegos, detallando más de cien con
@@ -284,9 +278,8 @@
           gimnasia deportiva como la actividad de mayor interacción
           neuromuscular del movimiento, entre el espacio, el tiempo y la
           intensidad.
-          <a class="cite"
-            >Instituto Superior de Cultura Física “Manuel Fajardo “(2003).
-          </a>
+          Instituto Superior de Cultura Física “Manuel Fajardo “(2003).
+          
           <br /><br />
           <strong
             >Ejercicios básicos de gimnasia artística modalidad de piso</strong
