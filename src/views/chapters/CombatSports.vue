@@ -199,7 +199,7 @@ button {
   color: $primary-color;
 }
 .container-combat {
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
@@ -207,7 +207,7 @@ button {
   padding: 10px 0;
 }
 .module {
-  background-color: #fff;
+  background-color: #eff4fd;
   max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
@@ -215,16 +215,15 @@ button {
   margin-bottom: 100px;
   border-radius: 10px;
   &__title-container {
+    text-align: center;
     z-index: 100;
     position: absolute;
     top: -60px;
     left: 0;
     right: 0;
-    width: max-content;
+    width: 100%;
     height: auto;
-    background: white;
-    padding: 0 10px;
-    margin: 0 auto;
+    background: #eff4fd;
     border-radius: 10px;
   }
   &__title {
