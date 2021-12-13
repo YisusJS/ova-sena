@@ -96,7 +96,7 @@ export default {
 }
 //container principal
 .goals {
-  background-color: $background-color;
+  background-color: #cbdbf7;
   padding: 1px 0;
   margin: 40px auto;
   max-width: 1265px;
@@ -109,13 +109,13 @@ export default {
   margin: 55px auto;
   height: 80px;
   max-width: 1000px;
-  background-color: $secondary-color;
+  background-color: #eff4fd;
   border-radius: 13px;
   display: flex;
 }
 //IMAGES
 .container-img {
-  background-color: #eec1f5;
+  background-color: #91b5f3;
   height: 80px;
   width: 100px;
   margin-right: 30px;
