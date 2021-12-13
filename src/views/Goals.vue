@@ -10,7 +10,9 @@
     <div class="goals">
       
       <section class="tittle_Goals">
-        <h1><strong>Resultados de Aprendizaje</strong></h1>
+        <h1><strong>Competencia</strong></h1>
+
+        <h4>Fundamentar la preparación Técnico - Táctica del deportista según la disciplina y/o modalidad en el nivel de formación deportiva.</h4>
       </section>
 
       <div class="container">
