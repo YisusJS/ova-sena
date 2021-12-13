@@ -72,7 +72,7 @@ export default {
         title: "La Motricidad",
         description:
           "Se refiere a los movimientos complejos y coordinados que realiza una persona y que implican al sistema locomotor.",
-        hours: "2",
+        hours: "4",
         modules: "8",
         level: "fácil",
         path: "/contenidos/habilidades_motoras",
@@ -85,7 +85,7 @@ export default {
         title: "El Deporte",
         description:
           "Es toda aquella actividad física que involucra una serie de reglas o normas a desempeñar dentro de un espacio o área determinada.",
-        hours: "3",
+        hours: "5",
         modules: "9",
         level: "medio",
         path: "/contenidos/deporte",
@@ -99,7 +99,7 @@ export default {
         description:
           "Es la disciplina que busca desarrollar, fortalecer y dar flexibilidad al cuerpo mediante rutinas de ejercicios físicos. ",
         hours: "3",
-        modules: "6",
+        modules: "5",
         level: "dificil",
         path: "/contenidos/gimnasia",
         bg: "background: linear-gradient(321.69deg, #1F9463 0%, #39E65F 71.13%);",
@@ -111,8 +111,8 @@ export default {
         title: "El Atletismo",
         description:
           "Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, saltos, lanzamientos, pruebas combinadas y marcha.",
-        hours: "2",
-        modules: "6",
+        hours: "8",
+        modules: "12",
         level: "fácil",
         path: "/contenidos/atletismo",
         bg: "background: linear-gradient(321.69deg, #FF5454 0%, #FF7D7D 100%);",
@@ -124,25 +124,25 @@ export default {
         title: "Deportes de Combate",
         description:
           "Son deportes competitivos de contacto donde dos contrincantes luchan uno contra el otro usando ciertas reglas de contacto según la modalidad.",
-        hours: "5",
+        hours: "2",
         modules: "5",
         level: "medio",
         path: "/contenidos/deportes_de_combate",
         bg: "background: linear-gradient(321.69deg, rgba(131, 2, 190, 0.98) 1.04%, rgba(227, 116, 255, 0.98) 100%);",
-      },
-      // Capitulo 6 - Deportes de Conjunto
-      {
-        color: "#7E9DC0",
-        img: require("@/assets/contents/sets-sports.svg"),
-        title: "Deportes de Conjunto",
-        description:
-          "Son deportes en donde la prueba se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.",
-        hours: "6",
-        modules: "6",
-        level: "dificil",
-        path: "/contenidos/deportes_de_conjunto",
-        bg: "background: linear-gradient(321.69deg, #02318C 0%, #90AAC9 100%);",
-      },
+      }
+      /* // Capitulo 6 - Deportes de Conjunto */
+      /* { */
+      /*   color: "#7E9DC0", */
+      /*   img: require("@/assets/contents/sets-sports.svg"), */
+      /*   title: "Deportes de Conjunto", */
+      /*   description: */
+      /*     "Son deportes en donde la prueba se realiza entre dos equipos rivales, cada uno compuesto por la misma cantidad de jugadores.", */
+      /*   hours: "6", */
+      /*   modules: "6", */
+      /*   level: "dificil", */
+      /*   path: "/contenidos/deportes_de_conjunto", */
+      /*   bg: "background: linear-gradient(321.69deg, #02318C 0%, #90AAC9 100%);", */
+      /* }, */
     ]);
 
     return {
@@ -162,23 +162,24 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 1366px;
-  max-width: 1366px;
-  height: 100vh;
-  background-color: $background-color;
+  width: 85vw;
+  height: 80vh;
+  background-color: #cbdbf7;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  column-gap: 2vw;
-  row-gap: 2vh;
+  column-gap: 1vw;
+  row-gap: 3vh;
   justify-content: center;
   align-content: center;
+  border-radius: 10px;
 }
 
 .lessons {
-  width: 600px;
-  height: 140px;
-  background-color: $secondary-color;
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #eff4fd;
   border-radius: 10px;
   display: flex;
   box-shadow: 0px 5px 5px $box-shadow;

@@ -7,20 +7,24 @@
     </div>
   </div>
 
-  <div class="introduction">
-    <div class="introduction_position">
-      <h1>Introducción</h1>
-      <audio controls>
-        <source src="@/assets/voice/voice.mp3" type="audio/mp3" />
-      </audio>
-      <div class="introduction__text">
+  <main class="container-introduction">
+    <section class="module">
+      <div class="module__title-container">
+        <h2 class="module__title">Introducción</h2>
+      </div>
+      <div class="module__content">
         <p>
+          <center>
+            <audio controls class="audio">
+              <source src="@/assets/voice/voice.mp3" type="audio/mp3" />
+            </audio>
+          </center>
+          <br />
           El deporte colombiano ha logrado en la última década grandes
           resultados en los principales eventos deportivos del mundo. Sin lugar
           a duda Colombia es tierra de talentos deportivos, pero aún con grandes
           debilidades en la estructura administrativa, presupuestal y técnica.
-        </p>
-        <p>
+          <br /><br />
           La diversidad étnica, topográfica y cultural ha contribuido con el
           desarrollo de diferentes biotipos en Colombia, los cuales se pueden
           adaptar a características ideales de disciplinas deportivas, sin
@@ -28,31 +32,27 @@
           una estructura deportiva a largo plazo que permita ir identificando y
           formando talentos deportivos, en Colombia la selección deportiva se
           hace por resultados.
-        </p>
-        <p>
+          <br /><br />
           En el año 2019 se crea en Colombia el Ministerio del Deporte el cual
           deberá representar un avance para la estructura organizacional del
           deporte colombiano, pero dependerá de la asignación de los recursos
           presupuestales requeridos para mantener una estructura que favorezca
           en primer lugar a los deportistas.
-        </p>
-        <p>
+          <br /><br />
           La estructura organizacional del deporte base debe iniciar en la etapa
           escolar de los niños colombianos para lo cual se debe capacitar
           personal que pueda contribuir con el desarrollo de las capacidades
           motoras, morfológicas y psicológicas las cuales deben utilizar como
           estrategia los deportes base como la gimnasia y las pruebas del
           atletismo.
-        </p>
-        <p>
+          <br /><br />
           El proyecto para la iniciación y formación para el entrenamiento
           deportivo de acuerdo con el desarrollo motor del SENA apunta a la
           etapa inicial de una estructura de planificación deportiva a largo
           plazo, pero debe ser delimitado en cuanto a los contenidos debido a
           que llegar a ser un entrenador con formación estructurada en un
           deporte requiere especialización deportiva.
-        </p>
-        <p>
+          <br /><br />
           Los contenidos de la cartilla han sido distribuidos en seis (6)
           capítulos, en el primero se tratan los contenidos del desarrollo
           motor, el segundo el concepto del desarrollo deporte, su origen,
@@ -68,8 +68,7 @@
           capítulo es el de los deportes de conjunto de los cuales se expondrán
           los fundamentos básicos del voleibol, el baloncesto y algunos
           predeportivos.
-        </p>
-        <p>
+          <br /><br />
           El conocimiento y aplicación por parte de los aprendices SENA del
           programa Técnico en Ejecución de Programas Deportivos de conceptos y
           habilidades del desarrollo motor de los seres humanos desde la primera
@@ -82,8 +81,8 @@
           especialización deportiva.
         </p>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
 
 <script>
@@ -96,46 +95,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
-.introduction {
-  margin: 0 auto;
-  margin-left: 3vw;
-  width: 95vw;
-  height: 100vh;
-  background-color: $tertyary-color;
-}
-.introduction__text {
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-
-.introduction_position {
-  margin-top: 30px;
-  background-color: $primary-color;
-  margin-left: 40px;
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-}
-
-.introduction_position h1 {
-  text-align: center;
-  width: 70%;
-  margin-left: 250px;
-  font-size: 30px;
-}
-
-.introduction_position p {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-// Audio
-.introduction_position audio {
-  text-align: center;
-  width: 70%;
-  margin-left: 250px;
-}
 
 //boton salir
 .home-link {
@@ -165,6 +124,12 @@ export default {
   justify-content: center;
 }
 
+.audio {
+  width: 80%;
+  height: 50px;
+  z-index: 200;
+}
+
 .home-link__button {
   background-color: #fff;
   border-radius: 50%;
@@ -178,5 +143,53 @@ export default {
   margin: 7px 7.5px;
   width: 25px;
   height: 25px;
+}
+
+///////////////////////////
+.text {
+  color: $primary-color;
+}
+.container-introduction {
+  width: 80vw;
+  margin: 0 auto;
+  height: auto;
+  background-color: #cbdbf7;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.module {
+  width: 80%;
+  height: auto;
+  background-color: #eff4fd;
+  margin-top: 20px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  &__title-container {
+    z-index: 100;
+    width: max-content;
+    height: auto;
+    background: #eff4fd;
+    padding: 0 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  &__title {
+    margin: 0;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #393939;
+    text-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+  }
+  &__content {
+    text-align: justify;
+    width: 100%;
+    z-index: 110;
+    display: flex;
+    color: #6e798c;
+    border-radius: 1000px;
+  }
 }
 </style>

@@ -40,9 +40,7 @@
           dificultades y fatiga. Además, este filósofo-educador vislumbraba a la
           Educación Física como forma de lograr el desarrollo de un cuerpo
           vigoroso y listo para cualquier acción que lo necesite. Al respecto,
-          <a target="_blank" class="cite" href="https://t.ly/AWCu"
-            >Manuel Sergio (cómo se citó en Couto y Trigo 2014)</a
-          >
+          Manuel Sergio (cómo se citó en Couto y Trigo 2014)
           señala que "la Motricidad es el cuerpo en movimiento intencional,
           procurando la trascendencia, la superación, a nivel integralmente
           humano y no del físico tan sólo". Es decir, es la propia manifestación
@@ -190,9 +188,7 @@
           Los infantes en edades escolares cada vez son más fuertes, rápidos y
           coordinados disponiendo de un cuerpo apto para el aprendizaje de
           habilidades
-          <a target="_blank" class="cite" href="https://t.ly/K2ae"
-            >(Hofferth y Sandberg, 1998)</a
-          >. Se presentan diferencias en las condiciones motrices entre los
+          (Hofferth y Sandberg, 1998). Se presentan diferencias en las condiciones motrices entre los
           niños y las niñas las cuales evidencian superioridad en la motricidad
           fina mientras que los niños mejoran la motricidad gruesa la cual
           incide en el desarrollo de la fuerza. También se incrementa el ritmo y
@@ -218,15 +214,14 @@
           condicionales, pero en el presente documento se abordará con mayor
           profundidad las capacidades coordinativas por ser las más adecuadas
           para el desarrollo durante la primera infancia. <br /><br />
-          <a target="_blank" class="cite" href="https://t.ly/0dM6"
-            >Rose, Larkin y Berger (1998)</a
-          >
+          Rose, Larkin y Berger (1998)
+          
           afirman que una baja coordinación motora puede propiciar que la
           motivación de los jóvenes hacia la práctica de actividad física
           disminuya. A su vez, los adolescentes con carencias en las habilidades
           motoras suelen tener niveles de auto concepto físico más bajos, lo que
           les conduce al cese o a la poca adherencia a la práctica de actividad
-          física.<br /><br /><a class="cite" href="#1.5">Mata (2008)</a>, afirma
+          física.<br /><br />Mata (2008), afirma
           que hay un porcentaje de alumnado con problemas coordinativos que les
           priva del disfrute de la práctica de actividad física y es por ello
           por lo que se necesitan llevar a cabo programas que incidan en la
@@ -246,7 +241,7 @@
           utilización del arte o disciplina urbana del Parkour como elemento
           innovador para su integración en unidades didácticas de habilidades
           motrices en el maro escolar.
-          <a class="cite" href="#1.5">Según Ferrero (2011)</a>, el Parkour
+          Según Ferrero (2011), el Parkour
           consiste en llevar a cabo un recorrido de una manera eficiente, fluida
           y rápida entre dos puntos haciendo uso de las capacidades físicas
           básicas y de una serie de técnicas que permiten esa consecución. En
@@ -467,7 +462,7 @@ button {
   color: $primary-color;
 }
 .container-motorSkills {
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
@@ -475,7 +470,7 @@ button {
   padding: 10px 0;
 }
 .module {
-  background-color: #fff;
+  background-color: #eff4fd;
   max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
@@ -483,16 +478,15 @@ button {
   margin-bottom: 100px;
   border-radius: 10px;
   &__title-container {
+    text-align: center;
     z-index: 100;
     position: absolute;
     top: -60px;
     left: 0;
     right: 0;
-    width: max-content;
+    width: 100%;
     height: auto;
-    background: white;
-    padding: 0 10px;
-    margin: 0 auto;
+    background: #eff4fd;
     border-radius: 10px;
   }
   &__title {

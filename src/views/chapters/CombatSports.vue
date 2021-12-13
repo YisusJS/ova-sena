@@ -10,12 +10,8 @@
       </div>
       <div class="module__content">
         <p>
-          <a
-            target="_blank"
-            class="cite"
-            href="https://www.efdeportes.com/efd35/artm.htm"
-            >Lauterborn, D. (2001).</a
-          >
+    
+            Lauterborn, D. (2001).
           El origen de las artes marciales se atribuye a la cultura oriental
           caracterizado por ser un pueblo con tradiciones ancestrales, el "arte
           marcial" fue la especialidad de los guerreros en Asia y reflejaba
@@ -40,9 +36,7 @@
       <div class="module__content">
         <p>
           Según la clasificación de
-          <a target="_blank" class="cite" href=""
-            >Visotzky (cómo se citó en González, 2013)</a
-          >
+         Visotzky (cómo se citó en González, 2013)
           los deportes de combate se pueden clasificar en: golpeadores,
           agarradores y combinados. Los golpeadores son aquellos que utilizan
           los golpes para lograr la victoria los cuales son realizados con
@@ -54,13 +48,9 @@
           el oponente; fisiológicamente se puede decir que los esfuerzos
           realizados durante un combate se pueden enmarcar en anaeróbicos a
           lácticos, lácticos y de resistencia por la duración del combate.
-          <a
-            target="_blank"
-            class="cite"
-            href="http://www.efdeportes.com/efd181/orientaciones-para-los-deportes-de-combate.htm"
-          >
+
             Para Copello (2013)
-          </a>
+         
           los deportes de combate se pueden caracterizar por un volumen elevado
           de elementos técnicos y esto implica un análisis de la metodología a
           utilizar, para lo cual es necesario tener en cuenta las condiciones en
@@ -199,7 +189,7 @@ button {
   color: $primary-color;
 }
 .container-combat {
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
@@ -207,7 +197,7 @@ button {
   padding: 10px 0;
 }
 .module {
-  background-color: #fff;
+  background-color: #eff4fd;
   max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
@@ -215,16 +205,15 @@ button {
   margin-bottom: 100px;
   border-radius: 10px;
   &__title-container {
+    text-align: center;
     z-index: 100;
     position: absolute;
     top: -60px;
     left: 0;
     right: 0;
-    width: max-content;
+    width: 100%;
     height: auto;
-    background: white;
-    padding: 0 10px;
-    margin: 0 auto;
+    background: #eff4fd;
     border-radius: 10px;
   }
   &__title {

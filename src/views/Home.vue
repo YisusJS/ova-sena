@@ -1,7 +1,20 @@
+<!-- Creditos de iconos: flaticon.com -->
 <template>
   <div class="home">
     <div class="position">
       <div class="left">
+        <div class="container1">
+          <router-link class="container_router" to="/identification">
+            <img class="container_image" :src="bibliographies" alt="Logo" />
+            <h2 class="container_tittle">IDENTIFICACIÓN</h2>
+          </router-link>
+        </div>
+        <div class="container1">
+          <router-link class="container_router" to="/problematic">
+            <img class="container_image" :src="bibliographies" alt="Logo" />
+            <h2 class="container_tittle">PROBLEMÁTICA</h2>
+          </router-link>
+        </div>
         <div class="container1">
           <router-link class="container_router" to="/introduccion">
             <img class="container_image" :src="introduction" alt="Logo" />
@@ -11,19 +24,19 @@
         <div class="container1">
           <router-link class="container_router" to="/metas">
             <img class="container_image" :src="goals" alt="Logo" />
-            <h2 class="container_tittle">OBJETIVOS</h2>
+            <h2 class="container_tittle">RESULTADOS DE APRENDIZAJE</h2>
           </router-link>
         </div>
         <div class="container1">
           <router-link class="container_router" to="/contenidos">
             <img class="container_image" :src="content" alt="Logo" />
-            <h2 class="container_tittle">CONTENIDOS</h2>
+            <h2 class="container_tittle">TABLA DE CONTENIDOS</h2>
           </router-link>
         </div>
         <div class="container1">
           <router-link class="container_router" to="/bibliografias">
             <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">BIBLIOGRAFÍAS</h2>
+            <h2 class="container_tittle">REFERENTES BIBLIOGRÁFICOS</h2>
           </router-link>
         </div>
       </div>
@@ -40,7 +53,7 @@
             </h5>
             <h4>Michael Phelps</h4>
           </div>
-          <img class="container2_image" :src="profile" alt="Logos" />
+          <img class="container2_image" :src="profile1" alt="Logos" />
         </div>
         <div class="container2">
           <div class="card__text">
@@ -49,7 +62,7 @@
             </h5>
             <h4>Usain Bolt</h4>
           </div>
-          <img class="container2_image" :src="profile" alt="Logos" />
+          <img class="container2_image" :src="profile2" alt="Logos" />
         </div>
       </div>
     </div>
@@ -63,7 +76,8 @@ import content from "../assets/home/contents.svg";
 import bibliographies from "../assets/home/bibliographies.svg";
 import sena from "../assets/utilities/sena.svg";
 import x400 from "../assets/home/background.png";
-import profile from "../assets/home/atleta.jpg";
+import profile1 from "../assets/icons/perfil1.svg";
+import profile2 from "../assets/icons/perfil2.svg";
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";
@@ -81,7 +95,8 @@ export default {
         img3: bibliographies,
         img4: sena,
         img5: x400,
-        img6: profile,
+        img6: profile1,
+        img7: profile2,
       },
     ]);
     return {
@@ -92,7 +107,8 @@ export default {
       bibliographies,
       sena,
       x400,
-      profile,
+      profile1,
+      profile2,
     };
   },
 };
@@ -152,7 +168,7 @@ export default {
   padding-bottom: 5px;
   background-color: $other-color;
   width: 80px;
-  height: 80px;
+  /* height: 80px; */
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }

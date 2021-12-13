@@ -70,45 +70,40 @@
           navegación y deslizamientos entre otros. <br /><br />
           Según la cantidad de personas que intervienen se pueden clasificar
           en:<br /><br />
-          <a class="cite">Individuales</a>: Son aquellas actividades que son
-          realizadas por una sola persona superando un objetivo medible por el
-          tiempo, y compitiendo con otros para lograr la mayor puntuación tal
-          caso como: la gimnasia artística, la gimnasia rítmica, el patinaje de
-          carreras sobre ruedas, el patinaje artístico y las pruebas
-          atléticas.<br /><br />
-          <a class="cite">Grupales</a>: Es la unión de varios jugadores para
-          conseguir el mismo objetivo, realizando una serie de acciones
-          reglamentadas en colaboración, cooperación y participación de todos,
-          para así vencer el equipo contrario, tal caso como: futbol, voleibol,
-          baloncesto, hockey y béisbol entre otros.<br /><br />
-          <a class="cite">Por la temporada</a>: como los deportes de verano
-          entre los cuales se pueden enunciar la pesca, las competencias en bote
-          y el rafting entre otros. <br /><br /><a class="cite">De invierno</a>
-          son los deportes que se practican teniendo en cuenta las bajas
-          temperaturas y la nieve como el patinaje sobre el hielo, el hockey el
-          skit entre otros.<br /><br />
-          <a class="cite">Atletismo</a>: se puede clasificar en pruebas de campo
-          y pista. Dentro de las pruebas de campo se encuentran los saltos
-          (triple, largo, alto, con garrocha), los lanzamientos (bala, disco,
-          jabalina y martillo), pruebas de pista (100, 200, 400, 800, 1500, 3000
-          obstáculos, 5000 y 10.000 metros), prueba 100 y 400 vallas y los
-          relevos 4*100 y 4*400 <br /><br />
-          <a class="cite">Deportes con pelota</a>: Son aquellos que se
-          desarrollan con el elemento pelota como el baloncesto, voleibol,
-          balonmano, billar, bolos, futbol, futbol americano, rugby, hockey y
-          kickball entre otros.<br /><br />
-          <a class="cite">Combate</a>: los cuales se pueden clasificar en dos
-          tipos de clasificaciones, los de agarre y los de golpeo, hacen parte
-          de esta categoría el boxeo, la esgrima, el taekwondo, la lucha
-          olímpica, la lucha grecorromana, el judo, el karate entre otros.<br /><br />
-          <a class="cite">A motor</a>: Es el deporte que se practica ejecutando
-          un vehículo, tal caso como: circuito de carreras, piloto de carreras,
-          fórmula 1y fórmula 3.<br /><br /><a class="cite">De navegación</a>:
-          Son los deportes acuáticos tal caso como: la natación, surf,
-          waterpolo, buceo y saltos.<br /><br /><a class="cite"
-            >De deslizamiento</a
-          >: Son los deportes que se practican deslizando el cuerpo sobre una
-          superficie, tal caso como: el esquí.
+          Individuales: Son aquellas actividades que son realizadas por una sola
+          persona superando un objetivo medible por el tiempo, y compitiendo con
+          otros para lograr la mayor puntuación tal caso como: la gimnasia
+          artística, la gimnasia rítmica, el patinaje de carreras sobre ruedas,
+          el patinaje artístico y las pruebas atléticas.<br /><br />
+          Grupales: Es la unión de varios jugadores para conseguir el mismo
+          objetivo, realizando una serie de acciones reglamentadas en
+          colaboración, cooperación y participación de todos, para así vencer el
+          equipo contrario, tal caso como: futbol, voleibol, baloncesto, hockey
+          y béisbol entre otros.<br /><br />
+          Por la temporada: como los deportes de verano entre los cuales se
+          pueden enunciar la pesca, las competencias en bote y el rafting entre
+          otros. <br /><br />De invierno: son los deportes que se practican
+          teniendo en cuenta las bajas temperaturas y la nieve como el patinaje
+          sobre el hielo, el hockey el skit entre otros.<br /><br />
+          Atletismo: se puede clasificar en pruebas de campo y pista. Dentro de
+          las pruebas de campo se encuentran los saltos (triple, largo, alto,
+          con garrocha), los lanzamientos (bala, disco, jabalina y martillo),
+          pruebas de pista (100, 200, 400, 800, 1500, 3000 obstáculos, 5000 y
+          10.000 metros), prueba 100 y 400 vallas y los relevos 4*100 y 4*400
+          <br /><br />
+          Deportes con pelota: Son aquellos que se desarrollan con el elemento
+          pelota como el baloncesto, voleibol, balonmano, billar, bolos, futbol,
+          futbol americano, rugby, hockey y kickball entre otros.<br /><br />
+          Combate: los cuales se pueden clasificar en dos tipos de
+          clasificaciones, los de agarre y los de golpeo, hacen parte de esta
+          categoría el boxeo, la esgrima, el taekwondo, la lucha olímpica, la
+          lucha grecorromana, el judo, el karate entre otros.<br /><br />
+          A motor: Es el deporte que se practica ejecutando un vehículo, tal
+          caso como: circuito de carreras, piloto de carreras, fórmula 1y
+          fórmula 3.<br /><br />De navegación: Son los deportes acuáticos tal
+          caso como: la natación, surf, waterpolo, buceo y saltos.<br /><br />De
+          deslizamiento: Son los deportes que se practican deslizando el cuerpo
+          sobre una superficie, tal caso como: el esquí.
         </p>
       </div>
     </section>
@@ -148,10 +143,7 @@
           suscriben los ideales olímpicos, como es el caso de la Academia
           Olímpica Internacional (AOI). Para una mayor información sobre las
           funciones y las estructuras de funcionamiento del COI se recomienda
-          consultar su página web:
-          <a target="_blank" class="cite" href="https://olympic.com"
-            >https://olympic.com</a
-          >.
+          consultar su página web: https://olympic.com
         </p>
       </div>
     </section>
@@ -191,10 +183,7 @@
           suscriben los ideales olímpicos, como es el caso de la Academia
           Olímpica Internacional (AOI). Para una mayor información sobre las
           funciones y las estructuras de funcionamiento del COI se recomienda
-          consultar su página web:
-          <a target="_blank" class="cite" href="https://olympic.com"
-            >olympic.com</a
-          >.
+          consultar su página web: https://olympic.com
         </p>
       </div>
     </section>
@@ -218,8 +207,7 @@
           El Departamento administrativo del deporte, la recreación, la
           actividad física y el aprovechamiento del tiempo libre - COLDEPORTES-
           como ente rector actualmente convertido en Ministerio del Deporte.
-          <a class="cite" href="Mindeporte.gov.co">Mindeporte.gov.co</a
-          ><br /><br />
+          Mindeporte.gov.co <br /><br />
           • Los entes departamentales, municipales y distritales que ejerzan las
           funciones de fomento, desarrollo y práctica del deporte, la recreación
           y el aprovechamiento del tiempo libre. <br /><br />
@@ -273,8 +261,10 @@
       <div class="module__content">
         <div class="module__content material">
           <p>
-            Ésta es la última sección de Deportes, donde demostrarás lo
-            aprendido en cada uno de los módulos
+            <center>
+              Ésta es la última sección de Deportes, donde demostrarás lo
+              aprendido en cada uno de los módulos
+            </center>
           </p>
           <div class="botones__recursos">
             <router-link to="/contenidos/deporte/test">
@@ -363,7 +353,7 @@ button {
   color: $primary-color;
 }
 .container-sport {
-  background-color: $primary-color;
+  background-color: #cbdbf7;
   border-radius: 25px;
   margin: 0 100px 0 22vw;
   width: 74vw;
@@ -371,7 +361,7 @@ button {
   padding: 10px 0;
 }
 .module {
-  background-color: #fff;
+  background-color: #eff4fd;
   max-width: 90%;
   padding: 5px 30px;
   margin: 0 auto;
@@ -379,16 +369,15 @@ button {
   margin-bottom: 100px;
   border-radius: 10px;
   &__title-container {
+    text-align: center;
     z-index: 100;
     position: absolute;
     top: -60px;
     left: 0;
     right: 0;
-    width: max-content;
+    width: 100%;
     height: auto;
-    background: white;
-    padding: 0 10px;
-    margin: 0 auto;
+    background: #eff4fd;
     border-radius: 10px;
   }
   &__title {
