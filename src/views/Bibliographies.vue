@@ -32,7 +32,7 @@
 import { ref } from "vue";
 export default {
   name: "Bibliographies",
-  title: "Bibliografias - SENA",
+  title: "Referentes Bibliográficos - SENA",
   setup() {
     const bibliographies = ref([
       {
