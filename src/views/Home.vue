@@ -8,6 +8,12 @@
       <div class="home-card__container">
         <ul class="home-menu">
           <li class="menu-link">
+            <router-link class="menu-link__container" to="/metas">
+              <img class="menu-link__img" :src="goals" alt="Logo" />
+              <h2 class="menu-link__title">RESULTADOS DE APRENDIZAJE</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
             <router-link class="menu-link__container" to="/identification">
               <img class="menu-link__img" :src="book" alt="Logo" />
               <h2 class="menu-link__title">IDENTIFICACIÓN</h2>
@@ -23,12 +29,6 @@
             <router-link class="menu-link__container" to="/introduccion">
               <img class="menu-link__img" :src="introduction" alt="Logo" />
               <h2 class="menu-link__title">INTRODUCCIÓN</h2>
-            </router-link>
-          </li>
-          <li class="menu-link">
-            <router-link class="menu-link__container" to="/metas">
-              <img class="menu-link__img" :src="goals" alt="Logo" />
-              <h2 class="menu-link__title">RESULTADOS DE APRENDIZAJE</h2>
             </router-link>
           </li>
           <li class="menu-link">
@@ -72,17 +72,17 @@
               <h3 class="information__subtitle">Co-autor</h3>
               <a
                 class="information__link"
-                href="https://orcid.org/0000-0002-0865-176X"
+                href="https://www.linkedin.com/in/camilo-andr%C3%A9s-garay-guevara-7626b51a4/"
               >
                 Camilo Andrés Garay Guevara
               </a>
-              <a class="information__link" href="mailto:erguerras@sena.edu.co">
-                correogaray@sena.edu.co
+              <a class="information__link" href="mailto:cgaray@sena.edu.co">
+                cgaray@sena.edu.co
               </a>
               <span>
                 Celular:
                 <a class="information__link" href="tel:+57 3162238528">
-                  3162238528
+                  3003626783
                 </a>
               </span>
             </section>
