@@ -10,13 +10,12 @@
       </div>
       <div class="module__content">
         <p>
-    
-            Lauterborn, D. (2001).
-          El origen de las artes marciales se atribuye a la cultura oriental
-          caracterizado por ser un pueblo con tradiciones ancestrales, el "arte
-          marcial" fue la especialidad de los guerreros en Asia y reflejaba
-          también un poder o una característica del Hombre. Cuando se habla de
-          arte marcial se evoca cultura y conocimiento del cuerpo.
+          Lauterborn, D. (2001). El origen de las artes marciales se atribuye a
+          la cultura oriental caracterizado por ser un pueblo con tradiciones
+          ancestrales, el "arte marcial" fue la especialidad de los guerreros en
+          Asia y reflejaba también un poder o una característica del Hombre.
+          Cuando se habla de arte marcial se evoca cultura y conocimiento del
+          cuerpo.
           <br /><br />El taoísmo es un sistema filosófico y religión que tuvo su
           origen en China en las ideas del filósofo Laozi (siglo VI a. C.); se
           caracteriza por creer que existe una solidaridad absoluta entre el
@@ -35,8 +34,7 @@
       </div>
       <div class="module__content">
         <p>
-          Según la clasificación de
-         Visotzky (cómo se citó en González, 2013)
+          Según la clasificación de Visotzky (cómo se citó en González, 2013)
           los deportes de combate se pueden clasificar en: golpeadores,
           agarradores y combinados. Los golpeadores son aquellos que utilizan
           los golpes para lograr la victoria los cuales son realizados con
@@ -47,14 +45,12 @@
           grado de incertidumbre, debido a que el luchador no sabe cómo actuará
           el oponente; fisiológicamente se puede decir que los esfuerzos
           realizados durante un combate se pueden enmarcar en anaeróbicos a
-          lácticos, lácticos y de resistencia por la duración del combate.
-
-            Para Copello (2013)
-         
-          los deportes de combate se pueden caracterizar por un volumen elevado
-          de elementos técnicos y esto implica un análisis de la metodología a
-          utilizar, para lo cual es necesario tener en cuenta las condiciones en
-          las cuales se realiza el entrenamiento y las orientaciones requeridas.
+          lácticos, lácticos y de resistencia por la duración del combate. Para
+          Copello (2013) los deportes de combate se pueden caracterizar por un
+          volumen elevado de elementos técnicos y esto implica un análisis de la
+          metodología a utilizar, para lo cual es necesario tener en cuenta las
+          condiciones en las cuales se realiza el entrenamiento y las
+          orientaciones requeridas.
         </p>
       </div>
     </section>

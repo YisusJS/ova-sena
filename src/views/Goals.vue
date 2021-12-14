@@ -8,13 +8,12 @@
   </div>
   <div class="container-goals">
     <div class="goals">
-      
       <section class="title_Goals">
         <h1><strong>Competencia</strong></h1>
         <p>
-        Fundamentar la preparación Técnico - Táctica del deportista según la disciplina y/o modalidad en el nivel de formación deportiva.
+          Fundamentar la preparación Técnico - Táctica del deportista según la
+          disciplina y/o modalidad en el nivel de formación deportiva.
         </p>
-
       </section>
 
       <div class="container">
@@ -113,7 +112,7 @@ export default {
   border-radius: 40px;
 }
 
-.title_Goals{
+.title_Goals {
   width: 90%;
   margin: 0 auto;
   border-radius: 20px;

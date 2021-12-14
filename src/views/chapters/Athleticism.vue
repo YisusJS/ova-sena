@@ -100,9 +100,8 @@
           de recorrido: era la distancia desde Windsor hasta el White City
           Stadium. Partieron 56 corredores, pero finalizaron solamente 27. La
           causa principal para tan grande número de abandonos fue la alta
-          temperatura reinante.
-          (Hegedus, 2001, pp. 1-2)
-          
+          temperatura reinante. (Hegedus, 2001, pp. 1-2)
+
           <br />
           <br />
           <strong>Historia de la carrera 1500 metros planos</strong>
@@ -123,8 +122,7 @@
           Múnich, Alemania en 1972, con el triunfo de la soviética Liudmila
           Braguita con tiempo de 4:01.38, seguida de la alemana Gunhild
           Hofrmaeintner con 4:02.83 y de la italiana Paola Pigni-Cachi con
-          4:02.85 minutos.
-          Enciclopedia cubana (EcuRed,2011).
+          4:02.85 minutos. Enciclopedia cubana (EcuRed,2011).
           <br /><br />
           <b>Historia de la carrera 10.000 metros planos.</b>
           <br />
@@ -199,8 +197,7 @@
           referente a la forma de ejecución de cada una de las fases de la
           carrera, pero sin lugar a duda las distintas carreras desde el Sprint
           hasta el maratón tienen en común ciertos principios mecánicos. Rius
-          (cómo se citó en Tobar y Zurata, 2013)
-          define las fases. <br /><br />
+          (cómo se citó en Tobar y Zurata, 2013) define las fases. <br /><br />
           <strong>Impulsión</strong>
           <br />
           Inicia en el momento de despegue del pie con respecto al suelo, en las
@@ -254,34 +251,31 @@
           de la pierna que se apoya recibe el peso del cuerpo, la cual debe
           llegar a este contacto ligeramente flexionada y con la parte exterior
           del metatarso. <br /><br />
-          Diez García
-          (cómo se citó en Tobar y Zurata, 2013), plantea
-          que el pie toma contacto con el suelo nuevamente con el metatarso,
-          generalmente por su parte externa (realizando una ligera rotación).
-          Aunque esta ligera rotación del pie es una constante en muchos
-          atletas, no es un gesto que se deba recomendar sino más bien un
-          resultado de la biomecánica del atleta. La fase de impulso de la
-          carrera puede considerarse la fase propulsiva o activa, mientras que
-          la fase de amortiguamiento es negativa debido a que produce
-          desaceleración, es por esto que algunos entrenadores enseñan a sus
-          atletas a caer sobre el metatarso de una forma ligera como si
-          estuvieran corriendo sobre una superficie con carbón ardiendo. El peso
-          del atleta se convierte en una característica condicionante debido a
-          que, a mayor peso, mayor será el gasto energético en el momento de la
-          fase de amortiguación ocasionando mayor fricción con el suelo. Será
-          una tarea para los entrenadores buscar estrategias que puedan
-          contribuir con la disminución del tiempo de esta fase. (p. 20) <br />
+          Diez García (cómo se citó en Tobar y Zurata, 2013), plantea que el pie
+          toma contacto con el suelo nuevamente con el metatarso, generalmente
+          por su parte externa (realizando una ligera rotación). Aunque esta
+          ligera rotación del pie es una constante en muchos atletas, no es un
+          gesto que se deba recomendar sino más bien un resultado de la
+          biomecánica del atleta. La fase de impulso de la carrera puede
+          considerarse la fase propulsiva o activa, mientras que la fase de
+          amortiguamiento es negativa debido a que produce desaceleración, es
+          por esto que algunos entrenadores enseñan a sus atletas a caer sobre
+          el metatarso de una forma ligera como si estuvieran corriendo sobre
+          una superficie con carbón ardiendo. El peso del atleta se convierte en
+          una característica condicionante debido a que, a mayor peso, mayor
+          será el gasto energético en el momento de la fase de amortiguación
+          ocasionando mayor fricción con el suelo. Será una tarea para los
+          entrenadores buscar estrategias que puedan contribuir con la
+          disminución del tiempo de esta fase. (p. 20) <br />
           <br />
-          Según
-          Rius (cómo se citó en Tobar y Zurata, 2013) El
-          contacto con el suelo siempre se debe hacer por delante del centro de
-          gravedad, la mayor distancia del centro de gravedad dependerá de la
-          longitud de la zancada, la fase de amortiguamiento inicia cuando el
-          pie toma contacto con el suelo, el cual debe ser lo más suave posible
-          evitando disminuir la fricción y por lo tanto mayor consumo energético
-          para después hacer contacto con la parte externa del metatarso. Es
-          considerado un error técnico que el pie entre en contacto con el
-          talón. (p.20)
+          Según Rius (cómo se citó en Tobar y Zurata, 2013) El contacto con el
+          suelo siempre se debe hacer por delante del centro de gravedad, la
+          mayor distancia del centro de gravedad dependerá de la longitud de la
+          zancada, la fase de amortiguamiento inicia cuando el pie toma contacto
+          con el suelo, el cual debe ser lo más suave posible evitando disminuir
+          la fricción y por lo tanto mayor consumo energético para después hacer
+          contacto con la parte externa del metatarso. Es considerado un error
+          técnico que el pie entre en contacto con el talón. (p.20)
           <br />
           <br />
           <strong>Sostén</strong>
@@ -309,20 +303,19 @@
           carrera. La posición de la mano es semicerrada (relajada) y, junto con
           los brazos, su función es la de equilibrar y compensar la acción de
           piernas y tronco en carrera. <br /><br />
-          
-            Campos y Gallach (cómo se citó en Tobar y Zurata, 2013)
-          
-          plantean que los brazos deben mantenerse flexionados por los codos con
-          un ángulo de 90 grados, que varía según la distancia, más cerrados en
-          velocidad que carreras largas. Las manos van semicerradas y se
-          aconseja la colocación del pulgar sobre el índice. Otros aspectos que
-          interfieren en la técnica de la carrera, mencionados por los autores
-          Campos y Gallach, son la posición del tronco, el cual debe estar
-          ligeramente inclinado, ya que ello facilita la acción de avance.
-          Cuando más elevada es la velocidad, más inclinación hay en la carrera
-          y viceversa. También mencionan la posición de la cabeza, que debe ir
-          de un modo natural con la barbilla ligeramente baja, como un consejo
-          se mira el suelo unos 15 metros adelante. Cabeza, tronco y caderas se
+
+          Campos y Gallach (cómo se citó en Tobar y Zurata, 2013) plantean que
+          los brazos deben mantenerse flexionados por los codos con un ángulo de
+          90 grados, que varía según la distancia, más cerrados en velocidad que
+          carreras largas. Las manos van semicerradas y se aconseja la
+          colocación del pulgar sobre el índice. Otros aspectos que interfieren
+          en la técnica de la carrera, mencionados por los autores Campos y
+          Gallach, son la posición del tronco, el cual debe estar ligeramente
+          inclinado, ya que ello facilita la acción de avance. Cuando más
+          elevada es la velocidad, más inclinación hay en la carrera y
+          viceversa. También mencionan la posición de la cabeza, que debe ir de
+          un modo natural con la barbilla ligeramente baja, como un consejo se
+          mira el suelo unos 15 metros adelante. Cabeza, tronco y caderas se
           mantienen en una misma línea y deben formar un solo bloque unido para
           mejorar el aprovechamiento del trabajo activo de las piernas. Es
           conveniente mantener máxima relajación en la musculatura que no
@@ -563,26 +556,25 @@
             e incorrectos.
           </a>
           <br /><br />
-          Campos y Gallach (cómo se citó en Tobar y Zurata, 2013)
-          afirman que para la iniciación de la técnica de la carrera se
-          comprende, dentro de la naturaleza del gesto, la corrección del mismo
-          en sus detalles esenciales. Para ello el autor aconseja emplear
-          ejercicios de asimilación técnica y trotes a diferentes pasos
-          intentando que el atleta adquiera sentido del ritmo, amplitud,
-          soltura, etc. Es la base de la preparación inicial. Se ha de poner
-          especial cuidado en la calidad de impulso y la mayor de la
-          rentabilidad de su beneficio por la correcta posición de las caderas.
-          También hace énfasis en los ejercicios de braceo, de los movimientos
-          de las piernas con skipping y carreras con amplitud y frecuencia de la
-          zancada. <br /><br />
-          García (cómo se citó en Tobar y Zurata, 2013)
-          menciona una parte importante a trabajar en atletas de fondo que se
-          llama el ritmo que debe educarse desde el principio el cual debe
-          manejarse la mayoría del tiempo en la técnica de la carrera en fondo,
-          ya que se recorre largas distancias y se requiere de mantenerse a lo
-          largo de esta. Entonces hace referencia en trabajar con ejercicios de
-          ritmo, como también en el entrenamiento implementar varias estrategias
-          de la técnica de la carrera con respecto al ritmo. <br /><br />
+          Campos y Gallach (cómo se citó en Tobar y Zurata, 2013) afirman que
+          para la iniciación de la técnica de la carrera se comprende, dentro de
+          la naturaleza del gesto, la corrección del mismo en sus detalles
+          esenciales. Para ello el autor aconseja emplear ejercicios de
+          asimilación técnica y trotes a diferentes pasos intentando que el
+          atleta adquiera sentido del ritmo, amplitud, soltura, etc. Es la base
+          de la preparación inicial. Se ha de poner especial cuidado en la
+          calidad de impulso y la mayor de la rentabilidad de su beneficio por
+          la correcta posición de las caderas. También hace énfasis en los
+          ejercicios de braceo, de los movimientos de las piernas con skipping y
+          carreras con amplitud y frecuencia de la zancada. <br /><br />
+          García (cómo se citó en Tobar y Zurata, 2013) menciona una parte
+          importante a trabajar en atletas de fondo que se llama el ritmo que
+          debe educarse desde el principio el cual debe manejarse la mayoría del
+          tiempo en la técnica de la carrera en fondo, ya que se recorre largas
+          distancias y se requiere de mantenerse a lo largo de esta. Entonces
+          hace referencia en trabajar con ejercicios de ritmo, como también en
+          el entrenamiento implementar varias estrategias de la técnica de la
+          carrera con respecto al ritmo. <br /><br />
           El máximo rendimiento en la carrera se debe, a que el
           perfeccionamiento del desplazamiento más rápido con menos esfuerzo va
           a depender de un buen equilibrio entre la amplitud y la frecuencia.
@@ -705,18 +697,18 @@
           <br /><br />
           <b>Técnica de la marcha atlética</b>
           <br />
-          Barreto, Villarroya y Calero (2017). Se podría
-          afirmar que la marcha atlética tiene su origen en la marcha normal,
-          pero se buscaron algunos ajustes a este movimiento natural con el fin
-          de hacerla más efectiva y veloz, lo cual representó arreglos en la
-          coordinación, en la amplitud de la zancada y la inclusión de algunas
-          normas que al parecer buscaban que no dejara de ser marcha normal
-          incrementando la velocidad y evitando que se convirtiera en carrera
-          caracterizada por la fase de vuelo. Por lo tanto, encontrar la
-          relación adecuada entre amplitud de la zancada y frecuencia de la
-          misma sin proporcionar un gasto energético desproporcionado deberá ser
-          uno de los objetivos técnicos de cada marchista, un buen resultado
-          depende de una técnica adecuada. <br /><br />
+          Barreto, Villarroya y Calero (2017). Se podría afirmar que la marcha
+          atlética tiene su origen en la marcha normal, pero se buscaron algunos
+          ajustes a este movimiento natural con el fin de hacerla más efectiva y
+          veloz, lo cual representó arreglos en la coordinación, en la amplitud
+          de la zancada y la inclusión de algunas normas que al parecer buscaban
+          que no dejara de ser marcha normal incrementando la velocidad y
+          evitando que se convirtiera en carrera caracterizada por la fase de
+          vuelo. Por lo tanto, encontrar la relación adecuada entre amplitud de
+          la zancada y frecuencia de la misma sin proporcionar un gasto
+          energético desproporcionado deberá ser uno de los objetivos técnicos
+          de cada marchista, un buen resultado depende de una técnica adecuada.
+          <br /><br />
           En la marcha atlética el reglamento exige que se debe mantener
           contacto permanente con el suelo sin flexionar la rodilla de la pierna
           que se lleva al frente en el momento que esta pasa por la vertical y
@@ -894,7 +886,7 @@
           <br />
           <a class="pie">Desplazamientos con cambios de ritmo </a> <br /><br />
           (Berlanga de la Pascua, 2011, p.p. 3, 4,5)
-          
+
           <br />
           A continuación, se describen otros ejercicios que pueden ser muy
           adecuados para la adquisición de la técnica en marchistas
@@ -1079,16 +1071,16 @@
           finaliza cuando el primer dedo del pie científicamente llamado Hallux
           se despega del piso. Los atletas emplean ángulos mayores cuando poseen
           más fuerza, los últimos pasos aumentan en ritmo y amplitud.
-          <br /><br />• Fase de vuelo, según
-          Makarov, A. (s.f.). El vuelo comienza con ángulo
-          de 18 a 24 grados. El saltador efectúa durante el vuelo diferentes
-          movimientos, dependiendo del estilo, con el fin de mantener el
-          equilibrio y aterrizar de manera más conveniente. La primera parte del
-          vuelo (despegue) es igual en todos los estilos de salto largo. La
-          pierna de ataque se reflexiona en el vuelo con el fémur altamente
-          elevado, va hacia delante, la pierna de impulso se queda atrás y el
-          saltador adopta la posición del "paso amplio". Los movimientos
-          posteriores dependen del estilo de salto adoptado por el atleta.
+          <br /><br />• Fase de vuelo, según Makarov, A. (s.f.). El vuelo
+          comienza con ángulo de 18 a 24 grados. El saltador efectúa durante el
+          vuelo diferentes movimientos, dependiendo del estilo, con el fin de
+          mantener el equilibrio y aterrizar de manera más conveniente. La
+          primera parte del vuelo (despegue) es igual en todos los estilos de
+          salto largo. La pierna de ataque se reflexiona en el vuelo con el
+          fémur altamente elevado, va hacia delante, la pierna de impulso se
+          queda atrás y el saltador adopta la posición del "paso amplio". Los
+          movimientos posteriores dependen del estilo de salto adoptado por el
+          atleta.
           <br />
           <br />
           El estilo <strong>"agrupado" o "natural"</strong> es el más sencillo.

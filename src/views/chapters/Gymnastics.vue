@@ -35,32 +35,28 @@
           juventud para la guerra. Otras obras propagandizan desde el
           Renacimiento hasta la revolución francesa, la necesidad o importancia
           de la gimnasia como medio para la educación física de los jóvenes,
-          entre ellas las escritas por
-          
-            Jan Comenius (cómo se citó en Instituto Superior de Cultura Física
-            “Manuel Fajardo” 2003)
-          
-          De él señala Julio Fernández Corujedo: "Su sistema de educación fue
-          elaborado sobre la base de sus experiencias populares, luchando contra
-          la educación escolástica y los ideales ascéticos de la Edad Media, los
-          que opacaban el desarrollo amplio de la personalidad humana."
-          <br /><br />Durante los siglos XVIII y XIX la revolución intelectual
-          que provocó el renacimiento permitió un gran movimiento en favor del
-          fortalecimiento de la salud a través de los ejercicios físicos.
-          Juan Jacobo Rousseau (cómo se citó en Instituto Superior de Cultura
-            Física “Manuel Fajardo” 2003)
-          influyó grandemente en la gimnasia pedagógica de este período. Ubicado
-          en un contexto social donde la burguesía se apoyaba en el
+          entre ellas las escritas por Jan Comenius (cómo se citó en Instituto
+          Superior de Cultura Física “Manuel Fajardo” 2003) De él señala Julio
+          Fernández Corujedo: "Su sistema de educación fue elaborado sobre la
+          base de sus experiencias populares, luchando contra la educación
+          escolástica y los ideales ascéticos de la Edad Media, los que opacaban
+          el desarrollo amplio de la personalidad humana." <br /><br />Durante
+          los siglos XVIII y XIX la revolución intelectual que provocó el
+          renacimiento permitió un gran movimiento en favor del fortalecimiento
+          de la salud a través de los ejercicios físicos. Juan Jacobo Rousseau
+          (cómo se citó en Instituto Superior de Cultura Física “Manuel Fajardo”
+          2003) influyó grandemente en la gimnasia pedagógica de este período.
+          Ubicado en un contexto social donde la burguesía se apoyaba en el
           individualismo para defender sus intereses, esto no oscurece su
           contribución al desarrollo de la gimnasia. La obra Emilio contiene
           aspectos de su sistema donde vierte opciones acerca de la importancia
           de ejercitar el organismo para fortalecer la salud, desarrollar la
           fuerza en lugares donde existan medios de la naturaleza.
-          <br /><br />Su obra influyó de cierta forma en
-          Juan Enrique Pestalozzi (cómo se citó en Instituto Superior de
-            Cultura Física “Manuel Fajardo” 2003). célebre educador suizo cuyas teorías pedagógicas se resumen en la
-          obra Leonardo y Gertrudis. El señalaba la necesidad de desarrollar y
-          ejercitar las aptitudes de los niños, entre ellas la fuerza; se le
+          <br /><br />Su obra influyó de cierta forma en Juan Enrique Pestalozzi
+          (cómo se citó en Instituto Superior de Cultura Física “Manuel Fajardo”
+          2003). célebre educador suizo cuyas teorías pedagógicas se resumen en
+          la obra Leonardo y Gertrudis. El señalaba la necesidad de desarrollar
+          y ejercitar las aptitudes de los niños, entre ellas la fuerza; se le
           considera coma uno de los fundadores de la teoría y metodología de la
           gimnasia por los aportes realizados que se utilizan aún en nuestros
           días. Con la fundación del Instituto de Iverdún revolucionó los
@@ -72,17 +68,16 @@
           proyectos de reforma de la educación de los niños basados en las ideas
           pedagógicas de Rousseau y Pestalozzi, pera los acontecimientos
           políticos en Europa impidieron su realización." <br /><br />Tuvo
-          también influencia en el desarrollo de la gimnasia
-          Juan Federico Guts Muths (1759-18391, discípulo de Pestalozzi,
-            (cómo se citó en Instituto Superior de Cultura Física “Manuel
-            Fajardo” 2003)
-          quien más tarde desarrolla su trabajo en escuelas de Alemania, donde
-          nace la gimnasia de ese país. Publicó en 1793 su libro Gimnasia para
-          la juventud y más tarde, en 1796, Juegos, detallando más de cien con
-          objetivos definidos. Apoyado en sus experiencias y razonamientos
-          propios desarrolló su trabajo: así introdujo modificaciones en el
-          Instituto Educativo de Schnopfenthal, incluyendo actividades de
-          excursionismo que aún hoy tienen cierta vigencia <br />
+          también influencia en el desarrollo de la gimnasia Juan Federico Guts
+          Muths (1759-18391, discípulo de Pestalozzi, (cómo se citó en Instituto
+          Superior de Cultura Física “Manuel Fajardo” 2003) quien más tarde
+          desarrolla su trabajo en escuelas de Alemania, donde nace la gimnasia
+          de ese país. Publicó en 1793 su libro Gimnasia para la juventud y más
+          tarde, en 1796, Juegos, detallando más de cien con objetivos
+          definidos. Apoyado en sus experiencias y razonamientos propios
+          desarrolló su trabajo: así introdujo modificaciones en el Instituto
+          Educativo de Schnopfenthal, incluyendo actividades de excursionismo
+          que aún hoy tienen cierta vigencia <br />
           <br />
           Tabla 1 -
           <i>Cuadro resumen sobre el surgimiento y desarrollo de la gimnasia</i>
@@ -277,9 +272,9 @@
           femeninos y mixtos). La acrobacia está considerada dentro de la
           gimnasia deportiva como la actividad de mayor interacción
           neuromuscular del movimiento, entre el espacio, el tiempo y la
-          intensidad.
-          Instituto Superior de Cultura Física “Manuel Fajardo “(2003).
-          
+          intensidad. Instituto Superior de Cultura Física “Manuel Fajardo
+          “(2003).
+
           <br /><br />
           <strong
             >Ejercicios básicos de gimnasia artística modalidad de piso</strong

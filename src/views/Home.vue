@@ -139,9 +139,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: $tertyary_color;
-  width: 100vw;
-  height: 100vh;
 }
 
 .home_tittle {
@@ -152,8 +151,7 @@ export default {
 }
 
 .home-card {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 40px;
   background-color: $primary-color;
   padding: 10px 30px;
   border-radius: 40px;
@@ -161,7 +159,8 @@ export default {
   width: 100%;
   &__container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding: 30px;
   }
   &__title {
@@ -175,10 +174,9 @@ export default {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 650px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
   .menu-link {
     max-width: 400px;
     width: 100%;
@@ -276,6 +274,7 @@ export default {
   max-width: 450px;
   width: 100%;
   text-align: center;
+  margin-top: 30px;
   .information {
     &__title {
       margin: 0;
@@ -312,6 +311,28 @@ export default {
       padding: 0;
       text-align: left;
     }
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .home-card__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home-information {
+    margin-top: 0;
+  }
+  .home-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .home-menu {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 </style>
