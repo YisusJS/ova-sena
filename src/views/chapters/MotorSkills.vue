@@ -40,12 +40,12 @@
           dificultades y fatiga. Además, este filósofo-educador vislumbraba a la
           Educación Física como forma de lograr el desarrollo de un cuerpo
           vigoroso y listo para cualquier acción que lo necesite. Al respecto,
-          Manuel Sergio (cómo se citó en Couto y Trigo 2014)
-          señala que "la Motricidad es el cuerpo en movimiento intencional,
-          procurando la trascendencia, la superación, a nivel integralmente
-          humano y no del físico tan sólo". Es decir, es la propia manifestación
-          de la vida en sus distintos modos de expresarse e impresionarse en ese
-          diálogo yo-otro-cosmos.
+          Manuel Sergio (cómo se citó en Couto y Trigo 2014) señala que "la
+          Motricidad es el cuerpo en movimiento intencional, procurando la
+          trascendencia, la superación, a nivel integralmente humano y no del
+          físico tan sólo". Es decir, es la propia manifestación de la vida en
+          sus distintos modos de expresarse e impresionarse en ese diálogo
+          yo-otro-cosmos.
         </p>
       </div>
     </section>
@@ -187,12 +187,11 @@
           <br />
           Los infantes en edades escolares cada vez son más fuertes, rápidos y
           coordinados disponiendo de un cuerpo apto para el aprendizaje de
-          habilidades
-          (Hofferth y Sandberg, 1998). Se presentan diferencias en las condiciones motrices entre los
-          niños y las niñas las cuales evidencian superioridad en la motricidad
-          fina mientras que los niños mejoran la motricidad gruesa la cual
-          incide en el desarrollo de la fuerza. También se incrementa el ritmo y
-          lateralidad.
+          habilidades (Hofferth y Sandberg, 1998). Se presentan diferencias en
+          las condiciones motrices entre los niños y las niñas las cuales
+          evidencian superioridad en la motricidad fina mientras que los niños
+          mejoran la motricidad gruesa la cual incide en el desarrollo de la
+          fuerza. También se incrementa el ritmo y lateralidad.
         </p>
       </div>
     </section>
@@ -214,15 +213,13 @@
           condicionales, pero en el presente documento se abordará con mayor
           profundidad las capacidades coordinativas por ser las más adecuadas
           para el desarrollo durante la primera infancia. <br /><br />
-          Rose, Larkin y Berger (1998)
-          
-          afirman que una baja coordinación motora puede propiciar que la
-          motivación de los jóvenes hacia la práctica de actividad física
-          disminuya. A su vez, los adolescentes con carencias en las habilidades
-          motoras suelen tener niveles de auto concepto físico más bajos, lo que
-          les conduce al cese o a la poca adherencia a la práctica de actividad
-          física.<br /><br />Mata (2008), afirma
-          que hay un porcentaje de alumnado con problemas coordinativos que les
+          Rose, Larkin y Berger (1998) afirman que una baja coordinación motora
+          puede propiciar que la motivación de los jóvenes hacia la práctica de
+          actividad física disminuya. A su vez, los adolescentes con carencias
+          en las habilidades motoras suelen tener niveles de auto concepto
+          físico más bajos, lo que les conduce al cese o a la poca adherencia a
+          la práctica de actividad física.<br /><br />Mata (2008), afirma que
+          hay un porcentaje de alumnado con problemas coordinativos que les
           priva del disfrute de la práctica de actividad física y es por ello
           por lo que se necesitan llevar a cabo programas que incidan en la
           mejora coordinativa de esos sujetos y que mejoren el déficit
@@ -240,47 +237,45 @@
           capacidades motoras de forma lúdica y competencial, se expone la
           utilización del arte o disciplina urbana del Parkour como elemento
           innovador para su integración en unidades didácticas de habilidades
-          motrices en el maro escolar.
-          Según Ferrero (2011), el Parkour
-          consiste en llevar a cabo un recorrido de una manera eficiente, fluida
-          y rápida entre dos puntos haciendo uso de las capacidades físicas
-          básicas y de una serie de técnicas que permiten esa consecución. En
-          otra definición más amplia, el Parkour (o arte del desplazamiento) es
-          una disciplina que consiste en desplazarse por el medio urbano o
-          natural, superando los 58 obstáculos que se presenten en tu recorrido
-          (vallas, muros, vacío...) de la forma más fluida y eficiente posible,
-          y con las únicas posibilidades del cuerpo humano. Esta disciplina
-          requiere una gran preparación física para realizar los distintos
-          movimientos (saltos, pasa vallas, escalada, etc.) que implica, pero
-          además es necesario una mente decidida a superar los propios miedos,
-          una gran concentración, y un espíritu fuerte.<br /><br />El termino
-          Parkour, procede de la palabra francesa parkour cuyo significado en
-          castellano es recorrido. El Parkour procede del "Método Natural de
-          Georges Herbert" que empleaba una disciplina basada en superar
-          obstáculos naturales con el movimiento corporal. De ese modo David
-          Belle, adaptó esta técnica a sus recorridos por una ciudad francesa,
-          creando una versión urbana. La idea principal del Parkour es la
-          autosuperación. El parkour en la escuela busca recuperar la motricidad
-          natural y espontánea de los estudiantes, robada por la urbanización
-          despiadada del entorno en el que se mueven, que les condena a ser
-          excesivamente sedentarios.<br /><br />En cuanto la calificación del
-          Parkour, hay cierta discrepancia entre los practicantes (también
-          llamados “traceurs”) más experimentados, algunos coinciden que el
-          Parkour es una filosofía, sin embargo, otros lo califican como arte o
-          disciplina. Pese a no haber una calificación concreta, todos los
-          practicantes tienen claro sus premisas: el respeto al entorno, el afán
-          de superación y el juego limpio o la no competición. El objetivo del
-          Parkour es el movimiento libre y fluido, siguiendo como principal
-          premisa el “no retroceder”.<br /><br />Aspecto para tener en cuenta es
-          que en numerosos sitios el Parkour está visto como una clase de
-          vandalismo que estropea el mobiliario urbano y no está acorde con los
-          patrones cívicos de la sociedad. Esta idea, de acuerdo con los más
-          experimentados practicantes, es errónea y dificulta la expansión de la
-          filosofía del Parkour. En cualquier caso, trasladando el movimiento
-          del Parkour a la escuela, nunca se llevarán a cabo técnicas tan
-          extremas como las que se realizan en el Parkour real y siempre se
-          realizará con un matiz lúdico y de seguridad como veremos a
-          continuación.
+          motrices en el maro escolar. Según Ferrero (2011), el Parkour consiste
+          en llevar a cabo un recorrido de una manera eficiente, fluida y rápida
+          entre dos puntos haciendo uso de las capacidades físicas básicas y de
+          una serie de técnicas que permiten esa consecución. En otra definición
+          más amplia, el Parkour (o arte del desplazamiento) es una disciplina
+          que consiste en desplazarse por el medio urbano o natural, superando
+          los 58 obstáculos que se presenten en tu recorrido (vallas, muros,
+          vacío...) de la forma más fluida y eficiente posible, y con las únicas
+          posibilidades del cuerpo humano. Esta disciplina requiere una gran
+          preparación física para realizar los distintos movimientos (saltos,
+          pasa vallas, escalada, etc.) que implica, pero además es necesario una
+          mente decidida a superar los propios miedos, una gran concentración, y
+          un espíritu fuerte.<br /><br />El termino Parkour, procede de la
+          palabra francesa parkour cuyo significado en castellano es recorrido.
+          El Parkour procede del "Método Natural de Georges Herbert" que
+          empleaba una disciplina basada en superar obstáculos naturales con el
+          movimiento corporal. De ese modo David Belle, adaptó esta técnica a
+          sus recorridos por una ciudad francesa, creando una versión urbana. La
+          idea principal del Parkour es la autosuperación. El parkour en la
+          escuela busca recuperar la motricidad natural y espontánea de los
+          estudiantes, robada por la urbanización despiadada del entorno en el
+          que se mueven, que les condena a ser excesivamente sedentarios.<br /><br />En
+          cuanto la calificación del Parkour, hay cierta discrepancia entre los
+          practicantes (también llamados “traceurs”) más experimentados, algunos
+          coinciden que el Parkour es una filosofía, sin embargo, otros lo
+          califican como arte o disciplina. Pese a no haber una calificación
+          concreta, todos los practicantes tienen claro sus premisas: el respeto
+          al entorno, el afán de superación y el juego limpio o la no
+          competición. El objetivo del Parkour es el movimiento libre y fluido,
+          siguiendo como principal premisa el “no retroceder”.<br /><br />Aspecto
+          para tener en cuenta es que en numerosos sitios el Parkour está visto
+          como una clase de vandalismo que estropea el mobiliario urbano y no
+          está acorde con los patrones cívicos de la sociedad. Esta idea, de
+          acuerdo con los más experimentados practicantes, es errónea y
+          dificulta la expansión de la filosofía del Parkour. En cualquier caso,
+          trasladando el movimiento del Parkour a la escuela, nunca se llevarán
+          a cabo técnicas tan extremas como las que se realizan en el Parkour
+          real y siempre se realizará con un matiz lúdico y de seguridad como
+          veremos a continuación.
 
           <br /><br />
         </p>

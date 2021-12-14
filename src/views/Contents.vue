@@ -129,7 +129,7 @@ export default {
         level: "medio",
         path: "/contenidos/deportes_de_combate",
         bg: "background: linear-gradient(321.69deg, rgba(131, 2, 190, 0.98) 1.04%, rgba(227, 116, 255, 0.98) 100%);",
-      }
+      },
       /* // Capitulo 6 - Deportes de Conjunto */
       /* { */
       /*   color: "#7E9DC0", */
@@ -162,7 +162,7 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 85vw;
+  width: 89vw;
   height: 80vh;
   background-color: #cbdbf7;
   display: grid;
@@ -178,7 +178,7 @@ export default {
 .lessons {
   width: 95%;
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   background-color: #eff4fd;
   border-radius: 10px;
   display: flex;

@@ -1,69 +1,126 @@
-<!-- Creditos de iconos: flaticon.com -->
 <template>
   <div class="home">
-    <div class="position">
-      <div class="left">
-        <div class="container1">
-          <router-link class="container_router" to="/identification">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">IDENTIFICACIÓN</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/problematic">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">PROBLEMÁTICA</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/introduccion">
-            <img class="container_image" :src="introduction" alt="Logo" />
-            <h2 class="container_tittle">INTRODUCCIÓN</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/metas">
-            <img class="container_image" :src="goals" alt="Logo" />
-            <h2 class="container_tittle">RESULTADOS DE APRENDIZAJE</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/contenidos">
-            <img class="container_image" :src="content" alt="Logo" />
-            <h2 class="container_tittle">TABLA DE CONTENIDOS</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/bibliografias">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">REFERENTES BIBLIOGRÁFICOS</h2>
-          </router-link>
-        </div>
-      </div>
-      <div class="center">
-        <h1>Ejecución de programas deportivos - SENA</h1>
-        <img :src="x400" alt="Logos" />
-      </div>
-      <div class="right">
-        <div class="container2">
-          <div class="card__text">
-            <h5 class="container2_tittle">
-              Si dices que no puedes, estás restringiendo lo que puedes hacer o
-              harás.
-            </h5>
-            <h4>Michael Phelps</h4>
+    <div class="home-card">
+      <h1 class="home-card__title">
+        OBJETO VIRTUAL PARA LA ENSEÑANZA Y EL APRENDIZAJE DE LA TÉCNICA
+        DEPORTIVA BÁSICA
+      </h1>
+      <div class="home-card__container">
+        <ul class="home-menu">
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/metas">
+              <img class="menu-link__img" :src="goals" alt="Logo" />
+              <h2 class="menu-link__title">RESULTADOS DE APRENDIZAJE</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/identification">
+              <img class="menu-link__img" :src="book" alt="Logo" />
+              <h2 class="menu-link__title">IDENTIFICACIÓN</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/problematic">
+              <img class="menu-link__img" :src="book2" alt="Logo" />
+              <h2 class="menu-link__title">PROBLEMÁTICA</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/introduccion">
+              <img class="menu-link__img" :src="introduction" alt="Logo" />
+              <h2 class="menu-link__title">INTRODUCCIÓN</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/contenidos">
+              <img class="menu-link__img" :src="content" alt="Logo" />
+              <h2 class="menu-link__title">TABLA DE CONTENIDOS</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/bibliografias">
+              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <h2 class="menu-link__title">REFERENTES BIBLIOGRÁFICOS</h2>
+            </router-link>
+          </li>
+        </ul>
+        <article class="home-information">
+          <h2 class="information__title">
+            Centro Agroturistico - Regional Santander - Sede San Gil
+          </h2>
+          <img class="information__logo" :src="sena" alt="" />
+          <div class="information__container">
+            <section class="information__section">
+              <h3 class="information__subtitle">Autor</h3>
+              <a
+                class="information__link"
+                href="https://orcid.org/0000-0002-0865-176X"
+              >
+                Edwin Raúl Guerra Santos
+              </a>
+              <a class="information__link" href="mailto:erguerras@sena.edu.co">
+                erguerras@sena.edu.co
+              </a>
+              <span>
+                Celular:
+                <a class="information__link" href="tel:+57 3162238528">
+                  3162238528
+                </a>
+              </span>
+            </section>
+            <section class="information__section">
+              <h3 class="information__subtitle">Co-autor</h3>
+              <a
+                class="information__link"
+                href="https://www.linkedin.com/in/camilo-andr%C3%A9s-garay-guevara-7626b51a4/"
+              >
+                Camilo Andrés Garay Guevara
+              </a>
+              <a class="information__link" href="mailto:cgaray@sena.edu.co">
+                cgaray@sena.edu.co
+              </a>
+              <span>
+                Celular:
+                <a class="information__link" href="tel:+57 3162238528">
+                  3003626783
+                </a>
+              </span>
+            </section>
+            <section class="information__section">
+              <h3 class="information__subtitle">Aprendices colaboradores</h3>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/Zawng"
+              >
+                Edwin Jesús Páez Rueda
+              </a>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/FerleyArias"
+              >
+                Ferley Esteban Arias Pulido
+              </a>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/DarienJ"
+              >
+                Darien Josue Romero Murillo
+              </a>
+              <a class="information__link" href="#">
+                John Alexander Sarmiento Morales
+              </a>
+            </section>
+            <p>
+              Recursos gráficos sacados de:
+              <a target="_blank" href="https://flaticon.com" class="cite"
+                >Flaticon</a
+              >
+            </p>
           </div>
-          <img class="container2_image" :src="profile1" alt="Logos" />
-        </div>
-        <div class="container2">
-          <div class="card__text">
-            <h5 class="container2_tittle">
-              No te puedes poner ningún límite, no hay nada imposible.
-            </h5>
-            <h4>Usain Bolt</h4>
-          </div>
-          <img class="container2_image" :src="profile2" alt="Logos" />
-        </div>
+        </article>
       </div>
     </div>
   </div>
@@ -78,6 +135,8 @@ import sena from "../assets/utilities/sena.svg";
 import x400 from "../assets/home/background.png";
 import profile1 from "../assets/icons/perfil1.svg";
 import profile2 from "../assets/icons/perfil2.svg";
+import book from "../assets/icons/book.png";
+import book2 from "../assets/icons/jumping-jack.png";
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";
@@ -109,6 +168,8 @@ export default {
       x400,
       profile1,
       profile2,
+      book,
+      book2,
     };
   },
 };
@@ -119,9 +180,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: $tertyary_color;
-  width: 100vw;
-  height: 100vh;
 }
 
 .home_tittle {
@@ -131,14 +191,64 @@ export default {
   font-size: 30px;
 }
 
-.position {
-  margin-left: 40px;
-  margin-right: 40px;
-  display: flex;
+.home-card {
+  margin: 40px;
   background-color: $primary-color;
-  padding: 10px;
-  justify-content: space-around;
-  border-radius: 20px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  max-width: 1300px;
+  width: 100%;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  &__title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.home-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  .menu-link {
+    max-width: 400px;
+    width: 100%;
+    min-width: 350px;
+    &__container {
+      background-color: $secondary-color;
+      display: flex;
+      align-items: center;
+      box-shadow: $box-shadow;
+      border-radius: 20px;
+      text-decoration: none;
+      color: $primary-text;
+    }
+    &__img {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: $other-color;
+      max-width: 80px;
+      width: 100%;
+      height: 100%;
+      /* height: 80px; */
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    &__title {
+      max-width: 300px;
+      height: min-content;
+      margin: 0;
+      padding: 0 20px;
+    }
+  }
 }
 
 .position div {
@@ -146,35 +256,6 @@ export default {
   width: 400px;
   margin: 10px;
   border-radius: 10px;
-}
-
-.left {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-}
-
-.container_router {
-  background-color: $secondary-color;
-  display: flex;
-  box-shadow: $box-shadow;
-  border-radius: 20px;
-  text-decoration: none;
-  color: $primary-text;
-}
-
-.container_image {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: $other-color;
-  width: 80px;
-  /* height: 80px; */
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.container_tittle {
-  width: 300px;
 }
 
 // center
@@ -224,5 +305,75 @@ export default {
 .card__text {
   display: flex;
   flex-direction: column;
+}
+
+.home-information {
+  background-color: $secondary-color;
+  border-radius: 15px;
+  box-shadow: $box-shadow;
+  padding: 20px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  .information {
+    &__title {
+      margin: 0;
+    }
+    &__subtitle {
+      margin: 0;
+    }
+    &__link {
+      color: $primary-text;
+      text-decoration: none;
+      width: max-content;
+      &:hover {
+        text-decoration: underline;
+        color: $cite;
+      }
+    }
+    &__logo {
+      margin: 20px auto;
+      display: block;
+      width: 100px;
+    }
+    &__container {
+      margin: 0 auto;
+      max-width: 300px;
+      width: 100%;
+    }
+    &__section {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__list {
+      padding: 0;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .home-card__container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .home-information {
+    margin-top: 0;
+  }
+  .home-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .home-menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>
