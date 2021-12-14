@@ -1,68 +1,88 @@
 <template>
   <div class="home">
-    <div class="position">
-      <div class="left">
-        <div class="container1">
-          <router-link class="container_router" to="/identification">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">IDENTIFICACIÓN</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/problematic">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">PROBLEMÁTICA</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/introduccion">
-            <img class="container_image" :src="introduction" alt="Logo" />
-            <h2 class="container_tittle">INTRODUCCIÓN</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/metas">
-            <img class="container_image" :src="goals" alt="Logo" />
-            <h2 class="container_tittle">RESULTADOS DE APRENDIZAJE</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/contenidos">
-            <img class="container_image" :src="content" alt="Logo" />
-            <h2 class="container_tittle">TABLA DE CONTENIDOS</h2>
-          </router-link>
-        </div>
-        <div class="container1">
-          <router-link class="container_router" to="/bibliografias">
-            <img class="container_image" :src="bibliographies" alt="Logo" />
-            <h2 class="container_tittle">REFERENTES BIBLIOGRÁFICOS</h2>
-          </router-link>
-        </div>
-      </div>
-      <div class="center">
-        <h1>Ejecución de programas deportivos - SENA</h1>
-        <img :src="x400" alt="Logos" />
-      </div>
-      <div class="right">
-        <div class="container2">
-          <div class="card__text">
-            <h5 class="container2_tittle">
-              Si dices que no puedes, estás restringiendo lo que puedes hacer o
-              harás.
-            </h5>
-            <h4>Michael Phelps</h4>
+    <div class="home-card">
+      <h1 class="home-card__title">
+        Objeto virtual para la enseñanza y el aprendizaje de la técnica
+        deportiva básica
+      </h1>
+      <div class="home-card__container">
+        <ul class="home-menu">
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/identification">
+              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <h2 class="menu-link__title">IDENTIFICACIÓN</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/problematic">
+              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <h2 class="menu-link__title">PROBLEMÁTICA</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/introduccion">
+              <img class="menu-link__img" :src="introduction" alt="Logo" />
+              <h2 class="menu-link__title">INTRODUCCIÓN</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/metas">
+              <img class="menu-link__img" :src="goals" alt="Logo" />
+              <h2 class="menu-link__title">RESULTADOS DE APRENDIZAJE</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/contenidos">
+              <img class="menu-link__img" :src="content" alt="Logo" />
+              <h2 class="menu-link__title">TABLA DE CONTENIDOS</h2>
+            </router-link>
+          </li>
+          <li class="menu-link">
+            <router-link class="menu-link__container" to="/bibliografias">
+              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <h2 class="menu-link__title">REFERENTES BIBLIOGRÁFICOS</h2>
+            </router-link>
+          </li>
+        </ul>
+        <article class="home-information">
+          <h2 class="information__title">
+            Centro Agroturistico - Regional Santander - Sede San Gil
+          </h2>
+          <img class="information__logo" :src="sena" alt="" />
+          <div class="information__container">
+            <section class="information__section">
+              <h3 class="information__subtitle">Autor</h3>
+              <a
+                class="information__link"
+                href="https://orcid.org/0000-0002-0865-176X"
+              >
+                Edwin Raúl Guerra Santos
+              </a>
+              <a class="information__link" href="mailto:erguerras@sena.edu.co">
+                erguerras@sena.edu.co
+              </a>
+              <span>
+                Celular:
+                <a class="information__link" href="tel:+57 3162238528">
+                  3162238528
+                </a>
+              </span>
+            </section>
+            <section class="information__section">
+              <h3 class="information__subtitle">Coautor</h3>
+              <span>Camilo Garay</span>
+            </section>
+            <section class="information__section">
+              <h3 class="information__subtitle">Aprendices colaboradores</h3>
+              <ul class="information__list">
+                <li>John Alexander Sarmiento Morales</li>
+                <li>Edwin Jesús Páez Rueda</li>
+                <li>Ferley Esteban Arias Pulido</li>
+                <li>Darien Josue Romero Murillo</li>
+              </ul>
+            </section>
           </div>
-          <img class="container2_image" :src="profile1" alt="Logos" />
-        </div>
-        <div class="container2">
-          <div class="card__text">
-            <h5 class="container2_tittle">
-              No te puedes poner ningún límite, no hay nada imposible.
-            </h5>
-            <h4>Usain Bolt</h4>
-          </div>
-          <img class="container2_image" :src="profile2" alt="Logos" />
-        </div>
+        </article>
       </div>
     </div>
   </div>
@@ -130,14 +150,65 @@ export default {
   font-size: 30px;
 }
 
-.position {
+.home-card {
   margin-left: 40px;
   margin-right: 40px;
-  display: flex;
   background-color: $primary-color;
-  padding: 10px;
-  justify-content: space-around;
-  border-radius: 20px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  max-width: 1300px;
+  width: 100%;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  &__title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.home-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+  .menu-link {
+    max-width: 400px;
+    width: 100%;
+    min-width: 350px;
+    &__container {
+      background-color: $secondary-color;
+      display: flex;
+      align-items: center;
+      box-shadow: $box-shadow;
+      border-radius: 20px;
+      text-decoration: none;
+      color: $primary-text;
+    }
+    &__img {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: $other-color;
+      max-width: 80px;
+      width: 100%;
+      height: 100%;
+      /* height: 80px; */
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    &__title {
+      max-width: 300px;
+      height: min-content;
+      margin: 0;
+      padding: 0 20px;
+    }
+  }
 }
 
 .position div {
@@ -145,35 +216,6 @@ export default {
   width: 400px;
   margin: 10px;
   border-radius: 10px;
-}
-
-.left {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-}
-
-.container_router {
-  background-color: $secondary-color;
-  display: flex;
-  box-shadow: $box-shadow;
-  border-radius: 20px;
-  text-decoration: none;
-  color: $primary-text;
-}
-
-.container_image {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: $other-color;
-  width: 80px;
-  /* height: 80px; */
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.container_tittle {
-  width: 300px;
 }
 
 // center
@@ -223,5 +265,52 @@ export default {
 .card__text {
   display: flex;
   flex-direction: column;
+}
+
+.home-information {
+  background-color: $secondary-color;
+  border-radius: 15px;
+  box-shadow: $box-shadow;
+  padding: 20px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  .information {
+    &__title {
+      margin: 0;
+    }
+    &__subtitle {
+      margin: 0;
+    }
+    &__link {
+      color: $primary-text;
+      text-decoration: none;
+      width: max-content;
+      &:hover {
+        text-decoration: underline;
+        color: $cite;
+      }
+    }
+    &__logo {
+      margin: 20px auto;
+      display: block;
+      width: 100px;
+    }
+    &__container {
+      margin: 0 auto;
+      max-width: 300px;
+      width: 100%;
+    }
+    &__section {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__list {
+      padding: 0;
+      text-align: left;
+    }
+  }
 }
 </style>

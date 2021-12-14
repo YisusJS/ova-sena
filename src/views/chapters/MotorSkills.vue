@@ -40,12 +40,12 @@
           dificultades y fatiga. Además, este filósofo-educador vislumbraba a la
           Educación Física como forma de lograr el desarrollo de un cuerpo
           vigoroso y listo para cualquier acción que lo necesite. Al respecto,
-          Manuel Sergio (cómo se citó en Couto y Trigo 2014)
-          señala que "la Motricidad es el cuerpo en movimiento intencional,
-          procurando la trascendencia, la superación, a nivel integralmente
-          humano y no del físico tan sólo". Es decir, es la propia manifestación
-          de la vida en sus distintos modos de expresarse e impresionarse en ese
-          diálogo yo-otro-cosmos.
+          Manuel Sergio (cómo se citó en Couto y Trigo 2014) señala que "la
+          Motricidad es el cuerpo en movimiento intencional, procurando la
+          trascendencia, la superación, a nivel integralmente humano y no del
+          físico tan sólo". Es decir, es la propia manifestación de la vida en
+          sus distintos modos de expresarse e impresionarse en ese diálogo
+          yo-otro-cosmos.
         </p>
       </div>
     </section>

@@ -47,7 +47,7 @@
           continuación, se presenta una tabla explicativa teniendo en cuenta el
           porcentaje de utilización de los componentes aeróbicos y anaeróbicos.
           <br /><br />
-          Tabla 2 - 
+          Tabla 2 -
           <i
             >Porcentaje de participación del componente aeróbico, anaeróbico
             según la distancia.</i
@@ -1287,8 +1287,8 @@
       <div class="module__content">
         <div class="module__content material">
           <p>
-            Ésta es la última sección de atletismo, donde demostrarás
-            lo aprendido en cada uno de los módulos
+            Ésta es la última sección de atletismo, donde demostrarás lo
+            aprendido en cada uno de los módulos
           </p>
           <div class="botones__recursos">
             <router-link to="/contenidos/atletismo/test">
