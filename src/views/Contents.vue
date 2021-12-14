@@ -162,7 +162,7 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 85vw;
+  width: 89vw;
   height: 80vh;
   background-color: #cbdbf7;
   display: grid;
@@ -178,7 +178,7 @@ export default {
 .lessons {
   width: 95%;
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   background-color: #eff4fd;
   border-radius: 10px;
   display: flex;

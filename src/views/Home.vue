@@ -1,22 +1,21 @@
-<!-- Creditos de iconos: flaticon.com -->
 <template>
   <div class="home">
     <div class="home-card">
       <h1 class="home-card__title">
-        Objeto virtual para la enseñanza y el aprendizaje de la técnica
-        deportiva básica
+        OBJETO VIRTUAL PARA LA ENSEÑANZA Y EL APRENDIZAJE DE LA TÉCNICA
+        DEPORTIVA BÁSICA
       </h1>
       <div class="home-card__container">
         <ul class="home-menu">
           <li class="menu-link">
             <router-link class="menu-link__container" to="/identification">
-              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <img class="menu-link__img" :src="book" alt="Logo" />
               <h2 class="menu-link__title">IDENTIFICACIÓN</h2>
             </router-link>
           </li>
           <li class="menu-link">
             <router-link class="menu-link__container" to="/problematic">
-              <img class="menu-link__img" :src="bibliographies" alt="Logo" />
+              <img class="menu-link__img" :src="book2" alt="Logo" />
               <h2 class="menu-link__title">PROBLEMÁTICA</h2>
             </router-link>
           </li>
@@ -70,18 +69,56 @@
               </span>
             </section>
             <section class="information__section">
-              <h3 class="information__subtitle">Coautor</h3>
-              <span>Camilo Garay</span>
+              <h3 class="information__subtitle">Co-autor</h3>
+              <a
+                class="information__link"
+                href="https://orcid.org/0000-0002-0865-176X"
+              >
+                Camilo Andrés Garay Guevara
+              </a>
+              <a class="information__link" href="mailto:erguerras@sena.edu.co">
+                correogaray@sena.edu.co
+              </a>
+              <span>
+                Celular:
+                <a class="information__link" href="tel:+57 3162238528">
+                  3162238528
+                </a>
+              </span>
             </section>
             <section class="information__section">
               <h3 class="information__subtitle">Aprendices colaboradores</h3>
-              <ul class="information__list">
-                <li>John Alexander Sarmiento Morales</li>
-                <li>Edwin Jesús Páez Rueda</li>
-                <li>Ferley Esteban Arias Pulido</li>
-                <li>Darien Josue Romero Murillo</li>
-              </ul>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/Zawng"
+              >
+                Edwin Jesús Páez Rueda
+              </a>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/FerleyArias"
+              >
+                Ferley Esteban Arias Pulido
+              </a>
+              <a
+                class="information__link"
+                target="_blank"
+                href="https://github.com/DarienJ"
+              >
+                Darien Josue Romero Murillo
+              </a>
+              <a class="information__link" href="#">
+                John Alexander Sarmiento Morales
+              </a>
             </section>
+            <p>
+              Recursos gráficos sacados de:
+              <a target="_blank" href="https://flaticon.com" class="cite"
+                >Flaticon</a
+              >
+            </p>
           </div>
         </article>
       </div>
@@ -98,6 +135,8 @@ import sena from "../assets/utilities/sena.svg";
 import x400 from "../assets/home/background.png";
 import profile1 from "../assets/icons/perfil1.svg";
 import profile2 from "../assets/icons/perfil2.svg";
+import book from "../assets/icons/book.png";
+import book2 from "../assets/icons/jumping-jack.png";
 
 // Importar funcionalidades de Vue
 import { ref } from "vue";
@@ -129,6 +168,8 @@ export default {
       x400,
       profile1,
       profile2,
+      book,
+      book2,
     };
   },
 };
@@ -317,7 +358,7 @@ export default {
 @media screen and (min-width: 1125px) {
   .home-card__container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .home-information {
     margin-top: 0;
