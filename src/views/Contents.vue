@@ -164,7 +164,7 @@ export default {
   transform: translate(-50%, -50%);
   width: 85vw;
   height: 80vh;
-  background-color: $background-color;
+  background-color: #cbdbf7;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
@@ -179,7 +179,7 @@ export default {
   width: 95%;
   margin: 0 auto;
   height: 100%;
-  background-color: $secondary-color;
+  background-color: #eff4fd;
   border-radius: 10px;
   display: flex;
   box-shadow: 0px 5px 5px $box-shadow;

@@ -1,3 +1,4 @@
+<!-- Creditos de iconos: flaticon.com -->
 <template>
   <div class="home">
     <div class="home-card">

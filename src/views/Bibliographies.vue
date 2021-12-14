@@ -155,7 +155,7 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/variables.scss";
 .bibliographies {
-  background-color: $background_color;
+  background-color: #cbdbf7;
   margin: 40px auto 20px;
   border-radius: 60px;
   max-width: 1300px;
@@ -179,12 +179,12 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d2ebf7;
+  background-color: #9ad2ec;
   min-width: 225px;
   min-height: 225px;
 }
 .bibliography__content {
-  background-color: #fff;
+  background-color: #eff4fd;
   width: 100%;
   min-width: 100px;
   padding: 20px 40px;

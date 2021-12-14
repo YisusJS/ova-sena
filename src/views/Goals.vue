@@ -6,9 +6,17 @@
       </router-link>
     </div>
   </div>
-
   <div class="container-goals">
     <div class="goals">
+      
+      <section class="title_Goals">
+        <h1><strong>Competencia</strong></h1>
+        <p>
+        Fundamentar la preparación Técnico - Táctica del deportista según la disciplina y/o modalidad en el nivel de formación deportiva.
+        </p>
+
+      </section>
+
       <div class="container">
         <nav class="container-img">
           <img id="img" src="../assets/goals/goal-one.svg" />
@@ -96,7 +104,7 @@ export default {
 }
 //container principal
 .goals {
-  background-color: $background-color;
+  background-color: #cbdbf7;
   padding: 1px 0;
   margin: 40px auto;
   max-width: 1265px;
@@ -104,18 +112,31 @@ export default {
   height: max-content;
   border-radius: 40px;
 }
+
+.title_Goals{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  color: #393939;
+  background-color: #eff4fd;
+}
+
+.title_Goals > p {
+  padding-bottom: 20px;
+}
 // container secundarios-objetivos
 .container {
   margin: 55px auto;
   height: 80px;
   max-width: 1000px;
-  background-color: $secondary-color;
+  background-color: #eff4fd;
   border-radius: 13px;
   display: flex;
 }
 //IMAGES
 .container-img {
-  background-color: #eec1f5;
+  background-color: #91b5f3;
   height: 80px;
   width: 100px;
   margin-right: 30px;
